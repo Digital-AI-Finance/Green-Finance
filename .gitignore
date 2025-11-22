@@ -1,0 +1,34 @@
+# LaTeX auxiliary files
+temp/
+*.aux
+*.log
+*.out
+*.nav
+*.toc
+*.snm
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Archived versions
+previous/
+
+# Node.js dependencies
+node_modules/
+react-app/node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+nul
+*.tmp

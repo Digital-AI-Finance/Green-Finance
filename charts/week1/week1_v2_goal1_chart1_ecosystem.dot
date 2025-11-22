@@ -1,0 +1,28 @@
+digraph EcosystemTheory {
+    // Green Finance Ecosystem - Information Economics View
+    rankdir=TB;
+    node [shape=box, style="rounded,filled", fontname="Arial", fontsize=9];
+    edge [fontname="Arial", fontsize=8];
+
+    // Color scheme matching beamer template
+    node [fillcolor="#D6D6EF"];
+
+    // Nodes with information economics labels
+    issuers [label="Issuers\n\n(Private information\nabout environmental\nimpact)", fillcolor="#C1C1E8"];
+    verifiers [label="Verifiers\n\n(Reduce information\nasymmetry through\nindependent assessment)", fillcolor="#CCCCEB"];
+    investors [label="Investors\n\n(ESG preferences,\nlimited information\non true impact)", fillcolor="#D6D6EF"];
+    standards [label="Standard-Setters\n\n(Define credible\nsignals: GBP, CBI,\nEU Taxonomy)", fillcolor="#C1C1E8"];
+
+    // Information and capital flows
+    issuers -> verifiers [label="Environmental\nclaims +\nevidence", style="solid"];
+    verifiers -> investors [label="Verified\nsignal\n(credible)", style="solid", penwidth=2, color="#3333B2"];
+    standards -> verifiers [label="Verification\nstandards", style="dashed"];
+    investors -> issuers [label="Capital\n(if signal\ncredible)", style="dotted", color="#2CA02C"];
+
+    // Title
+    labelloc="t";
+    label="Green Finance Ecosystem\nInformation Economics View";
+    fontsize=13;
+    fontname="Arial Bold";
+    fontcolor="#3333B2";
+}

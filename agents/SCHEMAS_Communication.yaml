@@ -1,0 +1,492 @@
+# Communication Schemas for Multi-Agent Course Generation
+# These YAML schemas define the structure for data exchange between agents
+
+---
+
+# Schema 1: guidelines_validated.yaml
+# Output from: Guidelines Expert Agent
+# Input to: Content Planner Agent
+
+guidelines_validated_schema:
+  course:
+    title: string  # e.g., "Green Finance Professional Certificate"
+    weeks: integer  # e.g., 8
+    hours_per_week: string  # e.g., "13-14"
+    total_hours: integer  # e.g., 108
+
+  technical:
+    template: string  # e.g., "template_beamer_final.tex"
+    theme: string  # e.g., "Madrid"
+    font_size: string  # e.g., "8pt"
+    aspect_ratio: integer  # e.g., 169
+    pdf_version: integer  # e.g., 5
+
+  colors:
+    mlpurple: string  # hex code e.g., "#3333B2"
+    mllavender: string  # hex code
+    mllavender2: string  # hex code
+    mllavender3: string  # hex code
+    mllavender4: string  # hex code
+    mlgreen: string  # hex code
+    mlorange: string  # hex code
+    mlred: string  # hex code
+    mlgray: string  # hex code
+
+  python_colors:
+    primary: string  # hex code (same as mlpurple)
+    secondary: string  # hex code (same as mllavender)
+    light: string
+    lighter: string
+    lightest: string
+    success: string  # mlgreen
+    warning: string  # mlorange
+    danger: string  # mlred
+    neutral: string  # mlgray
+
+  layout:
+    default: string  # e.g., "two-column"
+    column_width: float  # e.g., 0.48
+    max_bullets_per_column: integer  # e.g., 6
+    max_bullets_single: integer  # e.g., 8
+    overflow_action: string  # e.g., "auto-split"
+    chart_width: float  # e.g., 0.9
+    figure_size: array[integer]  # e.g., [10, 6]
+
+  quality:
+    chart_ratio_min: float  # e.g., 0.33
+    slides_per_week: array[integer]  # e.g., [30, 32, 30, 30, 30, 32, 30, 32]
+    charts_per_week: array[integer]  # e.g., [10, 11, 10, 10, 10, 11, 10, 11]
+    overflow_tolerance: integer  # e.g., 0
+    compilation_max_retries: integer  # e.g., 3
+    chart_generation_max_fails: float  # e.g., 0.2 (20%)
+
+  chart_generation:
+    tools:
+      python:
+        enabled: boolean
+        packages: array[string]  # ["matplotlib", "seaborn", "numpy", "pandas"]
+        figure_size: array[integer]
+        dpi: integer  # e.g., 300
+        format: string  # e.g., "pdf"
+      graphviz:
+        enabled: boolean
+        command: string  # e.g., "dot"
+        format: string  # e.g., "pdf"
+
+  validation:
+    template_valid: boolean
+    dependencies_met: boolean
+    guidelines_complete: boolean
+    ready_for_generation: boolean
+
+  timestamps:
+    validated_at: string  # ISO 8601 format
+    guidelines_version: string  # e.g., "2.0"
+
+---
+
+# Schema 2: content_outline_full.yaml
+# Output from: Content Planner Agent
+# Input to: Slide Generator Agent
+
+content_outline_schema:
+  course_title: string  # e.g., "Green Finance Professional Course"
+  total_weeks: integer  # e.g., 8
+  total_hours: integer  # e.g., 108
+
+  weeks: array[week_object]  # Array of week objects (see below)
+
+  totals:
+    slides: integer  # e.g., 246
+    charts: integer  # e.g., 85
+    sessions: integer  # e.g., 32
+    hours: integer  # e.g., 108
+    chart_ratio: float  # e.g., 0.346
+
+  validation:
+    slides_target_met: boolean
+    charts_target_met: boolean
+    ratio_satisfied: boolean
+    all_specs_complete: boolean
+
+# Week Object Schema
+week_object:
+  week_number: integer  # 1-8
+  title: string  # e.g., "Week 1: Green Finance Foundations"
+  theme: string  # e.g., "Foundations and Ecosystem"
+
+  learning_objectives: array[string]  # 3-5 objectives
+    # e.g., ["Understand X", "Analyze Y", "Apply Z"]
+
+  sessions: array[session_object]  # 4 sessions per week typically
+
+  slides_count: integer  # e.g., 30
+  charts_count: integer  # e.g., 10
+
+# Session Object Schema
+session_object:
+  session_number: integer  # 1-4
+  title: string  # e.g., "Session 1: Introduction to Green Finance"
+  duration_hours: float  # e.g., 3.5
+
+  slides: array[slide_object]  # All slides in this session
+
+# Slide Object Schema
+slide_object:
+  slide_number: integer
+  type: string  # "title", "two-column", "chart", "definition", "comparison", "process"
+  title: string
+
+  # Fields vary by type:
+
+  # For type: "title"
+  content: null
+
+  # For type: "two-column"
+  left_header: string
+  left_bullets: array[string]  # Max 6
+  right_header: string
+  right_bullets: array[string]  # Max 6
+  bottom_note: string
+
+  # For type: "chart"
+  chart_spec: chart_specification_object
+  bottom_note: string
+
+  # For type: "definition"
+  definition: string
+  properties: array[string]
+  examples: array[example_object]
+  bottom_note: string
+
+  # For type: "comparison"
+  left_header: string
+  left_items: array[comparison_item]
+  right_header: string
+  right_items: array[comparison_item]
+  bottom_note: string
+
+  # For type: "process"
+  steps: array[step_object]
+  bottom_note: string
+
+# Chart Specification Object Schema
+chart_specification_object:
+  chart_id: string  # e.g., "week1_chart1"
+  type: string  # "line", "bar", "pie", "scatter", "heatmap", "box", "flowchart", etc.
+  tool: string  # "python" or "graphviz"
+  description: string  # What the chart shows
+  title: string  # Chart title (can include \n for multi-line)
+
+  # For tool: "python"
+  data: data_specification_object
+  styling: styling_object
+
+  # For tool: "graphviz"
+  graphviz_spec: graphviz_specification_object
+
+# Data Specification Object (for Python charts)
+data_specification_object:
+  # For time series (line charts)
+  x: string  # e.g., "years (2015-2024)"
+  y: string  # e.g., "volume in billions USD"
+  data_type: string  # "time series", "categorical", "correlation", etc.
+  simulated_values: array[number]  # Actual data points
+  trend: string  # Optional description
+
+  # For categorical (bar charts)
+  categories: array[string]
+  values: array[number]
+  unit: string  # e.g., "billions USD"
+
+  # For proportions (pie charts)
+  # categories: array[string]
+  # values: array[number]  # Must sum to ~100
+  # unit: string  # "percentage"
+
+  # For scatter plots
+  # x: string
+  # y: string
+  # points: integer  # Number of points
+  # trend: string  # e.g., "positive correlation"
+
+  # For heatmaps
+  # rows: array[string]
+  # columns: array[string]
+  # values: array[array[number]]  # 2D array
+  # range: array[number]  # [min, max]
+
+# Styling Object (for Python charts)
+styling_object:
+  color: string  # e.g., "mlpurple"
+  secondary_color: string  # Optional
+  accent_color: string  # Optional
+  linewidth: float  # Optional
+  alpha: float  # Optional
+  fill: boolean  # Optional
+  markers: boolean  # Optional
+
+# Graphviz Specification Object
+graphviz_specification_object:
+  diagram_type: string  # "flowchart", "network", "hierarchy"
+  layout: string  # "TB", "LR", "RL", "BT"
+
+  nodes: array[node_object]
+  edges: array[edge_object]
+
+# Node Object (Graphviz)
+node_object:
+  id: string  # Unique node identifier
+  label: string  # Display label (can include \n)
+  color: string  # Fill color (hex)
+  fontcolor: string  # Optional
+
+# Edge Object (Graphviz)
+edge_object:
+  from: string  # Node ID
+  to: string  # Node ID
+  label: string  # Optional
+  style: string  # "solid", "dashed", "dotted"
+
+# Example Object (for definition slides)
+example_object:
+  label: string
+  description: string
+
+# Comparison Item Object
+comparison_item:
+  type: string  # "advantage" or "disadvantage"
+  text: string
+
+# Step Object (for process slides)
+step_object:
+  number: integer
+  title: string
+  description: string
+
+---
+
+# Schema 3: quality_report.md
+# Output from: Course Orchestrator Agent
+# Final report after all generation complete
+
+quality_report_structure:
+  header:
+    title: "Course Generation Quality Report"
+    generated_timestamp: ISO_8601_string
+    course: string
+
+  summary:
+    status: enum  # "SUCCESS", "PARTIAL", "FAILED"
+    weeks_generated: string  # e.g., "8/8"
+    total_slides: integer
+    total_charts: integer
+    execution_time: string  # e.g., "28 minutes"
+
+  structure_validation:
+    all_weeks_generated: boolean
+    total_slides_count: integer
+    total_charts_count: integer
+    directory_structure_intact: boolean
+
+  content_quality_table:
+    columns: ["Week", "Slides", "Charts", "Ratio", "Status"]
+    rows: array[week_quality_row]
+
+  week_quality_row:
+    week: integer
+    slides: integer
+    charts: integer
+    ratio: string  # e.g., "33.3%"
+    status: string  # checkmark or cross
+
+  visual_consistency:
+    template_colors_used: boolean
+    charts_properly_embedded: boolean
+    fonts_consistent: boolean
+    no_overflow_warnings: boolean
+
+  technical_details:
+    no_compilation_errors: boolean
+    all_pdfs_readable: boolean
+    file_sizes_reasonable: boolean
+    auxiliary_files_cleaned: boolean
+
+  recommendations: array[string]  # Any issues or suggestions
+
+  file_manifest: array[file_entry]
+
+  file_entry:
+    filename: string
+    size_mb: float
+    path: string
+
+---
+
+# Schema 4: generation.log
+# Output from: Slide Generator Agent
+# Detailed execution log
+
+log_structure:
+  header:
+    timestamp: ISO_8601_string
+    agent: "Slide Generator Agent"
+    course: string
+
+  sections:
+    - stage: "Chart Generation"
+      entries: array[log_entry]
+
+    - stage: "LaTeX Generation"
+      entries: array[log_entry]
+
+    - stage: "PDF Compilation"
+      entries: array[log_entry]
+
+    - stage: "Validation"
+      entries: array[log_entry]
+
+  log_entry:
+    timestamp: ISO_8601_string
+    level: enum  # "INFO", "SUCCESS", "WARNING", "ERROR"
+    component: string  # e.g., "week1_chart1"
+    message: string
+    details: string  # Optional additional context
+
+---
+
+# Example Values for Testing
+
+example_guidelines_validated:
+  course:
+    title: "Green Finance Professional Certificate"
+    weeks: 8
+    hours_per_week: "13-14"
+    total_hours: 108
+
+  technical:
+    template: "template_beamer_final.tex"
+    theme: "Madrid"
+    font_size: "8pt"
+    aspect_ratio: 169
+    pdf_version: 5
+
+  colors:
+    mlpurple: "#3333B2"
+    mllavender: "#ADADE0"
+    mllavender2: "#C1C1E8"
+    mllavender3: "#CCCCEB"
+    mllavender4: "#D6D6EF"
+    mlgreen: "#2CA02C"
+    mlorange: "#FF7F0E"
+    mlred: "#D62728"
+    mlgray: "#7F7F7F"
+
+  python_colors:
+    primary: "#3333B2"
+    secondary: "#ADADE0"
+    light: "#C1C1E8"
+    lighter: "#CCCCEB"
+    lightest: "#D6D6EF"
+    success: "#2CA02C"
+    warning: "#FF7F0E"
+    danger: "#D62728"
+    neutral: "#7F7F7F"
+
+  layout:
+    default: "two-column"
+    column_width: 0.48
+    max_bullets_per_column: 6
+    max_bullets_single: 8
+    overflow_action: "auto-split"
+    chart_width: 0.9
+    figure_size: [10, 6]
+
+  quality:
+    chart_ratio_min: 0.33
+    slides_per_week: [30, 32, 30, 30, 30, 32, 30, 32]
+    charts_per_week: [10, 11, 10, 10, 10, 11, 10, 11]
+    overflow_tolerance: 0
+    compilation_max_retries: 3
+    chart_generation_max_fails: 0.2
+
+  chart_generation:
+    tools:
+      python:
+        enabled: true
+        packages: ["matplotlib", "seaborn", "numpy", "pandas"]
+        figure_size: [10, 6]
+        dpi: 300
+        format: "pdf"
+      graphviz:
+        enabled: true
+        command: "dot"
+        format: "pdf"
+
+  validation:
+    template_valid: true
+    dependencies_met: true
+    guidelines_complete: true
+    ready_for_generation: true
+
+  timestamps:
+    validated_at: "2024-11-20T10:30:00"
+    guidelines_version: "2.0"
+
+example_chart_specification:
+  chart_id: "week1_chart1"
+  type: "line"
+  tool: "python"
+  description: "Growth trajectory of global green finance market 2015-2024"
+  title: "Global Green Finance Market Growth\n2015-2024"
+  data:
+    x: "years (2015-2024)"
+    y: "volume in billions USD"
+    data_type: "time series"
+    simulated_values: [300, 420, 580, 850, 1150, 1300, 1650, 1450, 1750, 2100]
+    trend: "15% CAGR with 2022 dip"
+  styling:
+    color: "mlpurple"
+    fill: true
+    alpha: 0.3
+    linewidth: 2.5
+    markers: true
+
+example_slide_two_column:
+  slide_number: 2
+  type: "two-column"
+  title: "What is Green Finance?"
+  left_header: "Definition"
+  left_bullets:
+    - "Financial instruments and services"
+    - "Support environmental sustainability"
+    - "Climate change mitigation and adaptation"
+    - "Measurable environmental impact"
+  right_header: "Key Drivers"
+  right_bullets:
+    - "Paris Agreement commitments"
+    - "Regulatory pressure (EU Taxonomy)"
+    - "Investor demand for ESG"
+    - "Climate risk awareness"
+  bottom_note: "Green finance is rapidly becoming mainstream as climate awareness grows"
+
+example_slide_chart:
+  slide_number: 3
+  type: "chart"
+  title: "Global Green Finance Market Growth"
+  chart_spec:
+    chart_id: "week1_chart1"
+    type: "line"
+    tool: "python"
+    description: "Growth trajectory of global green finance market 2015-2024"
+    title: "Global Green Finance Market Growth\n2015-2024"
+    data:
+      x: "years (2015-2024)"
+      y: "volume in billions USD"
+      data_type: "time series"
+      simulated_values: [300, 420, 580, 850, 1150, 1300, 1650, 1450, 1750, 2100]
+      trend: "15% CAGR"
+    styling:
+      color: "mlpurple"
+      fill: true
+  bottom_note: "Market shows 15% CAGR despite 2022 volatility"

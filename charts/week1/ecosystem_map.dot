@@ -1,0 +1,33 @@
+digraph GreenFinanceEcosystem {
+    rankdir=TB;
+    node [shape=box, style="rounded,filled", fontname="Arial", fontsize=10];
+    edge [fontname="Arial", fontsize=9];
+
+    // Define node colors
+    node [fillcolor="#E8F5E9"];
+
+    // Capital Providers
+    providers [label="Capital Providers\n\n- Institutional Investors\n- Asset Managers\n- Banks\n- DFIs\n- Retail Investors", fillcolor="#C8E6C9"];
+
+    // Intermediaries
+    intermediaries [label="Intermediaries\n\n- Investment Banks\n- Underwriters\n- Rating Agencies\n- Verifiers\n- Exchanges", fillcolor="#FFF9C4"];
+
+    // Capital Recipients
+    recipients [label="Capital Recipients\n\n- Governments\n- Corporations\n- Project Developers\n- Municipalities\n- Financial Institutions", fillcolor="#BBDEFB"];
+
+    // Standard Setters
+    standards [label="Standard-Setters\n\n- ICMA\n- Climate Bonds Initiative\n- ISSB\n- EU Commission\n- NGFS", fillcolor="#F8BBD0"];
+
+    // Flow
+    providers -> intermediaries [label="Capital"];
+    intermediaries -> recipients [label="Financing"];
+    standards -> intermediaries [label="Standards &\nGuidelines", style=dashed];
+    standards -> recipients [label="Compliance\nRequirements", style=dashed];
+    recipients -> providers [label="Returns &\nImpact", style=dotted];
+
+    // Title
+    labelloc="t";
+    label="Green Finance Ecosystem Map";
+    fontsize=14;
+    fontname="Arial Bold";
+}

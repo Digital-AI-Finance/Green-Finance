@@ -1,0 +1,1106 @@
+\documentclass[8pt]{beamer}
+\usetheme{Madrid}
+\usecolortheme{default}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{hyperref}
+
+\title{Week 1: Green Finance Fundamentals}
+\subtitle{Professional Certificate in Green Finance}
+\author{}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+\tableofcontents
+\end{frame}
+
+\section{Introduction to Green Finance}
+
+\begin{frame}{What is Green Finance?}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Definition}
+\begin{itemize}
+    \item Financial investments flowing to sustainable development
+    \item Support for environmental and climate objectives
+    \item Integration of environmental considerations into financial decisions
+\end{itemize}
+
+\vspace{1em}
+\textbf{Key Characteristics}
+\begin{itemize}
+    \item Environmental additionality
+    \item Measurable impact
+    \item Transparency and reporting
+    \item Risk-adjusted returns
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Scope}
+\begin{itemize}
+    \item Climate change mitigation
+    \item Climate change adaptation
+    \item Pollution prevention
+    \item Biodiversity conservation
+    \item Sustainable resource use
+    \item Circular economy
+\end{itemize}
+
+\vspace{1em}
+\textbf{Market Size}
+\begin{itemize}
+    \item Global green finance: \$5+ trillion annually
+    \item Green bond market: \$1.6 trillion outstanding (2023)
+    \item Growing 30-40\% per year
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Why Green Finance Matters}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Climate Imperative}
+\begin{itemize}
+    \item Paris Agreement: limit warming to 1.5-2C
+    \item Requires \$3-5 trillion annual investment
+    \item Current investment gap: \$2-3 trillion/year
+    \item Financial system must mobilize capital
+\end{itemize}
+
+\vspace{1em}
+\textbf{Financial Risk}
+\begin{itemize}
+    \item Physical risks: extreme weather, sea level rise
+    \item Transition risks: policy, technology, markets
+    \item Stranded assets: fossil fuel reserves
+    \item Systemic risk to financial stability
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Business Opportunity}
+\begin{itemize}
+    \item Clean energy: \$10+ trillion market
+    \item Green infrastructure investment needs
+    \item Innovation in sustainable technologies
+    \item First-mover advantages
+\end{itemize}
+
+\vspace{1em}
+\textbf{Regulatory Drivers}
+\begin{itemize}
+    \item EU Taxonomy and SFDR
+    \item SEC climate disclosure rules
+    \item Central bank climate stress tests
+    \item Mandatory TCFD reporting
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Historical Development}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Early History (Pre-2007)}
+\begin{itemize}
+    \item 1990s: Socially responsible investing (SRI)
+    \item 2000: UN Global Compact
+    \item 2006: UN Principles for Responsible Investment
+    \item Focus: ethical exclusion and advocacy
+\end{itemize}
+
+\vspace{1em}
+\textbf{Emergence (2007-2015)}
+\begin{itemize}
+    \item 2007: First green bond (EIB)
+    \item 2008: Financial crisis spurs sustainable finance
+    \item 2014: Green Bond Principles launched
+    \item 2015: Paris Agreement catalyzes growth
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Mainstreaming (2015-2020)}
+\begin{itemize}
+    \item 2017: TCFD recommendations
+    \item Explosive green bond growth
+    \item ESG integration accelerates
+    \item Central banks engage climate risk
+\end{itemize}
+
+\vspace{1em}
+\textbf{Maturation (2020-Present)}
+\begin{itemize}
+    \item 2021: EU Taxonomy implemented
+    \item 2022: SFDR disclosure requirements
+    \item 2023: SEC climate rule proposals
+    \item Regulatory frameworks solidify
+    \item Focus on impact and greenwashing prevention
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Green Finance vs. Traditional Finance}
+\begin{table}
+\centering
+\small
+\begin{tabular}{lll}
+\toprule
+\textbf{Dimension} & \textbf{Traditional Finance} & \textbf{Green Finance} \\
+\midrule
+Primary objective & Financial returns & Returns + environmental impact \\
+Risk assessment & Financial risks only & Financial + climate risks \\
+Time horizon & Quarterly/annual & Long-term (decades) \\
+Externalities & Ignored/unpriced & Internalized/measured \\
+Reporting & Financial statements & Financial + non-financial \\
+Valuation & NPV, IRR & NPV + impact metrics \\
+Regulation & Prudential only & Prudential + sustainability \\
+Transparency & Limited & Enhanced disclosure \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\vspace{1em}
+\small
+\textbf{Key Insight:} Green finance does not trade-off returns for impact. Studies show comparable or superior risk-adjusted returns with better long-term resilience.
+\end{frame}
+
+\section{Green Finance Ecosystem}
+
+\begin{frame}{Market Participants}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Capital Providers}
+\begin{itemize}
+    \item Institutional investors (pensions, insurance)
+    \item Asset managers and funds
+    \item Banks and commercial lenders
+    \item Development finance institutions
+    \item Retail investors
+    \item Corporations (internal capital)
+\end{itemize}
+
+\vspace{1em}
+\textbf{Capital Recipients}
+\begin{itemize}
+    \item Governments (sovereign bonds)
+    \item Corporations (green bonds, loans)
+    \item Project developers (renewable energy)
+    \item Financial institutions (sustainability-linked)
+    \item Municipalities (green municipal bonds)
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Intermediaries}
+\begin{itemize}
+    \item Investment banks (underwriting)
+    \item Commercial banks (lending)
+    \item Stock exchanges (listing)
+    \item Rating agencies
+    \item Verifiers and certifiers
+\end{itemize}
+
+\vspace{1em}
+\textbf{Standard-Setters and Regulators}
+\begin{itemize}
+    \item ICMA (Green Bond Principles)
+    \item Climate Bonds Initiative
+    \item EU Commission (Taxonomy)
+    \item IOSCO, FSB (global coordination)
+    \item Central banks and regulators
+    \item ISSB (sustainability standards)
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Role of Development Finance Institutions}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Major DFIs}
+\begin{itemize}
+    \item World Bank/IFC
+    \item European Investment Bank (EIB)
+    \item Asian Development Bank (ADB)
+    \item African Development Bank (AfDB)
+    \item Green Climate Fund (GCF)
+    \item National DFIs (KfW, AFD, JICA)
+\end{itemize}
+
+\vspace{1em}
+\textbf{Functions}
+\begin{itemize}
+    \item Catalyze private capital
+    \item Market creation and demonstration
+    \item Technical assistance
+    \item Risk mitigation (guarantees)
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Blended Finance Model}
+\begin{itemize}
+    \item Concessional capital: grants, soft loans
+    \item Commercial capital: private investment
+    \item Risk layering and tranching
+    \item First-loss protection
+    \item Particularly important in emerging markets
+\end{itemize}
+
+\vspace{1em}
+\textbf{Impact}
+\begin{itemize}
+    \item EIB: 200+ billion EUR climate finance (2015-2023)
+    \item IFC: 15 billion USD green bonds issued
+    \item GCF: 13 billion USD committed
+    \item Leverage ratios: 1:3 to 1:10
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}{International Organizations and Standard-Setters}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{UN System}
+\begin{itemize}
+    \item UNEP Finance Initiative
+    \item UNFCCC (Paris Agreement)
+    \item UN Sustainable Development Goals
+    \item Principles for Responsible Investment (PRI)
+\end{itemize}
+
+\vspace{1em}
+\textbf{Financial Stability}
+\begin{itemize}
+    \item Financial Stability Board (FSB)
+    \item Network for Greening the Financial System (NGFS)
+    \item Bank for International Settlements
+    \item International Monetary Fund
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Market Standards}
+\begin{itemize}
+    \item ICMA: Green Bond Principles
+    \item Climate Bonds Initiative: Certification
+    \item ISSB: Sustainability standards (IFRS S1/S2)
+    \item GRI: Sustainability reporting
+\end{itemize}
+
+\vspace{1em}
+\textbf{Regional Bodies}
+\begin{itemize}
+    \item EU: Taxonomy, SFDR, CSRD
+    \item ASEAN: Green Bond Standards
+    \item China: Green Bond Catalogue
+    \item Various national regulators
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\section{Green Financial Instruments}
+
+\begin{frame}{Overview of Green Instruments}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Debt Instruments}
+\begin{itemize}
+    \item Green bonds
+    \item Green loans
+    \item Sustainability-linked bonds
+    \item Sustainability-linked loans
+    \item Transition bonds
+    \item Blue bonds (ocean finance)
+\end{itemize}
+
+\vspace{1em}
+\textbf{Equity Instruments}
+\begin{itemize}
+    \item Green stocks/IPOs
+    \item Green funds and ETFs
+    \item Private equity in clean tech
+    \item Venture capital for climate tech
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Other Instruments}
+\begin{itemize}
+    \item Carbon credits and offsets
+    \item Green securitization
+    \item Catastrophe bonds
+    \item Green derivatives
+    \item Payment for ecosystem services
+\end{itemize}
+
+\vspace{1em}
+\textbf{Market Size (2023)}
+\begin{itemize}
+    \item Green bonds: \$1.6 trillion
+    \item Sustainability-linked: \$500 billion
+    \item Green loans: \$300 billion
+    \item Carbon markets: \$850 billion
+    \item ESG funds: \$3+ trillion AUM
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Green Bonds: The Flagship Instrument}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Definition}
+\begin{itemize}
+    \item Fixed-income securities
+    \item Proceeds dedicated to green projects
+    \item Same credit risk as issuer's other bonds
+    \item ``Use of proceeds'' restriction
+\end{itemize}
+
+\vspace{1em}
+\textbf{Eligible Project Categories}
+\begin{itemize}
+    \item Renewable energy
+    \item Energy efficiency
+    \item Clean transportation
+    \item Sustainable water management
+    \item Pollution prevention
+    \item Green buildings
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Key Features}
+\begin{itemize}
+    \item External verification (often)
+    \item Regular impact reporting
+    \item Separate tracking of proceeds
+    \item Alignment with GBP or other standards
+\end{itemize}
+
+\vspace{1em}
+\textbf{Market Growth}
+\begin{itemize}
+    \item 2007: First issuance (EIB, 600m EUR)
+    \item 2021: Record 500 billion USD
+    \item 2023: 450 billion USD
+    \item Cumulative: 1.6 trillion USD outstanding
+    \item Top issuers: Germany, France, US, China
+\end{itemize}
+\end{columns}
+
+\small
+\vspace{0.5em}
+\textit{Deep dive in Week 2: Green Bond Markets and Structuring}
+\end{frame}
+
+\begin{frame}{Sustainability-Linked Instruments}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{How They Differ from Green Bonds}
+\begin{itemize}
+    \item \textbf{Green bonds:} Use of proceeds restriction
+    \item \textbf{SL instruments:} General use, KPI-linked
+    \item Financial terms tied to sustainability targets
+    \item Broader issuer base (any industry)
+\end{itemize}
+
+\vspace{1em}
+\textbf{Structure}
+\begin{itemize}
+    \item Define sustainability performance targets (SPTs)
+    \item Select key performance indicators (KPIs)
+    \item Set trigger events and step-up/down
+    \item Typically: coupon adjustment if target missed
+    \item Example: +25 bps if emissions target not met
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Common KPIs}
+\begin{itemize}
+    \item GHG emissions reduction (Scope 1, 2, 3)
+    \item Renewable energy share
+    \item Water usage reduction
+    \item Waste reduction/circularity
+    \item Diversity metrics
+    \item Supply chain sustainability
+\end{itemize}
+
+\vspace{1em}
+\textbf{Advantages and Concerns}
+\begin{itemize}
+    \item Pro: Flexibility for all issuers
+    \item Pro: Incentivizes corporate-wide change
+    \item Con: Potential for weak targets
+    \item Con: Greenwashing risk
+    \item Con: KPI selection and verification challenges
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Carbon Markets}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Compliance Markets}
+\begin{itemize}
+    \item Mandatory cap-and-trade systems
+    \item EU Emissions Trading System (EU ETS)
+    \item California cap-and-trade
+    \item Regional Greenhouse Gas Initiative (US)
+    \item China national ETS
+    \item UK ETS
+\end{itemize}
+
+\vspace{1em}
+\textbf{EU ETS}
+\begin{itemize}
+    \item Covers 40\% of EU GHG emissions
+    \item 10,000+ installations
+    \item Carbon price: 80-100 EUR/ton (2023)
+    \item Annual cap declining 2.2\% per year
+    \item Market size: 700+ billion EUR
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Voluntary Carbon Markets}
+\begin{itemize}
+    \item Corporate offsetting
+    \item Project-based credits (VCS, Gold Standard)
+    \item Nature-based solutions popular
+    \item Price: 5-50 USD/ton (wide variation)
+    \item Market size: 2 billion USD (2023)
+\end{itemize}
+
+\vspace{1em}
+\textbf{Key Challenges}
+\begin{itemize}
+    \item Additionality verification
+    \item Permanence concerns
+    \item Leakage and double-counting
+    \item Integrity of offset projects
+    \item Price volatility
+    \item Fraud risk in voluntary markets
+\end{itemize}
+\end{columns}
+
+\small
+\vspace{0.5em}
+\textit{Carbon markets are a pricing mechanism but also a significant financial market with derivatives, futures, and sophisticated trading}
+\end{frame}
+
+\begin{frame}{Blended Finance Structures}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Concept}
+\begin{itemize}
+    \item Strategic use of development finance
+    \item Mobilize additional private capital
+    \item Address market failures in sustainable finance
+    \item Particularly for emerging markets
+\end{itemize}
+
+\vspace{1em}
+\textbf{Financial Structures}
+\begin{itemize}
+    \item First-loss tranches
+    \item Credit guarantees
+    \item Concessional loans
+    \item Technical assistance grants
+    \item Political risk insurance
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Use Cases}
+\begin{itemize}
+    \item Renewable energy in frontier markets
+    \item Sustainable agriculture
+    \item Climate adaptation infrastructure
+    \item Off-grid energy access
+    \item Water and sanitation projects
+\end{itemize}
+
+\vspace{1em}
+\textbf{Performance Metrics}
+\begin{itemize}
+    \item Leverage ratio: DFI capital to private capital
+    \item Typical: 1:3 to 1:10
+    \item Financial returns: below market for DFI, market-rate for private
+    \item Development impact: primary objective
+    \item Risk-adjusted returns for private investors
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\section{Climate Change and Finance}
+
+\begin{frame}{The Physical Science: Why Finance Must Act}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{IPCC Key Findings}
+\begin{itemize}
+    \item Global warming: +1.1C above pre-industrial
+    \item Unequivocal human causation
+    \item 1.5C threshold likely crossed by 2030-2035
+    \item 2C+ has catastrophic impacts
+    \item Window for action: current decade critical
+\end{itemize}
+
+\vspace{1em}
+\textbf{Investment Needs}
+\begin{itemize}
+    \item Paris-aligned: \$3-5 trillion/year
+    \item Current investment: \$1.3 trillion/year
+    \item Gap: \$2-3 trillion annually
+    \item Must triple renewable energy by 2030
+    \item Must halve emissions by 2030
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Financial Implications}
+\begin{itemize}
+    \item Asset repricing: fossil fuels vs. renewables
+    \item Stranded assets: \$1-4 trillion at risk
+    \item Physical damage: \$1+ trillion/year
+    \item Transition costs: front-loaded
+    \item Winners: clean energy, storage, efficiency
+    \item Losers: coal, oil \& gas, carbon-intensive
+\end{itemize}
+
+\vspace{1em}
+\textbf{Financial System's Role}
+\begin{itemize}
+    \item Reallocate capital at scale
+    \item Price climate risk
+    \item Support innovation
+    \item Manage orderly transition
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Paris Agreement and Finance}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Paris Agreement (2015)}
+\begin{itemize}
+    \item Limit warming to well below 2C, pursue 1.5C
+    \item Nationally Determined Contributions (NDCs)
+    \item Climate finance commitments
+    \item Article 2.1c: Making finance flows consistent with low-carbon pathway
+\end{itemize}
+
+\vspace{1em}
+\textbf{Article 2.1c Implications}
+\begin{itemize}
+    \item All finance (not just climate finance) must align
+    \item Entire financial system in scope
+    \item Requires climate risk integration
+    \item Demands transparency and disclosure
+    \item Catalyzes regulatory action
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Climate Finance Commitments}
+\begin{itemize}
+    \item Developed countries: \$100 billion/year to developing
+    \item Extended to 2025
+    \item New goal: \$300+ billion/year post-2025
+    \item Loss and damage fund established (2023)
+    \item Adaptation finance: underfunded
+\end{itemize}
+
+\vspace{1em}
+\textbf{Implementation Progress}
+\begin{itemize}
+    \item Financial sector: rapid adoption
+    \item Net-zero commitments: 500+ institutions
+    \item Assets: \$130+ trillion committed
+    \item Challenges: credibility, transition plans
+    \item Need: accountability mechanisms
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Sustainable Development Goals and Finance}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{SDGs and Finance Linkage}
+\begin{itemize}
+    \item 17 goals, 169 targets (2015-2030)
+    \item Investment need: \$5-7 trillion/year
+    \item Current investment: insufficient
+    \item SDG financing gap: \$3-4 trillion/year
+    \item Green finance addresses SDGs 7, 9, 11, 12, 13, 14, 15
+\end{itemize}
+
+\vspace{1em}
+\textbf{Key SDGs for Green Finance}
+\begin{itemize}
+    \item SDG 7: Affordable clean energy
+    \item SDG 13: Climate action
+    \item SDG 14: Life below water
+    \item SDG 15: Life on land
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{SDG Bonds and Finance}
+\begin{itemize}
+    \item SDG bonds: broader than green bonds
+    \item Social bonds: SDGs 1-6, 8, 10, 11, 16
+    \item Sustainability bonds: environmental + social
+    \item Market: 300+ billion USD/year
+\end{itemize}
+
+\vspace{1em}
+\textbf{Challenges}
+\begin{itemize}
+    \item Too broad for targeted finance
+    \item Measurement and attribution difficult
+    \item Potential dilution of ``green''
+    \item Need for impact taxonomy
+    \item Trade-offs between goals
+    \item Focus: integrate SDGs into investment frameworks
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\section{Business Case for Green Finance}
+
+\begin{frame}{Financial Performance of Green Investments}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Academic Evidence}
+\begin{itemize}
+    \item Meta-analysis: 2000+ studies
+    \item Finding: ESG does not hurt returns
+    \item 58\% of studies: positive relationship
+    \item 13\% of studies: negative relationship
+    \item 29\% of studies: neutral relationship
+    \item Time horizon matters: long-term outperformance
+\end{itemize}
+
+\vspace{1em}
+\textbf{Green Bond Performance}
+\begin{itemize}
+    \item Return: comparable to conventional bonds
+    \item Liquidity: improving but still lower
+    \item Greenium: 2-5 bps (small but significant)
+    \item Demand: oversubscription common
+    \item Lower tail risk in some studies
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Mechanisms for Outperformance}
+\begin{itemize}
+    \item Better risk management
+    \item Lower cost of capital
+    \item Operational efficiency
+    \item Innovation capacity
+    \item Regulatory preparedness
+    \item Reputation and brand value
+    \item Employee attraction and retention
+\end{itemize}
+
+\vspace{1em}
+\textbf{Risk Considerations}
+\begin{itemize}
+    \item Transition risk mitigation
+    \item Physical risk exposure reduction
+    \item Regulatory risk management
+    \item Reputational risk avoidance
+    \item Future-proofing portfolios
+\end{itemize}
+\end{columns}
+
+\small
+\vspace{0.5em}
+\textit{Key message: Green finance is financially sound, not a trade-off between returns and impact}
+\end{frame}
+
+\begin{frame}{Corporate Benefits of Green Finance}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Cost of Capital Benefits}
+\begin{itemize}
+    \item Lower interest rates on green bonds
+    \item Expanded investor base
+    \item Reduced refinancing risk
+    \item Better credit ratings (some evidence)
+    \item Access to ESG-mandated capital
+\end{itemize}
+
+\vspace{1em}
+\textbf{Operational Benefits}
+\begin{itemize}
+    \item Energy cost reduction
+    \item Resource efficiency gains
+    \item Waste reduction savings
+    \item Process innovation
+    \item Supply chain resilience
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Strategic Benefits}
+\begin{itemize}
+    \item Market differentiation
+    \item Customer preference alignment
+    \item Regulatory compliance leadership
+    \item Stakeholder relations
+    \item License to operate
+    \item Attract and retain talent
+\end{itemize}
+
+\vspace{1em}
+\textbf{Risk Management}
+\begin{itemize}
+    \item Transition risk mitigation
+    \item Physical risk adaptation
+    \item Regulatory risk preparedness
+    \item Reputational risk reduction
+    \item Long-term value protection
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Investor Motivations}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Financial Motivations}
+\begin{itemize}
+    \item Risk management: climate risk exposure
+    \item Return enhancement: future winners
+    \item Portfolio diversification
+    \item Regulatory compliance
+    \item Fiduciary duty alignment
+\end{itemize}
+
+\vspace{1em}
+\textbf{Non-Financial Motivations}
+\begin{itemize}
+    \item Values alignment
+    \item Ethical considerations
+    \item Mission-driven mandates
+    \item Client/beneficiary preferences
+    \item Reputation and brand
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Institutional Dynamics}
+\begin{itemize}
+    \item Pension funds: long-term liabilities
+    \item Insurance: physical risk exposure
+    \item Sovereign wealth: intergenerational mandate
+    \item Foundations: mission alignment
+    \item Family offices: values and legacy
+\end{itemize}
+
+\vspace{1em}
+\textbf{Market Evidence}
+\begin{itemize}
+    \item ESG fund inflows: \$500+ billion/year
+    \item ESG AUM: \$30+ trillion
+    \item Institutional adoption: 80\%+ considering ESG
+    \item Universal owner perspective
+    \item Systemic risk awareness
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\section{Financial Fundamentals Review}
+
+\begin{frame}{Time Value of Money Refresher}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Core Concepts}
+\begin{itemize}
+    \item Present Value (PV)
+    \item Future Value (FV)
+    \item Discount rate (r)
+    \item Number of periods (n)
+\end{itemize}
+
+\vspace{1em}
+\textbf{Formulas}
+\[PV = \frac{FV}{(1+r)^n}\]
+
+\[FV = PV \times (1+r)^n\]
+
+\[NPV = \sum_{t=0}^{n} \frac{CF_t}{(1+r)^t}\]
+
+\column{0.48\textwidth}
+\textbf{Application to Green Finance}
+\begin{itemize}
+    \item Long-term cash flows (renewable projects)
+    \item Appropriate discount rates critical
+    \item Climate risk adjusts discount rates
+    \item Carbon price impacts future cash flows
+    \item Regulatory changes affect timing
+\end{itemize}
+
+\vspace{1em}
+\textbf{Green Finance Considerations}
+\begin{itemize}
+    \item Should environmental benefits be valued?
+    \item Social discount rate debate
+    \item Intergenerational equity
+    \item Risk-free rate + climate premium?
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Bond Pricing Fundamentals}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Bond Price Formula}
+\[P = \sum_{t=1}^{n} \frac{C}{(1+y)^t} + \frac{F}{(1+y)^n}\]
+
+Where:
+\begin{itemize}
+    \item P = Price
+    \item C = Coupon payment
+    \item y = Yield to maturity
+    \item F = Face value
+    \item n = Number of periods
+\end{itemize}
+
+\vspace{1em}
+\textbf{Yield Measures}
+\begin{itemize}
+    \item Current yield = Annual coupon / Price
+    \item Yield to maturity (YTM)
+    \item Yield to call (YTC)
+    \item Spread over benchmark
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Green Bond Pricing}
+\begin{itemize}
+    \item Same credit risk as issuer
+    \item Potential greenium: slight yield discount
+    \item Typically: -2 to -5 bps
+    \item Demand-driven: oversubscription
+    \item Liquidity considerations
+\end{itemize}
+
+\vspace{1em}
+\textbf{Price Sensitivity}
+\begin{itemize}
+    \item Duration: price sensitivity to yield changes
+    \item Longer duration: higher sensitivity
+    \item Green bonds: often longer maturity
+    \item Convexity: curvature of price-yield relationship
+    \item Credit spread: issuer-specific risk
+\end{itemize}
+\end{columns}
+
+\small
+\vspace{0.5em}
+\textit{Workshop: Excel exercises on bond pricing and greenium calculation}
+\end{frame}
+
+\begin{frame}{Portfolio Theory Basics}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Key Concepts}
+\begin{itemize}
+    \item Expected return: $E(R_p) = \sum w_i E(R_i)$
+    \item Portfolio variance: $\sigma_p^2 = \sum \sum w_i w_j \sigma_i \sigma_j \rho_{ij}$
+    \item Diversification benefit
+    \item Efficient frontier
+    \item Capital Asset Pricing Model (CAPM)
+\end{itemize}
+
+\vspace{1em}
+\textbf{Risk Measures}
+\begin{itemize}
+    \item Standard deviation (volatility)
+    \item Beta (systematic risk)
+    \item Value at Risk (VaR)
+    \item Sharpe ratio: $(R_p - R_f) / \sigma_p$
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Green Portfolio Considerations}
+\begin{itemize}
+    \item ESG factors as risk factors
+    \item Climate risk as systematic risk
+    \item Green assets: diversification benefits?
+    \item Correlation with conventional assets
+    \item Sector tilts: renewable energy, tech
+\end{itemize}
+
+\vspace{1em}
+\textbf{Empirical Evidence}
+\begin{itemize}
+    \item Green portfolios: similar Sharpe ratios
+    \item Lower tail risk in some studies
+    \item Resilience during crises
+    \item Long-term outperformance potential
+    \item Need: climate-adjusted CAPM
+\end{itemize}
+\end{columns}
+
+\small
+\vspace{0.5em}
+\textit{Workshop: Building a green portfolio in Excel, calculating risk-return metrics}
+\end{frame}
+
+\begin{frame}{Risk and Return in Green Finance}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Return Sources}
+\begin{itemize}
+    \item Coupon/dividend income
+    \item Capital appreciation
+    \item Greenium (green bonds)
+    \item Operational outperformance
+    \item Risk mitigation value
+    \item Regulatory tailwinds
+\end{itemize}
+
+\vspace{1em}
+\textbf{Risk Factors}
+\begin{itemize}
+    \item Credit risk (same as conventional)
+    \item Market risk (interest rate, equity)
+    \item Liquidity risk (potentially higher)
+    \item Greenwashing risk
+    \item Technology risk (renewable energy)
+    \item Policy/regulatory risk
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Risk-Return Profile}
+\begin{itemize}
+    \item Green bonds: low risk, low return
+    \item Listed green equities: medium risk, medium return
+    \item Renewable project finance: medium-high risk, stable returns
+    \item Clean tech VC: high risk, high return (potential)
+    \item Emerging market green: higher risk, higher return
+\end{itemize}
+
+\vspace{1em}
+\textbf{Risk Mitigation}
+\begin{itemize}
+    \item Diversification across technologies
+    \item Geographic diversification
+    \item Due diligence on green claims
+    \item Third-party verification
+    \item Blended finance structures
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\section{Wrap-Up and Next Steps}
+
+\begin{frame}{Week 1 Key Takeaways}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Core Concepts}
+\begin{enumerate}
+    \item Green finance channels capital to environmental solutions
+    \item Climate imperatives drive rapid market growth
+    \item Diverse instruments: bonds, loans, equity, carbon markets
+    \item Large and growing ecosystem of participants
+\end{enumerate}
+
+\vspace{1em}
+\textbf{Financial Fundamentals}
+\begin{enumerate}
+    \item Green finance does not sacrifice returns
+    \item Risk management is a key driver
+    \item Time value of money applies with climate considerations
+    \item Portfolio theory + climate risk integration
+\end{enumerate}
+
+\column{0.48\textwidth}
+\textbf{Market Context}
+\begin{enumerate}
+    \item \$5+ trillion annual green finance market
+    \item Regulatory momentum is accelerating
+    \item Paris Agreement and SDGs provide framework
+    \item Investment gap remains: \$2-3 trillion/year
+\end{enumerate}
+
+\vspace{1em}
+\textbf{Looking Ahead}
+\begin{enumerate}
+    \item Week 2: Deep dive into green bonds
+    \item Week 3: ESG integration and data
+    \item Week 4: Climate risk assessment (TCFD)
+    \item Week 5: Renewable energy project finance
+    \item Week 6: Regulatory frameworks
+\end{enumerate}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Reading Assignments}
+\textbf{Required Reading (complete before Week 2):}
+\begin{enumerate}
+    \item Berrou et al. (2019). ``An overview of green finance'' -- foundational taxonomy
+    \item Climate Bonds Initiative (2023). ``Green Bond Market Summary'' -- market data and trends
+    \item UNEP (2023). ``Global Landscape of Climate Finance'' -- investment flows and gaps
+\end{enumerate}
+
+\vspace{1em}
+\textbf{Recommended Reading:}
+\begin{enumerate}
+    \item Giglio, Kelly, and Stroebel (2021). ``Climate Finance'' -- academic review
+    \item TCFD (2017). ``Final Report'' (skim for now, detailed in Week 4)
+    \item ICMA (2023). ``Green Bond Principles'' (preparation for Week 2)
+\end{enumerate}
+
+\vspace{1em}
+\textbf{Preparation:}
+\begin{itemize}
+    \item Install Python, pandas, matplotlib (if not already)
+    \item Ensure Excel is functional
+    \item Review provided bond pricing Excel template
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Workshop Exercises}
+\textbf{In-Class Excel Workshops (Week 1, Session 4):}
+
+\vspace{1em}
+\textbf{Exercise 1: Bond Pricing (1 hour)}
+\begin{itemize}
+    \item Calculate bond prices for various yields
+    \item Compute yield to maturity
+    \item Analyze duration and convexity
+    \item Introduce greenium concept with examples
+\end{itemize}
+
+\vspace{1em}
+\textbf{Exercise 2: Portfolio Construction (1.5 hours)}
+\begin{itemize}
+    \item Build portfolio of 10 green and conventional assets
+    \item Calculate expected return and risk
+    \item Compute Sharpe ratios
+    \item Explore efficient frontier
+    \item Discuss diversification benefits
+\end{itemize}
+
+\vspace{1em}
+\textbf{Exercise 3: NPV and IRR (1.5 hours)}
+\begin{itemize}
+    \item Simple renewable energy project cash flows
+    \item Calculate NPV at various discount rates
+    \item Compute IRR
+    \item Sensitivity analysis
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\centering
+\Huge
+Questions?
+
+\vspace{2em}
+\large
+Next Week: Green Bonds and Sustainable Debt Instruments
+
+\vspace{1em}
+\normalsize
+See you in Week 2!
+\end{frame}
+
+\end{document}

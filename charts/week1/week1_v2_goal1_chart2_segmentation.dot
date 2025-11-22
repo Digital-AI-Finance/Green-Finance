@@ -1,0 +1,49 @@
+digraph MarketSegmentation {
+    // Market Segmentation Model
+    rankdir=LR;
+    node [shape=box, style="rounded,filled", fontname="Arial", fontsize=9];
+    edge [fontname="Arial", fontsize=8];
+
+    // Separate clusters for each segment
+    subgraph cluster_green {
+        label="Green Market Segment";
+        fontsize=11;
+        fontname="Arial Bold";
+        fontcolor="#2CA02C";
+        style=filled;
+        fillcolor="#E8F5E9";
+
+        green_supply [label="Green Bond\nSupply", fillcolor="#C1C1E8"];
+        green_demand [label="ESG Investor\nDemand\n(High preference)", fillcolor="#CCCCEB"];
+        green_price [label="Price: P + g\n(Greenium g > 0)", fillcolor="#2CA02C", fontcolor="white"];
+
+        green_supply -> green_price [label="Supply"];
+        green_demand -> green_price [label="Demand\n(Excess)"];
+    }
+
+    subgraph cluster_conventional {
+        label="Conventional Market Segment";
+        fontsize=11;
+        fontname="Arial Bold";
+        fontcolor="#7F7F7F";
+        style=filled;
+        fillcolor="#F5F5F5";
+
+        conv_supply [label="Conventional\nBond Supply", fillcolor="#E0E0E0"];
+        conv_demand [label="Conventional\nInvestor Demand\n(Price-focused)", fillcolor="#D0D0D0"];
+        conv_price [label="Price: P\n(No premium)", fillcolor="#7F7F7F", fontcolor="white"];
+
+        conv_supply -> conv_price [label="Supply"];
+        conv_demand -> conv_price [label="Demand\n(Equilibrium)"];
+    }
+
+    // Limited arbitrage between segments
+    green_price -> conv_price [label="Limited arbitrage\n(preference constraints)", style="dashed", constraint=false];
+
+    // Title
+    labelloc="t";
+    label="Market Segmentation Model\nGreen vs Conventional";
+    fontsize=13;
+    fontname="Arial Bold";
+    fontcolor="#3333B2";
+}

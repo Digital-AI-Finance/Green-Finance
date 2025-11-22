@@ -1,0 +1,414 @@
+# Communication Schemas v2.0 - Learning Goal Driven Structure
+# Updates for 3-goal, 3-session architecture
+
+---
+
+# Schema Updates for v2.0
+
+## Key Changes from v1.0:
+- Learning objectives → learning_goals (structured objects)
+- 4 objectives → 3 learning goals
+- 4 sessions → 3 sessions (one per goal)
+- Added goal types, narrative roles
+- New slide types: learning_goal_title, goal_summary, mathematical_derivation, framework_overview
+
+---
+
+# Updated: content_outline_full.yaml Schema
+
+```yaml
+course_title: string
+total_weeks: integer
+total_hours: integer
+
+weeks:
+  - week_number: integer
+    title: string
+    theme: string
+
+    # NEW v2.0: Structured learning goals (3 per week)
+    learning_goals:
+      - goal_number: integer  # 1, 2, or 3
+        type: string  # "mathematical" | "theoretical" | "quantitative" | "applied"
+        statement: string  # Specific, measurable goal
+        narrative_role: string  # How goal fits in story (foundation/build/apply)
+        blooms_level: string  # Bloom's taxonomy level
+        slides_allocated: integer  # ~10 slides per goal
+
+      - goal_number: 2
+        # ... (repeat structure)
+
+      - goal_number: 3
+        # ... (repeat structure)
+
+    # Updated: 3 sessions per week (not 4)
+    sessions:
+      - session_number: integer  # 1, 2, or 3
+        learning_goal: object  # Full goal object (reference)
+        title: string  # "Session N: [Goal Statement]"
+        duration_hours: float  # ~3.5 hours
+
+        slides:
+          # NEW: Learning goal title slide (first slide of session)
+          - slide_number: integer
+            type: "learning_goal_title"
+            goal_number: integer
+            goal_statement: string
+            goal_type: string
+            narrative_role: string
+
+          # Content slides (slides 2-9)
+          - slide_number: integer
+            type: string  # Various types
+            goal_reference: integer  # Which goal this slide supports
+            # ... (slide-specific fields)
+            bottom_note: string  # Should include "[Goal N]" prefix
+
+          # NEW: Goal summary slide (last slide of session)
+          - slide_number: integer
+            type: "goal_summary"
+            title: string
+            goal_number: integer
+            goal_statement: string
+            summary_header: string
+            summary_points: array[string]
+            check_header: string
+            check_items: array[string]
+            bottom_note: string
+
+    slides_count: integer  # 30-32
+    charts_count: integer  # 10-11
+
+totals:
+  slides: integer
+  charts: integer
+  sessions: integer  # 24 (3 per week × 8 weeks)
+  hours: integer
+  chart_ratio: float
+
+validation:
+  slides_target_met: boolean
+  charts_target_met: boolean
+  ratio_satisfied: boolean
+  all_specs_complete: boolean
+  learning_goals_count: integer  # Must be 3 per week
+  sessions_count: integer  # Must be 3 per week
+```
+
+---
+
+# NEW Slide Type Schemas
+
+## learning_goal_title Slide
+```yaml
+slide_number: integer  # 1, 11, or 21 (start of each session)
+type: "learning_goal_title"
+goal_number: integer  # 1, 2, or 3
+goal_statement: string  # Full learning goal statement
+goal_type: string  # "mathematical" | "theoretical" | "quantitative" | "applied"
+narrative_role: string  # E.g., "Foundation - establishes core concepts"
+```
+
+**LaTeX Output:** Plain frame with large centered text
+
+---
+
+## goal_summary Slide
+```yaml
+slide_number: integer  # 10, 20, or 30 (end of each session)
+type: "goal_summary"
+title: string  # "Learning Goal N: Summary"
+goal_number: integer
+goal_statement: string
+summary_header: string  # E.g., "What We Achieved"
+summary_points: array[string]  # Accomplishments (with checkmarks in LaTeX)
+check_header: string  # E.g., "Can You Now..."
+check_items: array[string]  # Self-assessment questions
+bottom_note: string  # E.g., "[Goal N] Achieved - Ready for Goal N+1"
+```
+
+**LaTeX Output:** Two-column with checkmarks and assessment questions
+
+---
+
+## mathematical_derivation Slide
+```yaml
+slide_number: integer
+type: "mathematical_derivation"
+title: string
+goal_reference: integer  # Which goal this supports
+left_header: string  # E.g., "Starting Point"
+left_content:
+  equation: string  # LaTeX math (e.g., "$P_0 = ...$")
+  description: string  # Optional text description
+  assumptions: array[string]  # List of assumptions (optional)
+right_header: string  # E.g., "Derivation Steps"
+right_steps:
+  - step: integer
+    equation: string  # LaTeX math
+    explanation: string  # What this step does
+  - step: 2
+    # ... (repeat)
+bottom_note: string  # Must include "[Goal N]" prefix
+```
+
+**LaTeX Output:** Two-column with equations and step-by-step derivation
+
+---
+
+## framework_overview Slide
+```yaml
+slide_number: integer
+type: "framework_overview"
+title: string
+goal_reference: integer
+framework_name: string  # Name of the theoretical framework
+left_header: string  # E.g., "Core Principles"
+left_bullets: array[string]  # Principles or theory points
+right_header: string  # E.g., "Framework Components"
+right_bullets: array[string]  # Components or applications
+bottom_note: string  # Must include "[Goal N]" prefix
+```
+
+**LaTeX Output:** Centered framework name with two-column breakdown
+
+---
+
+# Example: Complete Week with v2.0 Structure
+
+```yaml
+week_number: 1
+title: "Week 1: Green Finance Foundations"
+theme: "Introduction and Market Structure"
+
+learning_goals:
+  - goal_number: 1
+    type: "theoretical"
+    statement: "Understand the market microstructure theory of green finance"
+    narrative_role: "Foundation - establishes why green finance exists and how markets function"
+    blooms_level: "Understand/Analyze"
+    slides_allocated: 10
+
+  - goal_number: 2
+    type: "quantitative"
+    statement: "Quantify and analyze green finance market size, growth, and distribution"
+    narrative_role: "Build - develops measurement and analytical skills"
+    blooms_level: "Analyze"
+    slides_allocated: 10
+
+  - goal_number: 3
+    type: "mathematical"
+    statement: "Derive and apply valuation models for green financial instruments"
+    narrative_role: "Apply - demonstrates practical valuation methods"
+    blooms_level: "Apply/Analyze"
+    slides_allocated: 10
+
+sessions:
+  - session_number: 1
+    learning_goal:
+      goal_number: 1
+      type: "theoretical"
+      statement: "Understand the market microstructure theory of green finance"
+      narrative_role: "Foundation - establishes why green finance exists"
+      blooms_level: "Understand/Analyze"
+      slides_allocated: 10
+
+    title: "Session 1: Market Microstructure Theory"
+    duration_hours: 3.5
+
+    slides:
+      # Slide 1: Goal title
+      - slide_number: 1
+        type: "learning_goal_title"
+        goal_number: 1
+        goal_statement: "Understand the market microstructure theory of green finance"
+        goal_type: "theoretical"
+        narrative_role: "Foundation - establishes core concepts"
+
+      # Slides 2-4: Theory introduction
+      - slide_number: 2
+        type: "framework_overview"
+        title: "Green Finance Market Structure"
+        goal_reference: 1
+        framework_name: "Market Microstructure Framework"
+        left_header: "Core Theoretical Principles"
+        left_bullets:
+          - "Information asymmetry in environmental claims"
+          - "Verification as signaling mechanism"
+          - "Market segmentation by investor preferences"
+        right_header: "Framework Components"
+        right_bullets:
+          - "Supply: Issuers with green projects"
+          - "Demand: ESG-conscious investors"
+          - "Intermediaries: Verifiers"
+        bottom_note: "[Goal 1] Framework provides theoretical foundation"
+
+      # Slide 5: Chart (ecosystem)
+      - slide_number: 5
+        type: "chart"
+        title: "Green Finance Ecosystem Structure"
+        goal_reference: 1
+        chart_spec:
+          chart_id: "week1_chart1_ecosystem"
+          type: "flowchart"
+          tool: "graphviz"
+          description: "Theoretical model of market participants and flows"
+          # ... (full chart spec)
+        bottom_note: "[Goal 1] Ecosystem demonstrates theoretical relationships"
+
+      # Slides 6-9: Additional theory content
+      # ...
+
+      # Slide 10: Goal summary
+      - slide_number: 10
+        type: "goal_summary"
+        title: "Learning Goal 1: Summary"
+        goal_number: 1
+        goal_statement: "Understand the market microstructure theory of green finance"
+        summary_header: "What We Achieved"
+        summary_points:
+          - "Established theoretical framework for market structure"
+          - "Analyzed information asymmetry and signaling"
+          - "Understood role of verification and standards"
+          - "Connected theory to observed market phenomena"
+        check_header: "Can You Now..."
+        check_items:
+          - "Explain why greenium exists theoretically?"
+          - "Describe verification's role in reducing asymmetry?"
+          - "Analyze new instruments using this framework?"
+        bottom_note: "[Goal 1] Achieved - Ready for quantitative analysis in Goal 2"
+
+  - session_number: 2
+    learning_goal:
+      goal_number: 2
+      # ... (full goal 2 object)
+
+    title: "Session 2: Market Quantification and Analysis"
+    duration_hours: 3.5
+
+    slides:
+      # Slide 11: Goal title
+      - slide_number: 11
+        type: "learning_goal_title"
+        goal_number: 2
+        goal_statement: "Quantify and analyze green finance market size, growth, and distribution"
+        goal_type: "quantitative"
+        narrative_role: "Build - develops measurement skills"
+
+      # Slides 12-19: Quantitative content with data charts
+      # ...
+
+      # Slide 20: Goal summary
+      - slide_number: 20
+        type: "goal_summary"
+        title: "Learning Goal 2: Summary"
+        goal_number: 2
+        # ... (summary content)
+
+  - session_number: 3
+    learning_goal:
+      goal_number: 3
+      # ... (full goal 3 object)
+
+    title: "Session 3: Valuation Models and Pricing"
+    duration_hours: 3.5
+
+    slides:
+      # Slide 21: Goal title
+      - slide_number: 21
+        type: "learning_goal_title"
+        goal_number: 3
+        goal_statement: "Derive and apply valuation models for green financial instruments"
+        goal_type: "mathematical"
+        narrative_role: "Apply - demonstrates valuation methods"
+
+      # Slides 22-25: Mathematical derivations
+      - slide_number: 24
+        type: "mathematical_derivation"
+        title: "Green Bond Pricing Formula"
+        goal_reference: 3
+        left_header: "Classical Formula"
+        left_content:
+          equation: "$P_0 = \\sum_{t=1}^{T} \\frac{C}{(1+r)^t} + \\frac{F}{(1+r)^T}$"
+          assumptions:
+            - "Constant discount rate $r$"
+            - "Fixed coupon $C$"
+            - "No environmental adjustment"
+        right_header: "Derivation with Green Adjustment"
+        right_steps:
+          - step: 1
+            equation: "$P_G = \\sum_{t=1}^{T} \\frac{C}{(1+r-g)^t} + \\frac{F}{(1+r-g)^T}$"
+            explanation: "Introduce greenium $g$"
+          - step: 2
+            equation: "$P_G > P_0 \\text{ if } g > 0$"
+            explanation: "Green bonds trade at premium"
+        bottom_note: "[Goal 3] Mathematical model explains greenium phenomenon"
+
+      # Slides 26-29: Applications and examples
+      # ...
+
+      # Slide 30: Week summary (integrates all 3 goals)
+      - slide_number: 30
+        type: "goal_summary"
+        title: "Week 1: Complete Integration"
+        goal_number: 3  # Concluding goal
+        goal_statement: "Integrate theory, measurement, and valuation"
+        summary_header: "Week 1 Achievements"
+        summary_points:
+          - "Goal 1: Theoretical framework established"
+          - "Goal 2: Market quantified and analyzed"
+          - "Goal 3: Valuation models derived and applied"
+          - "Narrative: Foundation → Measurement → Application"
+        check_header: "Ready for Week 2"
+        check_items:
+          - "Understand why green finance exists (theory)"
+          - "Measure market size and trends (quantitative)"
+          - "Value green instruments (mathematical)"
+        bottom_note: "Week 1 complete - Next week: Deep dive into green bonds"
+
+slides_count: 30
+charts_count: 10
+```
+
+---
+
+# Validation Rules for v2.0
+
+## Must Pass:
+1. ✓ Exactly 3 learning_goals per week
+2. ✓ Each goal has type field (mathematical/theoretical/quantitative/applied)
+3. ✓ Each goal has narrative_role field
+4. ✓ Exactly 3 sessions per week
+5. ✓ Each session has learning_goal reference
+6. ✓ Slide 1 of each session: type = "learning_goal_title"
+7. ✓ Last slide of each session: type = "goal_summary"
+8. ✓ All content slides have goal_reference field
+9. ✓ All bottom_notes include "[Goal N]" prefix
+10. ✓ Total slides = slides_allocated sum (30-32)
+11. ✓ Chart ratio ≥33%
+
+## Quality Checks:
+- Goals form narrative progression (check narrative_role)
+- Slide types appropriate for goal types (math slides for math goals)
+- Charts aligned with goals (theory charts for theory goals)
+- Bottom notes consistently reference goals
+
+---
+
+# Migration from v1.0 to v2.0
+
+## Changes Required:
+1. **learning_objectives** (array[string]) → **learning_goals** (array[object])
+2. **4 objectives** → **3 learning goals**
+3. **sessions: 4** → **sessions: 3**
+4. Add **type** field to each learning goal
+5. Add **narrative_role** field to each learning goal
+6. Add **goal_reference** field to all slides
+7. Add **learning_goal_title** slide at start of each session
+8. Add **goal_summary** slide at end of each session
+9. Update **bottom_note** format to include "[Goal N]"
+10. Adjust slide numbering (1-10, 11-20, 21-30)
+
+---
+
+*Communication Schemas v2.0 - Learning Goal Driven Architecture*

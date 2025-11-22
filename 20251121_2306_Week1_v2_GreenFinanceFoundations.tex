@@ -1,0 +1,767 @@
+\documentclass[8pt,aspectratio=169]{beamer}
+\usetheme{Madrid}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{adjustbox}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{amssymb}  % For checkmark symbol
+
+% Color definitions
+\definecolor{mlblue}{RGB}{0,102,204}
+\definecolor{mlpurple}{RGB}{51,51,178}
+\definecolor{mllavender}{RGB}{173,173,224}
+\definecolor{mllavender2}{RGB}{193,193,232}
+\definecolor{mllavender3}{RGB}{204,204,235}
+\definecolor{mllavender4}{RGB}{214,214,239}
+\definecolor{mlorange}{RGB}{255, 127, 14}
+\definecolor{mlgreen}{RGB}{44, 160, 44}
+\definecolor{mlred}{RGB}{214, 39, 40}
+\definecolor{mlgray}{RGB}{127, 127, 127}
+
+% Additional colors for template compatibility
+\definecolor{lightgray}{RGB}{240, 240, 240}
+\definecolor{midgray}{RGB}{180, 180, 180}
+
+% Apply custom colors to Madrid theme
+\setbeamercolor{palette primary}{bg=mllavender3,fg=mlpurple}
+\setbeamercolor{palette secondary}{bg=mllavender2,fg=mlpurple}
+\setbeamercolor{palette tertiary}{bg=mllavender,fg=white}
+\setbeamercolor{palette quaternary}{bg=mlpurple,fg=white}
+
+\setbeamercolor{structure}{fg=mlpurple}
+\setbeamercolor{section in toc}{fg=mlpurple}
+\setbeamercolor{subsection in toc}{fg=mlblue}
+\setbeamercolor{title}{fg=mlpurple}
+\setbeamercolor{frametitle}{fg=mlpurple,bg=mllavender3}
+\setbeamercolor{block title}{bg=mllavender2,fg=mlpurple}
+\setbeamercolor{block body}{bg=mllavender4,fg=black}
+
+% Remove navigation symbols
+\setbeamertemplate{navigation symbols}{}
+
+% Clean itemize/enumerate
+\setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{enumerate items}[default]
+
+% Reduce margins for more content space
+\setbeamersize{text margin left=5mm,text margin right=5mm}
+
+% Command for bottom annotation (Madrid-style)
+\newcommand{\bottomnote}[1]{%
+\vfill
+\vspace{-2mm}
+\textcolor{mllavender2}{\rule{\textwidth}{0.4pt}}
+\vspace{1mm}
+\footnotesize
+\textbf{#1}
+}
+
+\title{Week 1: Green Finance Foundations}
+\subtitle{Theoretical Framework, Market Measurement, and Valuation Models}
+\author{Green Finance Course}
+\date{v2.0 - Learning Goal Driven Structure}
+
+\begin{document}
+
+% ============================================================
+% SESSION 1: LEARNING GOAL 1 - THEORETICAL FOUNDATION
+% ============================================================
+
+% Slide 1: Learning Goal 1 Title
+\begin{frame}[plain]
+\vfill
+\centering
+\begin{beamercolorbox}[sep=12pt,center]{title}
+{\Huge \textbf{Learning Goal 1}}\\[1.5em]
+{\Large Understand the market microstructure theory explaining why green finance markets exist and how they function}\\[1em]
+{\normalsize \textcolor{mllavender}{theoretical | Foundation - Establishes theoretical basis}}
+\end{beamercolorbox}
+\vfill
+\end{frame}
+
+% Slide 2: Framework Overview
+\begin{frame}[t]{Market Microstructure Framework for Green Finance}
+\begin{center}
+{\large \textbf{Information Asymmetry and Signaling Theory}}
+\end{center}
+\vspace{0.5em}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Core Theoretical Principles}
+\begin{itemize}
+\item Information asymmetry: Issuers know true environmental impact, investors cannot observe directly
+\item Verification as credible signaling mechanism reducing asymmetry
+\item Market segmentation by investor ESG preferences
+\item Adverse selection risk without credible signals
+\end{itemize}
+\column{0.48\textwidth}
+\textbf{Market Equilibrium Predictions}
+\begin{itemize}
+\item Greenium emerges from excess demand in segmented market
+\item Verification costs create quality differentiation
+\item Liquidity premium for standardized green instruments
+\item Reputation effects for repeat issuers
+\end{itemize}
+\end{columns}
+\bottomnote{[Goal 1] Theory predicts observable phenomena: greenium, verification prevalence, standardization}
+\end{frame}
+
+% Slide 3: Chart - Ecosystem
+\begin{frame}[t]{Green Finance Ecosystem: Theoretical Perspective}
+\vspace{-13mm}
+\begin{center}
+\includegraphics[width=0.4\textwidth]{charts/week1/week1_v2_goal1_chart1_ecosystem.pdf}
+\end{center}
+\vspace{-5mm}
+\bottomnote{[Goal 1] Ecosystem structure reflects information asymmetry and signaling needs}
+\end{frame}
+
+% Slide 4: Information Asymmetry Problem
+\begin{frame}[t]{The Information Asymmetry Problem}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Why Asymmetry Exists}
+\begin{itemize}
+\item Environmental impact not directly observable by investors
+\item Issuers possess private information about projects
+\item Ex-post verification costly and delayed
+\item Incentive for greenwashing (false green claims)
+\item Market failure: Good projects cannot distinguish themselves
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Consequences Without Solution}
+\begin{itemize}
+\item Adverse selection: Bad drives out good (lemons market)
+\item Risk premium demanded by rational investors
+\item Socially optimal green projects underfunded
+\item Market inefficiency and suboptimal allocation
+\end{itemize}
+\end{columns}
+\bottomnote{[Goal 1] Classic asymmetric information problem from Akerlof (1970) applied to green finance}
+\end{frame}
+
+% Slide 5: Verification as Solution
+\begin{frame}[t]{Verification as Credible Signaling}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{How Verification Solves Asymmetry}
+\begin{itemize}
+\item Independent third-party assessment provides credible signal
+\item Costly signal (verification fees) separates true green from greenwashing
+\item Ongoing reporting creates reputation stakes for issuers
+\item Standards (GBP, CBI) define what constitutes credible signal
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Evidence of Signaling at Work}
+\begin{itemize}
+\item Over 90\% of green bonds obtain external review
+\item Verified bonds trade at tighter spreads (greenium)
+\item Repeat issuers face reputation costs if greenwashing
+\item Market rewards standardization and transparency
+\end{itemize}
+\end{columns}
+\bottomnote{[Goal 1] Signaling theory (Spence 1973) explains why verification is market standard}
+\end{frame}
+
+% Slide 6: Market Segmentation
+\begin{frame}[t]{Market Segmentation Hypothesis}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Theory of Segmentation}
+\begin{itemize}
+\item Investors heterogeneous in ESG preferences (utility function)
+\item Dedicated ESG investors willing to accept lower returns for impact
+\item Conventional investors indifferent to green label
+\item Imperfect substitutability creates separate market segments
+\item Excess demand in green segment $\rightarrow$ price premium (greenium)
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Testable Predictions}
+\begin{itemize}
+\item Green bonds should trade at premium to identical conventional bonds
+\item Premium larger when ESG investor demand stronger
+\item Premium varies across geographies with different ESG adoption
+\item Limited arbitrage due to preference-based segmentation
+\end{itemize}
+\end{columns}
+\bottomnote{[Goal 1] Segmentation explains persistent greenium despite identical cash flows}
+\end{frame}
+
+% Slide 7: Chart - Segmentation Model
+\begin{frame}[t]{Market Segmentation Diagram}
+\vspace{-10mm}
+\begin{center}
+\includegraphics[width=0.48\textwidth]{charts/week1/week1_v2_goal1_chart2_segmentation.pdf}
+\end{center}
+\vspace{-3mm}
+\bottomnote{[Goal 1] Separate demand curves in each segment lead to price differential (greenium)}
+\end{frame}
+
+% Slide 8: Liquidity and Standardization
+\begin{frame}[t]{Liquidity Benefits of Standardization}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Theoretical Mechanism}
+\begin{itemize}
+\item Standardized products reduce search and information costs
+\item Common language (GBP) facilitates comparison across issuers
+\item Network effects: More standardized issuance $\rightarrow$ deeper liquidity
+\item Liquidity premium reduces required yields
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Empirical Implications}
+\begin{itemize}
+\item GBP-aligned bonds should have better liquidity
+\item Larger green bond programs trade more actively
+\item Green bond indices and ETFs emerge from standardization
+\item First-mover advantage for standard-setters (ICMA)
+\end{itemize}
+\end{columns}
+\bottomnote{[Goal 1] Standardization creates positive feedback loop improving market efficiency}
+\end{frame}
+
+% Slide 9: Theoretical Predictions Summary
+\begin{frame}[t]{Theory's Predictions for Empirical Testing}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{What Theory Predicts We Should Observe}
+\begin{itemize}
+\item Greenium: 0-10 bps price premium for green bonds
+\item Verification: Majority of bonds have external review
+\item Standardization: Market coalesces around common principles
+\item Repeat issuers: Reputation effects and learning curves
+\item Growth: Market expands as ESG demand increases
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Preview of Empirical Evidence (Goal 2)}
+\begin{itemize}
+\item Observed greenium: 0-5 bps (Theory \textcolor{mlgreen}{\checkmark})
+\item External review rate: >90\% (Theory \textcolor{mlgreen}{\checkmark})
+\item Standardization increasing (Theory \textcolor{mlgreen}{\checkmark})
+\item Frequent issuers dominate (Theory \textcolor{mlgreen}{\checkmark})
+\item 25\% CAGR 2015-2024 (Theory \textcolor{mlgreen}{\checkmark})
+\end{itemize}
+\end{columns}
+\bottomnote{[Goal 1] Strong theoretical foundation with empirical support - validated in Goal 2}
+\end{frame}
+
+% Slide 10: Goal 1 Summary
+\begin{frame}[t]{Learning Goal 1: Summary}
+\begin{center}
+{\Large \textbf{Learning Goal 1: Summary}}\\[0.5em]
+{\normalsize \textit{Understand market microstructure theory explaining green finance}}
+\end{center}
+
+\vspace{0.5em}
+
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{What We Achieved}
+\begin{itemize}
+\item \textcolor{mlgreen}{$\checkmark$} Identified information asymmetry as core problem requiring verification
+\item \textcolor{mlgreen}{$\checkmark$} Analyzed how signaling theory explains verification as market standard
+\item \textcolor{mlgreen}{$\checkmark$} Understood market segmentation hypothesis for greenium existence
+\item \textcolor{mlgreen}{$\checkmark$} Connected standardization to liquidity and efficiency gains
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Can You Now...}
+\begin{itemize}
+\item Explain why greenium exists using economic theory?
+\item Describe how verification solves information asymmetry?
+\item Predict which factors increase or decrease greenium?
+\item Apply this framework to analyze new green instruments?
+\end{itemize}
+\end{columns}
+
+\bottomnote{[Goal 1] Achieved - Theoretical foundation complete. Next: Quantitative measurement}
+\end{frame}
+
+% ============================================================
+% SESSION 2: LEARNING GOAL 2 - QUANTITATIVE ANALYSIS
+% ============================================================
+
+% Slide 11: Learning Goal 2 Title
+\begin{frame}[plain]
+\vfill
+\centering
+\begin{beamercolorbox}[sep=12pt,center]{title}
+{\Huge \textbf{Learning Goal 2}}\\[1.5em]
+{\Large Quantify and analyze global green finance market size, growth trajectories, and geographic distribution}\\[1em]
+{\normalsize \textcolor{mllavender}{quantitative | Build - Develops empirical measurement capabilities}}
+\end{beamercolorbox}
+\vfill
+\end{frame}
+
+% Slide 12: Measurement Methodology
+\begin{frame}[t]{Measuring the Green Finance Market}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Methodological Challenges}
+\begin{itemize}
+\item Definition: What qualifies as ``green''? (Taxonomy dependence)
+\item Double counting: Issuance vs outstanding amounts
+\item Currency: Conversion to common denominator (USD)
+\item Coverage: Data availability varies by region and instrument
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Standard Metrics}
+\begin{itemize}
+\item Total market size: Outstanding amount (stock)
+\item Annual issuance: New volume each year (flow)
+\item CAGR: Compound Annual Growth Rate
+\item Market share: By instrument, region, sector
+\end{itemize}
+\end{columns}
+\bottomnote{[Goal 2] Rigorous quantification requires clear methodology and consistent definitions}
+\end{frame}
+
+% Slide 13: Chart - Market Growth
+\begin{frame}[t]{Global Green Finance Market Growth 2015-2024}
+\vspace{-2mm}
+\begin{center}
+\includegraphics[width=0.75\textwidth]{charts/week1/week1_v2_goal2_chart1_market_growth.pdf}
+\end{center}
+\bottomnote{[Goal 2] Market grew from \$300B (2015) to \$2.1T (2024): Validates theory of rising ESG demand}
+\end{frame}
+
+% Slide 14: Growth Rate Calculation
+\begin{frame}[t]{Growth Rate Analysis: CAGR Calculation}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{CAGR Formula and Application}
+\begin{itemize}
+\item Formula: $CAGR = (V_{final}/V_{initial})^{1/n} - 1$
+\item Period: 2015-2024 (n = 9 years)
+\item Initial: \$300B (2015)
+\item Final: \$2,100B (2024)
+\item Calculation: $(2100/300)^{1/9} - 1 = 24.9\%$
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Interpretation and Context}
+\begin{itemize}
+\item 24.9\% CAGR indicates explosive growth phase
+\item Comparison: Global bond market $\sim$5\% CAGR same period
+\item Green finance growing 5$\times$ faster than conventional
+\item 2022 dip (\$1.45T) due to broader market volatility
+\end{itemize}
+\end{columns}
+\bottomnote{[Goal 2] Quantitative analysis confirms theoretical prediction of rapid market expansion}
+\end{frame}
+
+% Slide 15: Chart - Regional Distribution
+\begin{frame}[t]{Geographic Distribution of Green Finance}
+\begin{center}
+\includegraphics[width=0.75\textwidth]{charts/week1/week1_v2_goal2_chart2_regional.pdf}
+\end{center}
+\bottomnote{[Goal 2] Europe 44\%, Asia-Pacific 32\%, Americas 20\% - reflects regulatory push in EU}
+\end{frame}
+
+% Slide 16: Regional Analysis
+\begin{frame}[t]{Regional Patterns and Drivers}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Europe: Market Leader}
+\begin{itemize}
+\item 44\% global market share (\$920B annual issuance)
+\item Driver: EU Taxonomy mandatory disclosure
+\item SFDR regulation creates demand from asset managers
+\item Strong sovereign issuance (France, Germany, UK)
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Asia-Pacific: Rapid Growth}
+\begin{itemize}
+\item 32\% market share (\$680B), fastest growth region
+\item China dominates (\$450B), policy-driven expansion
+\item Japan, South Korea increasing (net-zero commitments)
+\item Southeast Asia emerging (ASEAN Taxonomy)
+\end{itemize}
+\end{columns}
+\bottomnote{[Goal 2] Regional variation driven by policy frameworks and regulatory mandates}
+\end{frame}
+
+% Slide 17: Chart - Instrument Breakdown
+\begin{frame}[t]{Market Composition by Instrument Type}
+\begin{center}
+\includegraphics[width=0.75\textwidth]{charts/week1/week1_v2_goal2_chart3_instruments.pdf}
+\end{center}
+\bottomnote{[Goal 2] Green bonds \$1.6T (76\%), Sustainability-linked bonds \$500B (24\%) of total}
+\end{frame}
+
+% Slide 18: Chart - Sector Allocation
+\begin{frame}[t]{Allocation Across Economic Sectors}
+\begin{center}
+\includegraphics[width=0.75\textwidth]{charts/week1/week1_v2_goal2_chart4_sectors.pdf}
+\end{center}
+\bottomnote{[Goal 2] Energy 38\%, Buildings 24\%, Transport 18\% - aligns with decarbonization priorities}
+\end{frame}
+
+% Slide 19: Statistical Summary
+\begin{frame}[t]{Quantitative Summary: Key Statistics}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Market Size Metrics (2024)}
+\begin{itemize}
+\item Total outstanding: \$2.1 trillion
+\item Annual issuance: \$650 billion
+\item Green bonds outstanding: \$1.6T (76\%)
+\item Number of issuers: 1,200+ globally
+\item Average deal size: \$540 million
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Growth and Distribution}
+\begin{itemize}
+\item 9-year CAGR: 24.9\% (2015-2024)
+\item Regional: EU 44\%, APAC 32\%, Americas 20\%
+\item Sectoral: Energy 38\%, Buildings 24\%, Transport 18\%
+\item Forecasted 2030: \$5.0-6.0 trillion
+\end{itemize}
+\end{columns}
+\bottomnote{[Goal 2] Comprehensive quantitative picture validates theoretical predictions from Goal 1}
+\end{frame}
+
+% Slide 20: Goal 2 Summary
+\begin{frame}[t]{Learning Goal 2: Summary}
+\begin{center}
+{\Large \textbf{Learning Goal 2: Summary}}\\[0.5em]
+{\normalsize \textit{Quantify and analyze market size, growth, and distribution}}
+\end{center}
+
+\vspace{0.5em}
+
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{What We Achieved}
+\begin{itemize}
+\item \textcolor{mlgreen}{$\checkmark$} Quantified market at \$2.1T with 24.9\% CAGR (2015-2024)
+\item \textcolor{mlgreen}{$\checkmark$} Analyzed regional distribution: Europe leads (44\%), Asia growing fastest
+\item \textcolor{mlgreen}{$\checkmark$} Measured instrument composition: Green bonds dominant (76\%)
+\item \textcolor{mlgreen}{$\checkmark$} Validated theoretical predictions with empirical data
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Can You Now...}
+\begin{itemize}
+\item Calculate growth rates (CAGR) for market segments?
+\item Compare regional adoption and explain differences?
+\item Analyze sector allocation and investment priorities?
+\item Use empirical data to test theoretical hypotheses?
+\end{itemize}
+\end{columns}
+
+\bottomnote{[Goal 2] Achieved - Quantitative measurement complete. Next: Mathematical valuation models}
+\end{frame}
+
+% ============================================================
+% SESSION 3: LEARNING GOAL 3 - MATHEMATICAL VALUATION
+% ============================================================
+
+% Slide 21: Learning Goal 3 Title
+\begin{frame}[plain]
+\vfill
+\centering
+\begin{beamercolorbox}[sep=12pt,center]{title}
+{\Huge \textbf{Learning Goal 3}}\\[1.5em]
+{\Large Derive and apply bond pricing models incorporating greenium and environmental premium adjustments}\\[1em]
+{\normalsize \textcolor{mllavender}{mathematical | Apply - Demonstrates mathematical valuation methods}}
+\end{beamercolorbox}
+\vfill
+\end{frame}
+
+% Slide 22: Classical Pricing Derivation
+\begin{frame}[t]{Classical Bond Pricing: Derivation from First Principles}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Starting Point}
+
+$$P_0 = \sum_{t=1}^{T} \frac{C}{(1+r)^t} + \frac{F}{(1+r)^T}$$
+
+\textbf{Assumptions:}
+\begin{itemize}
+\item Constant discount rate $r$ (risk-free + credit spread)
+\item Fixed annual coupon $C$
+\item Face value $F$ repaid at maturity $T$
+\item No embedded options or default
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Algebraic Simplification}
+
+\begin{enumerate}
+\item Separate coupon annuity from principal:
+\begin{equation*}
+P_0 = C \sum_{t=1}^{T} (1+r)^{-t} + F(1+r)^{-T}
+\end{equation*}
+
+\item Apply geometric series formula to annuity:
+\begin{equation*}
+= C \cdot \frac{1 - (1+r)^{-T}}{r} + F(1+r)^{-T}
+\end{equation*}
+
+\item Standard decomposition for analysis:
+\begin{equation*}
+= PV(\text{Coupons}) + PV(\text{Principal})
+\end{equation*}
+\end{enumerate}
+\end{columns}
+\bottomnote{[Goal 3] Classical formula forms mathematical foundation for all bond valuation}
+\end{frame}
+
+% Slide 23: Greenium Incorporation
+\begin{frame}[t]{Green Bond Pricing: Incorporating Greenium}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Theoretical Extension}
+
+$$P_G = \sum_{t=1}^{T} \frac{C}{(1+r-g)^t} + \frac{F}{(1+r-g)^T}$$
+
+\textbf{Key Elements:}
+\begin{itemize}
+\item Greenium $g > 0$ (0-5 bps typically)
+\item Same cash flows as conventional bond
+\item Environmental premium priced via lower required return
+\item Adjust discount rate by greenium $g$
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Price Differential Analysis}
+
+\begin{enumerate}
+\item Green bond trades at premium:
+\begin{equation*}
+P_G > P_0 \text{ if } g > 0
+\end{equation*}
+
+\item Convert decimal to basis points:
+\begin{equation*}
+\text{Greenium (bps)} = g \times 10000
+\end{equation*}
+
+\item Price difference approximation using duration $D$:
+\begin{equation*}
+P_G - P_0 \approx C \cdot g \cdot D
+\end{equation*}
+\end{enumerate}
+\end{columns}
+\bottomnote{[Goal 3] Mathematical model quantifies greenium's impact on bond valuation}
+\end{frame}
+
+% Slide 24: Worked Example
+\begin{frame}[t]{Numerical Example: Green vs Conventional Pricing}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Bond Specifications}
+\begin{itemize}
+\item Face value: $F = 1000$ (EUR)
+\item Coupon rate: 3\% annual (C = 30 EUR)
+\item Maturity: T = 10 years
+\item Risk-free rate: 2\%
+\item Credit spread: 0.5\%
+\item Greenium: g = 0.03\% (3 bps)
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Valuation Calculations}
+\begin{itemize}
+\item Conventional: $r = 2.5\%$
+\item Price: $P_0 = 1043.76$ EUR
+\item Green: $r_G = 2.47\%$ (2.5\% - 0.03\%)
+\item Price: $P_G = 1046.89$ EUR
+\item Difference: $3.13$ EUR (0.3\% premium)
+\end{itemize}
+\end{columns}
+\bottomnote{[Goal 3] 3 bps greenium translates to €3.13 price premium on €1000 bond}
+\end{frame}
+
+% Slide 25: Chart - Yield Comparison
+\begin{frame}[t]{Yield Curves: Green vs Conventional Bonds}
+\vspace{-2mm}
+\begin{center}
+\includegraphics[width=0.75\textwidth]{charts/week1/week1_v2_goal3_chart1_yields.pdf}
+\end{center}
+\bottomnote{[Goal 3] Empirical greenium averages 3-4 bps, consistent with theoretical prediction}
+\end{frame}
+
+% Slide 26: Duration and Sensitivity
+\begin{frame}[t]{Duration Analysis and Price Sensitivity}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Modified Duration}
+\begin{itemize}
+\item Duration $D = \frac{1}{P} \frac{\partial P}{\partial r}$
+\item Measures price sensitivity to yield changes
+\item Higher duration $\rightarrow$ greater greenium impact
+\item 10-year bond: $D \approx 8.5$ years
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Greenium Sensitivity}
+\begin{itemize}
+\item Price change: $\Delta P \approx -P \cdot D \cdot \Delta r$
+\item 1 bp greenium on 10-yr bond: 0.085\% price impact
+\item Longer maturity amplifies greenium effect
+\item Investor arbitrage limited by segmentation
+\end{itemize}
+\end{columns}
+\bottomnote{[Goal 3] Mathematical relationship between duration and greenium magnitude}
+\end{frame}
+
+% Slide 27: Chart - Duration Model
+\begin{frame}[t]{Pricing Model: Green Premium vs Duration}
+\vspace{-2mm}
+\begin{center}
+\includegraphics[width=0.75\textwidth]{charts/week1/week1_v2_goal3_chart2_duration.pdf}
+\end{center}
+\bottomnote{[Goal 3] Longer duration bonds show larger absolute price premium for given greenium}
+\end{frame}
+
+% Slide 28: Risk-Return Framework
+\begin{frame}[t]{Risk-Return Analysis for Green Bonds}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Return Components}
+\begin{itemize}
+\item Base return: Risk-free rate + credit spread
+\item Greenium effect: Lower required return (-3 to -5 bps)
+\item Liquidity premium: May offset greenium (varies)
+\item Total return: Comparable to conventional bonds
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Risk Profile}
+\begin{itemize}
+\item Credit risk: Identical to conventional bonds (same issuer)
+\item Interest rate risk: Measured by duration (same as conventional)
+\item Greenwashing risk: Specific to green bonds (mitigated by verification)
+\item Regulatory risk: EU Taxonomy changes, standards evolution
+\end{itemize}
+\end{columns}
+\bottomnote{[Goal 3] Green bonds offer similar risk-return profile with additional ESG benefit}
+\end{frame}
+
+% Slide 29: Chart - Risk-Return Scatter
+\begin{frame}[t]{Risk-Return Profile: Green vs Conventional}
+\vspace{-2mm}
+\begin{center}
+\includegraphics[width=0.75\textwidth]{charts/week1/week1_v2_goal3_chart3_risk_return.pdf}
+\end{center}
+\bottomnote{[Goal 3] Empirical evidence: Competitive risk-adjusted returns with lower volatility}
+\end{frame}
+
+% Slide 30: Chart - Greenium Over Time
+\begin{frame}[t]{Greenium Evolution 2019-2024}
+\vspace{-2mm}
+\begin{center}
+\includegraphics[width=0.75\textwidth]{charts/week1/week1_v2_goal3_chart4_greenium_time.pdf}
+\end{center}
+\bottomnote{[Goal 3] Greenium declining from 7 bps (2019) to 2 bps (2024) as supply meets demand}
+\end{frame}
+
+% Slide 31: Week Summary (All 3 Goals Integrated)
+\begin{frame}[t]{Week 1 Complete: Theory $\rightarrow$ Measurement $\rightarrow$ Valuation}
+\begin{center}
+{\Large \textbf{Week 1 Integration: Complete Green Finance Foundation}}
+\end{center}
+
+\vspace{0.5em}
+
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Three-Goal Narrative Complete}
+\begin{itemize}
+\item \textcolor{mlgreen}{$\checkmark$} Goal 1 (Theory): WHY green finance exists - information asymmetry, segmentation
+\item \textcolor{mlgreen}{$\checkmark$} Goal 2 (Measurement): HOW MUCH - \$2.1T market, 25\% CAGR, geographic distribution
+\item \textcolor{mlgreen}{$\checkmark$} Goal 3 (Valuation): HOW TO PRICE - pricing models, greenium quantification
+\item \textcolor{mlgreen}{$\checkmark$} Story arc: Theoretical foundation $\rightarrow$ Empirical evidence $\rightarrow$ Mathematical application
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Week 1 Mastery: Can You...}
+\begin{itemize}
+\item Explain greenium using microstructure theory?
+\item Calculate market growth rates and project future size?
+\item Derive bond pricing models and apply to green bonds?
+\item Integrate theory, data, and mathematics in analysis?
+\end{itemize}
+\end{columns}
+
+\vspace{0.5em}
+
+\bottomnote{Week 1 foundations complete - Next week: Deep dive into green bond structures and issuance processes}
+\end{frame}
+
+% ============================================================
+% ADDITIONAL CHARTS (11-16)
+% ============================================================
+
+% NEW: Chart 11 - Investment Gap
+\begin{frame}[t]{Green Finance Investment Gap by Sector}
+\vspace{-10mm}
+\begin{center}
+\includegraphics[width=0.85\textwidth]{charts/week1/11_investment_gap/11_investment_gap.pdf}
+\end{center}
+\vspace{-5mm}
+\bottomnote{[Goal 2] \$2.04T annual gap demonstrates massive funding need driving market growth}
+\end{frame}
+
+% NEW: Chart 12 - Verification Statistics
+\begin{frame}[t]{External Verification in Green Bond Market}
+\vspace{-10mm}
+\begin{center}
+\includegraphics[width=0.85\textwidth]{charts/week1/12_verification_stats/12_verification_stats.pdf}
+\end{center}
+\vspace{-5mm}
+\bottomnote{[Goal 1] Over 80\% of green bonds have external review (OECD 2024) - validates signaling theory}
+\end{frame}
+
+% NEW: Chart 13 - Issuer Concentration
+\begin{frame}[t]{Top Green Bond Issuers 2015-2024}
+\vspace{-10mm}
+\begin{center}
+\includegraphics[width=0.85\textwidth]{charts/week1/13_issuer_concentration/13_issuer_concentration.pdf}
+\end{center}
+\vspace{-5mm}
+\bottomnote{[Goal 2] Repeat issuers dominate market - confirms market concentration patterns}
+\end{frame}
+
+% NEW: Chart 14 - Credit Rating Distribution
+\begin{frame}[t]{Credit Rating Distribution: Green vs Conventional}
+\vspace{-10mm}
+\begin{center}
+\includegraphics[width=0.85\textwidth]{charts/week1/14_credit_ratings/14_credit_ratings.pdf}
+\end{center}
+\vspace{-5mm}
+\bottomnote{[Goal 3] Green bonds show higher credit quality (predominantly investment grade)}
+\end{frame}
+
+% NEW: Chart 15 - ESG Fund Flows
+\begin{frame}[t]{ESG Fund Net Inflows and Assets Under Management}
+\vspace{-10mm}
+\begin{center}
+\includegraphics[width=0.80\textwidth]{charts/week1/15_esg_fund_flows/15_esg_fund_flows.pdf}
+\end{center}
+\vspace{-7mm}
+\bottomnote{[Goal 2] ESG AUM grew from \$1.2T (2019) to \$3.5T (2024) - drives demand}
+\end{frame}
+
+% NEW: Chart 16 - Standardization Adoption
+\begin{frame}[t]{Standardization in Green Bond Market}
+\vspace{-10mm}
+\begin{center}
+\includegraphics[width=0.85\textwidth]{charts/week1/16_standardization/16_standardization.pdf}
+\end{center}
+\vspace{-5mm}
+\bottomnote{[Goal 1] 96\% of market follows established standards - confirms standardization theory}
+\end{frame}
+
+\end{document}

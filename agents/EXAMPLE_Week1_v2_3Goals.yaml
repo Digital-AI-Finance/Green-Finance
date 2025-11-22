@@ -1,0 +1,488 @@
+# Week 1 Example - v2.0 Learning Goal Structure
+# Green Finance Foundations with 3 Goals
+
+week_number: 1
+title: "Week 1: Green Finance Foundations"
+theme: "Theoretical, Quantitative, and Valuation Foundations"
+
+# NEW v2.0: 3 Learning Goals forming narrative
+learning_goals:
+  - goal_number: 1
+    type: "theoretical"
+    statement: "Understand the market microstructure theory explaining green finance ecosystem dynamics"
+    narrative_role: "Foundation - Establishes theoretical basis for why green finance exists and how markets function"
+    blooms_level: "Understand/Analyze"
+    slides_allocated: 10
+    key_concepts:
+      - "Information asymmetry in environmental claims"
+      - "Verification as signaling mechanism"
+      - "Market segmentation hypothesis"
+      - "Liquidity and greenium theory"
+
+  - goal_number: 2
+    type: "quantitative"
+    statement: "Quantify and analyze green finance market size, growth trajectories, and regional distribution patterns"
+    narrative_role: "Build - Develops empirical measurement and statistical analysis capabilities"
+    blooms_level: "Analyze"
+    slides_allocated: 10
+    key_concepts:
+      - "Market size measurement methodologies"
+      - "Growth rate calculation (CAGR)"
+      - "Regional distribution analysis"
+      - "Sector allocation metrics"
+
+  - goal_number: 3
+    type: "mathematical"
+    statement: "Derive and apply pricing models for green bonds incorporating environmental premium adjustments"
+    narrative_role: "Apply - Demonstrates practical valuation using mathematical frameworks"
+    blooms_level: "Apply/Analyze"
+    slides_allocated: 10
+    key_concepts:
+      - "Classical bond pricing derivation"
+      - "Greenium incorporation in discount rate"
+      - "Comparative valuation analysis"
+      - "Risk-return trade-offs"
+
+slides_count: 30
+charts_count: 10
+
+# 3 Sessions (one per learning goal)
+sessions:
+  # ============================================================
+  # SESSION 1: Learning Goal 1 - Theoretical Foundation
+  # ============================================================
+  - session_number: 1
+    learning_goal:
+      goal_number: 1
+      type: "theoretical"
+      statement: "Understand the market microstructure theory explaining green finance ecosystem dynamics"
+    title: "Session 1: Market Microstructure Theory of Green Finance"
+    duration_hours: 3.5
+
+    slides:
+      # Slide 1: Learning Goal Title
+      - slide_number: 1
+        type: "learning_goal_title"
+        goal_number: 1
+        goal_statement: "Understand the market microstructure theory explaining green finance ecosystem dynamics"
+        goal_type: "theoretical"
+        narrative_role: "Foundation - Establishes theoretical basis"
+
+      # Slide 2: Framework overview
+      - slide_number: 2
+        type: "framework_overview"
+        title: "Green Finance Market Microstructure Framework"
+        goal_reference: 1
+        framework_name: "Asymmetric Information and Signaling Theory"
+        left_header: "Core Theoretical Principles"
+        left_bullets:
+          - "Information asymmetry between issuers and investors on environmental claims"
+          - "Verification serves as credible signal reducing asymmetry"
+          - "Market segmentation by investor ESG preferences"
+          - "Adverse selection without verification standards"
+        right_header: "Market Equilibrium Predictions"
+        right_bullets:
+          - "Greenium emerges from excess demand in segmented market"
+          - "Verification costs create entry barriers"
+          - "Liquidity premium for standardized instruments"
+          - "Price discovery through repeated interaction"
+        bottom_note: "[Goal 1] Theory predicts observable market phenomena (greenium, verification prevalence)"
+
+      # Slide 3: Information asymmetry model
+      - slide_number: 3
+        type: "two-column"
+        title: "Information Asymmetry in Green Claims"
+        goal_reference: 1
+        left_header: "The Problem: Asymmetric Information"
+        left_bullets:
+          - "Issuers know true environmental impact"
+          - "Investors cannot directly observe impact"
+          - "Risk of greenwashing (false claims)"
+          - "Market failure: adverse selection"
+          - "Socially optimal projects may not get funded"
+        right_header: "The Solution: Signaling Mechanisms"
+        right_bullets:
+          - "Third-party verification as credible signal"
+          - "Certification by Climate Bonds Initiative"
+          - "External review (second-party opinions)"
+          - "Ongoing impact reporting requirements"
+          - "Reputation effects for repeat issuers"
+        bottom_note: "[Goal 1] Asymmetric information theory explains why verification is essential feature of green bonds"
+
+      # Slide 4: Chart - Ecosystem with theoretical labels
+      - slide_number: 4
+        type: "chart"
+        title: "Ecosystem Structure: Theoretical Perspective"
+        goal_reference: 1
+        chart_spec:
+          chart_id: "week1_goal1_chart1_ecosystem_theory"
+          type: "flowchart"
+          tool: "graphviz"
+          description: "Market participants and information flows from microstructure theory perspective"
+          title: "Green Finance Ecosystem\\nTheoretical Model"
+          graphviz_spec:
+            diagram_type: "flowchart"
+            layout: "TB"
+            nodes:
+              - id: "issuers"
+                label: "Issuers\\n(Private information\\nabout impact)"
+                color: "#C1C1E8"
+              - id: "verifiers"
+                label: "Verifiers\\n(Reduce information\\nasymmetry)"
+                color: "#CCCCEB"
+              - id: "investors"
+                label: "Investors\\n(ESG preferences,\\nlimited information)"
+                color: "#D6D6EF"
+              - id: "standards"
+                label: "Standard-Setters\\n(Define credible\\nsignals)"
+                color: "#C1C1E8"
+            edges:
+              - from: "issuers"
+                to: "verifiers"
+                label: "Claims + Evidence"
+                style: "solid"
+              - from: "verifiers"
+                to: "investors"
+                label: "Verified Signal"
+                style: "solid"
+              - from: "standards"
+                to: "verifiers"
+                label: "Verification Standards"
+                style: "dashed"
+              - from: "investors"
+                to: "issuers"
+                label: "Capital (if signal credible)"
+                style: "dotted"
+        bottom_note: "[Goal 1] Ecosystem structure reflects information economics: verification bridges asymmetry"
+
+      # Slide 5: Market segmentation
+      - slide_number: 5
+        type: "two-column"
+        title: "Market Segmentation Hypothesis"
+        goal_reference: 1
+        left_header: "Theory"
+        left_bullets:
+          - "Investors heterogeneous in ESG preferences"
+          - "Some willing to pay premium for green assets"
+          - "Market segments into green and conventional"
+          - "Imperfect substitutability between segments"
+          - "Excess demand in green segment creates greenium"
+        right_header: "Empirical Implications"
+        right_bullets:
+          - "Green bonds should trade at price premium"
+          - "Premium higher when ESG demand strong"
+          - "Premium varies across investor bases"
+          - "Dedicated green investors less price-sensitive"
+          - "Cross-market arbitrage limited by preferences"
+        bottom_note: "[Goal 1] Segmentation theory explains persistent greenium despite identical cash flows"
+
+      # Slides 6-9: Additional theoretical content
+      - slide_number: 6
+        type: "two-column"
+        title: "Greenium: Theoretical Explanation"
+        goal_reference: 1
+        left_header: "Classical Finance Prediction"
+        left_bullets:
+          - "Identical cash flows → identical prices"
+          - "Risk-neutral valuation: $P = E[CF]/r$"
+          - "Green label should not affect price"
+          - "Any premium would be arbitraged away"
+        right_header: "Market Reality"
+        right_bullets:
+          - "Green bonds consistently trade 0-5 bps tighter"
+          - "Premium persistent, not temporary"
+          - "Varies by issuer, sector, geography"
+          - "Demand exceeds supply in green segment"
+        bottom_note: "[Goal 1] Segmentation explains what classical finance cannot"
+
+      - slide_number: 7
+        type: "two-column"
+        title: "Liquidity and Standard Effects"
+        goal_reference: 1
+        left_header: "Liquidity Theory"
+        left_bullets:
+          - "Standardized green bonds more liquid"
+          - "Common standards reduce search costs"
+          - "Liquidity premium reduces yields"
+          - "Network effects: more issuance → more liquidity"
+        right_header: "Standardization Benefits"
+        right_bullets:
+          - "Green Bond Principles provide common language"
+          - "Facilitates comparison across issuers"
+          - "Enables index construction and ETFs"
+          - "Reduces due diligence costs for investors"
+        bottom_note: "[Goal 1] Standards create positive feedback loop: standardization → liquidity → lower cost"
+
+      - slide_number: 8
+        type: "two-column"
+        title: "Theoretical Predictions vs. Reality"
+        goal_reference: 1
+        left_header: "What Theory Predicts"
+        left_bullets:
+          - "Greenium exists due to segmentation"
+          - "Verification reduces greenwashing"
+          - "Standards improve market efficiency"
+          - "Repeat issuers build reputation"
+          - "Market grows as demand increases"
+        right_header: "Empirical Evidence (Preview Goal 2)"
+        right_bullets:
+          - "Greenium: 0-5 bps observed (Theory ✓)"
+          - "90%+ bonds have external review (Theory ✓)"
+          - "Standardization increasing (Theory ✓)"
+          - "Repeat issuers dominant (Theory ✓)"
+          - "15% CAGR growth (Theory ✓)"
+        bottom_note: "[Goal 1] Theory provides strong explanatory power for observed market patterns"
+
+      - slide_number: 9
+        type: "two-column"
+        title: "Extensions and Open Questions"
+        goal_reference: 1
+        left_header: "Theory Extensions"
+        left_bullets:
+          - "Dynamic models of reputation building"
+          - "Network effects in standard adoption"
+          - "Interaction with climate policy"
+          - "Behavioral finance perspectives"
+        right_header: "Open Research Questions"
+        right_bullets:
+          - "Optimal verification intensity?"
+          - "Will greenium persist long-term?"
+          - "Impact of mandatory disclosure?"
+          - "Role of retail vs institutional investors?"
+        bottom_note: "[Goal 1] Mature theory with active research frontier"
+
+      # Slide 10: Goal 1 Summary
+      - slide_number: 10
+        type: "goal_summary"
+        title: "Learning Goal 1: Summary"
+        goal_number: 1
+        goal_statement: "Understand the market microstructure theory explaining green finance ecosystem dynamics"
+        summary_header: "What We Achieved"
+        summary_points:
+          - "Established information asymmetry as core problem requiring verification"
+          - "Analyzed market segmentation hypothesis explaining greenium"
+          - "Connected theory to ecosystem structure and participant roles"
+          - "Derived testable predictions for empirical validation"
+        check_header: "Can You Now..."
+        check_items:
+          - "Explain why greenium exists using economic theory?"
+          - "Describe how verification reduces information asymmetry?"
+          - "Predict which factors would increase/decrease greenium?"
+          - "Analyze new green instruments using this theoretical lens?"
+        bottom_note: "[Goal 1] Achieved - Theoretical foundation complete. Next: Quantitative measurement"
+
+  # ============================================================
+  # SESSION 2: Learning Goal 2 - Quantitative Analysis
+  # ============================================================
+  - session_number: 2
+    learning_goal:
+      goal_number: 2
+      type: "quantitative"
+      statement: "Quantify and analyze green finance market size, growth trajectories, and regional distribution patterns"
+    title: "Session 2: Market Quantification and Empirical Analysis"
+    duration_hours: 3.5
+
+    slides:
+      # Slide 11: Learning Goal Title
+      - slide_number: 11
+        type: "learning_goal_title"
+        goal_number: 2
+        goal_statement: "Quantify and analyze green finance market size, growth trajectories, and regional distribution patterns"
+        goal_type: "quantitative"
+        narrative_role: "Build - Develops empirical measurement capabilities"
+
+      # Slide 12: Measurement methodology
+      - slide_number: 12
+        type: "two-column"
+        title: "Quantifying the Green Finance Market"
+        goal_reference: 2
+        left_header: "Measurement Challenges"
+        left_bullets:
+          - "What counts as 'green'? (Taxonomy question)"
+          - "Issuance vs outstanding amounts"
+          - "Geographic attribution for multi-country issuers"
+          - "Currency conversion and inflation adjustment"
+          - "Data availability and reporting inconsistencies"
+        right_header: "Standard Metrics"
+        right_bullets:
+          - "Total market size (USD billions)"
+          - "Annual issuance volume"
+          - "Compound Annual Growth Rate (CAGR)"
+          - "Market share by instrument type"
+          - "Regional distribution percentages"
+        bottom_note: "[Goal 2] Quantification requires clear definitions and consistent methodology"
+
+      # Slide 13-14: Charts and analysis
+      - slide_number: 13
+        type: "chart"
+        title: "Global Green Finance Market Growth 2015-2024"
+        goal_reference: 2
+        chart_spec:
+          chart_id: "week1_goal2_chart1_market_growth"
+          type: "line"
+          tool: "python"
+          description: "Time series showing market size evolution"
+          title: "Global Green Finance Market Size\\n2015-2024 (USD Billions)"
+          data:
+            x: "years"
+            y: "market size in billions USD"
+            years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+            values: [300, 420, 580, 850, 1150, 1300, 1650, 1450, 1750, 2100]
+            cagr: 24.9  # Calculated CAGR
+          styling:
+            color: "primary"
+            fill: true
+        bottom_note: "[Goal 2] Market grew from $300B (2015) to $2.1T (2024): 24.9% CAGR - validates theory of rising demand"
+
+      # Slides 15-19: More quantitative analysis
+      # (Similar structure - metrics, charts, statistical analysis)
+
+      # Slide 20: Goal 2 Summary
+      - slide_number: 20
+        type: "goal_summary"
+        title: "Learning Goal 2: Summary"
+        goal_number: 2
+        goal_statement: "Quantify and analyze green finance market size, growth trajectories, and regional distribution"
+        summary_header: "What We Achieved"
+        summary_points:
+          - "Quantified market at $2.1T with 25% CAGR"
+          - "Analyzed regional patterns (Europe 44%, Asia 32%, Americas 20%)"
+          - "Measured instrument mix (Green bonds 76%, SL bonds 24%)"
+          - "Validated theoretical predictions with empirical data"
+        check_header: "Can You Now..."
+        check_items:
+          - "Calculate market growth rates and project future size?"
+          - "Compare regional green finance adoption patterns?"
+          - "Analyze market share trends across instruments?"
+          - "Use data to test theoretical hypotheses?"
+        bottom_note: "[Goal 2] Achieved - Quantitative skills developed. Next: Mathematical valuation models"
+
+  # ============================================================
+  # SESSION 3: Learning Goal 3 - Mathematical Valuation
+  # ============================================================
+  - session_number: 3
+    learning_goal:
+      goal_number: 3
+      type: "mathematical"
+      statement: "Derive and apply pricing models for green bonds incorporating environmental premium adjustments"
+    title: "Session 3: Mathematical Valuation Models"
+    duration_hours: 3.5
+
+    slides:
+      # Slide 21: Learning Goal Title
+      - slide_number: 21
+        type: "learning_goal_title"
+        goal_number: 3
+        goal_statement: "Derive and apply pricing models for green bonds incorporating environmental premium adjustments"
+        goal_type: "mathematical"
+        narrative_role: "Apply - Demonstrates practical valuation using math"
+
+      # Slide 22-25: Mathematical derivations
+      - slide_number: 22
+        type: "mathematical_derivation"
+        title: "Classical Bond Pricing Formula"
+        goal_reference: 3
+        left_header: "Starting Point"
+        left_content:
+          equation: "$P_0 = \\sum_{t=1}^{T} \\frac{C}{(1+r)^t} + \\frac{F}{(1+r)^T}$"
+          description: "Present value of all cash flows"
+          assumptions:
+            - "Constant discount rate $r$"
+            - "Fixed coupon $C$ paid annually"
+            - "Face value $F$ at maturity $T$"
+            - "No default risk"
+        right_header: "Simplification"
+        right_steps:
+          - step: 1
+            equation: "$P_0 = C \\sum_{t=1}^{T} (1+r)^{-t} + F(1+r)^{-T}$"
+            explanation: "Separate coupon and principal"
+          - step: 2
+            equation: "$= C \\cdot \\frac{1 - (1+r)^{-T}}{r} + F(1+r)^{-T}$"
+            explanation: "Apply geometric series formula"
+          - step: 3
+            equation: "$= PV(\\text{Coupons}) + PV(\\text{Principal})$"
+            explanation: "Standard decomposition"
+        bottom_note: "[Goal 3] Classical formula is foundation for all bond valuation"
+
+      # Slide 23: Greenium incorporation
+      - slide_number: 23
+        type: "mathematical_derivation"
+        title: "Green Bond Pricing with Greenium"
+        goal_reference: 3
+        left_header: "Theoretical Extension"
+        left_content:
+          equation: "$P_G = \\sum_{t=1}^{T} \\frac{C}{(1+r-g)^t} + \\frac{F}{(1+r-g)^T}$"
+          description: "Adjust discount rate by greenium $g$"
+          assumptions:
+            - "Greenium $g > 0$ reflects excess demand"
+            - "Same cash flows as conventional bond"
+            - "Environmental benefit priced via lower discount rate"
+        right_header: "Implications"
+        right_steps:
+          - step: 1
+            equation: "$P_G > P_0 \\text{ if } g > 0$"
+            explanation: "Green bond trades at premium"
+          - step: 2
+            equation: "$\\text{Greenium (bps)} = g \\times 10000$"
+            explanation: "Convert to basis points"
+          - step: 3
+            equation: "$P_G - P_0 \\approx C \\cdot g \\cdot \\text{Duration}$"
+            explanation: "Price difference approximation"
+        bottom_note: "[Goal 3] Mathematical model explains and quantifies greenium effect"
+
+      # Slides 24-29: More applications, examples, comparisons
+
+      # Slide 30: Week Summary (integrates all 3 goals)
+      - slide_number: 30
+        type: "goal_summary"
+        title: "Week 1 Complete: Theory → Measurement → Valuation"
+        goal_number: 3
+        goal_statement: "Integration of all three learning goals"
+        summary_header: "Week 1 Narrative Complete"
+        summary_points:
+          - "Goal 1 (Theory): Explained WHY green finance exists using microstructure theory"
+          - "Goal 2 (Quantitative): Measured HOW MUCH the market has grown empirically"
+          - "Goal 3 (Mathematical): Derived HOW TO VALUE green instruments mathematically"
+          - "Story: Foundation (theory) → Evidence (data) → Application (valuation)"
+        check_header: "Week 1 Mastery Check"
+        check_items:
+          - "Can you explain the theoretical basis for greenium?"
+          - "Can you quantify market trends and patterns?"
+          - "Can you derive and apply valuation formulas?"
+          - "Can you integrate theory, data, and math in analysis?"
+        bottom_note: "Week 1 Foundations complete - Next week: Deep dive into green bonds structure and issuance"
+
+# Charts summary (10 total: ~3-4 per goal)
+charts:
+  goal_1_charts:
+    - chart_id: "week1_goal1_chart1_ecosystem_theory"
+      type: "graphviz"
+    - chart_id: "week1_goal1_chart2_segmentation_model"
+      type: "graphviz"
+    - chart_id: "week1_goal1_chart3_information_flow"
+      type: "graphviz"
+
+  goal_2_charts:
+    - chart_id: "week1_goal2_chart1_market_growth"
+      type: "matplotlib"
+    - chart_id: "week1_goal2_chart2_regional_distribution"
+      type: "matplotlib"
+    - chart_id: "week1_goal2_chart3_instrument_mix"
+      type: "matplotlib"
+    - chart_id: "week1_goal2_chart4_sector_allocation"
+      type: "matplotlib"
+
+  goal_3_charts:
+    - chart_id: "week1_goal3_chart1_yield_comparison"
+      type: "matplotlib"
+    - chart_id: "week1_goal3_chart2_pricing_model"
+      type: "matplotlib"
+    - chart_id: "week1_goal3_chart3_greenium_calculation"
+      type: "matplotlib"
+
+totals:
+  slides: 30
+  charts: 10
+  ratio: 0.333  # 33.3%
+  sessions: 3
+  learning_goals: 3
