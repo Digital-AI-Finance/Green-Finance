@@ -3,20 +3,20 @@ import { Box } from '@mui/material';
 import Sidebar from './components/Sidebar';
 import SlideContainer from './components/SlideContainer';
 import ProgressBar from './components/ProgressBar';
-import { week1Slides } from './data/week1Slides';
+import { week1Slides_v3 } from './data/week1Slides_v3';
 
 function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [completedGoals, setCompletedGoals] = useState(() => {
-    const saved = localStorage.getItem('completedGoals');
+  const [completedLectures, setCompletedLectures] = useState(() => {
+    const saved = localStorage.getItem('completedLectures');
     return saved ? JSON.parse(saved) : [];
   });
 
   // Save progress to localStorage
   useEffect(() => {
     localStorage.setItem('currentSlide', currentSlide.toString());
-    localStorage.setItem('completedGoals', JSON.stringify(completedGoals));
-  }, [currentSlide, completedGoals]);
+    localStorage.setItem('completedLectures', JSON.stringify(completedLectures));
+  }, [currentSlide, completedLectures]);
 
   // Load saved progress on mount
   useEffect(() => {
@@ -32,7 +32,7 @@ function App() {
       if (e.key === 'ArrowLeft') {
         setCurrentSlide((prev) => Math.max(0, prev - 1));
       } else if (e.key === 'ArrowRight') {
-        setCurrentSlide((prev) => Math.min(week1Slides.length - 1, prev + 1));
+        setCurrentSlide((prev) => Math.min(week1Slides_v3.length - 1, prev + 1));
       }
     };
 
@@ -40,14 +40,14 @@ function App() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
 
-  const handleGoalComplete = (goalId) => {
-    if (!completedGoals.includes(goalId)) {
-      setCompletedGoals([...completedGoals, goalId]);
+  const handleLectureComplete = (lectureId) => {
+    if (!completedLectures.includes(lectureId)) {
+      setCompletedLectures([...completedLectures, lectureId]);
     }
   };
 
   const handleNextSlide = () => {
-    setCurrentSlide((prev) => Math.min(week1Slides.length - 1, prev + 1));
+    setCurrentSlide((prev) => Math.min(week1Slides_v3.length - 1, prev + 1));
   };
 
   const handlePrevSlide = () => {
@@ -58,22 +58,22 @@ function App() {
     <Box sx={{ display: 'flex', height: '100vh', overflow: 'hidden' }}>
       <Sidebar
         currentSlide={currentSlide}
-        completedGoals={completedGoals}
+        completedLectures={completedLectures}
         onSlideChange={setCurrentSlide}
       />
       <Box sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
         <ProgressBar
           currentSlide={currentSlide}
-          totalSlides={week1Slides.length}
+          totalSlides={week1Slides_v3.length}
         />
         <SlideContainer
-          slide={week1Slides[currentSlide]}
+          slide={week1Slides_v3[currentSlide]}
           currentSlide={currentSlide}
-          totalSlides={week1Slides.length}
+          totalSlides={week1Slides_v3.length}
           onNext={handleNextSlide}
           onPrev={handlePrevSlide}
-          onGoalComplete={handleGoalComplete}
-          completedGoals={completedGoals}
+          onLectureComplete={handleLectureComplete}
+          completedLectures={completedLectures}
         />
       </Box>
     </Box>
