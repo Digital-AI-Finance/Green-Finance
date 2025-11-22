@@ -8,9 +8,10 @@ def generate_chart():
         plt.style.use('seaborn-v0_8')
         fig, ax = plt.subplots(figsize=(10, 6))
 
-        regions = ['Europe', 'Asia-\nPacific', 'North\nAmerica', 'Latin\nAmerica', 'Middle East\n& Africa']
-        issuance = np.array([920, 680, 420, 58, 22])
-        percentages = (issuance / issuance.sum() * 100).round(1)
+        # CORRECTED: Based on ICE/LSEG 2024 data - Europe 52%, APAC 27%, Americas 13%, Other 8%
+        regions = ['Europe\n(EMEA)', 'Asia-\nPacific', 'Americas', 'Middle East,\nAfrica,\nOther']
+        issuance = np.array([1508, 783, 377, 232])  # Based on $2.9T total market
+        percentages = (issuance / issuance.sum() * 100).round(1)  # Should be: 52, 27, 13, 8
 
         bars = ax.bar(range(len(regions)), issuance, color=COLORS['primary'],
                      edgecolor='black', linewidth=0.7)

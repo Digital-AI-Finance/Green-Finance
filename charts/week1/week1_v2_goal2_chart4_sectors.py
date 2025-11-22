@@ -8,8 +8,9 @@ def generate_chart():
         plt.style.use('seaborn-v0_8')
         fig, ax = plt.subplots(figsize=(10, 6))
 
-        sectors = ['Energy', 'Buildings', 'Transport', 'Industry', 'Agriculture', 'Water']
-        percentages = np.array([38, 24, 18, 12, 5, 3])
+        # CORRECTED: Mordor Intelligence 2024 - Energy reduced from 38% to 29%
+        sectors = ['Energy\\n\\& Renewables', 'Buildings\\n\\& Efficiency', 'Transport', 'Water\\n\\& Waste', 'Industry', 'Other']
+        percentages = np.array([29, 25, 18, 15, 8, 5])
 
         bars = ax.bar(range(len(sectors)), percentages, color=COLORS['success'],
                      edgecolor='black', linewidth=0.7)

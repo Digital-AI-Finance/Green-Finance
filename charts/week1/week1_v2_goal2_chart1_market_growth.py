@@ -12,17 +12,17 @@ def generate_chart():
         plt.style.use('seaborn-v0_8')
         fig, ax = plt.subplots(figsize=(10, 6))
 
-        # Data: Market size 2015-2024
+        # Data: Market size 2015-2024 (CORRECTED with BIS 2025 data)
         years = np.array([2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024])
-        market_size = np.array([300, 420, 580, 850, 1150, 1300, 1650, 1450, 1750, 2100])
+        market_size = np.array([300, 420, 580, 850, 1150, 1300, 1650, 1450, 2300, 2900])
 
         # Plot with fill
         ax.plot(years, market_size, color=COLORS['primary'], linewidth=2.5,
-                marker='o', markersize=8, label='Total Green Finance')
+                marker='o', markersize=8, label='Green Bonds Outstanding')
         ax.fill_between(years, market_size, alpha=0.3, color=COLORS['primary'])
 
-        # Add CAGR annotation
-        ax.text(2019.5, 1900, 'CAGR: 24.9%', fontsize=11, fontweight='bold',
+        # Add CAGR annotation (recalculated: (2900/300)^(1/9) - 1 = 28.1%)
+        ax.text(2019.5, 2200, 'CAGR: 28.1%', fontsize=11, fontweight='bold',
                 bbox=dict(boxstyle='round', facecolor=COLORS['secondary'], alpha=0.8))
 
         # Styling
@@ -33,10 +33,10 @@ def generate_chart():
         ax.grid(True, alpha=0.3, linestyle='--', color=COLORS['neutral'])
         ax.legend(fontsize=10)
 
-        # Add value labels on key points
-        for year, val in zip([2015, 2020, 2024], [300, 1300, 2100]):
+        # Add value labels on key points (CORRECTED 2024 value)
+        for year, val in zip([2015, 2020, 2024], [300, 1300, 2900]):
             idx = np.where(years == year)[0][0]
-            ax.text(year, val + 80, f'${val}B', ha='center', fontsize=9, fontweight='bold')
+            ax.text(year, val + 100, f'${val}B', ha='center', fontsize=9, fontweight='bold')
 
         ax.set_facecolor('#FAFAFA')
         fig.patch.set_facecolor('white')
