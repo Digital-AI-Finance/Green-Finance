@@ -43,4 +43,19 @@ This course uses **discovery-based learning** with a 3-goal structure per week:
 
 ---
 
+## Erasmus+ GREEN FINANCE Project
+
+This course is developed as part of the **GREEN FINANCE** Erasmus+ Capacity Building project (Grant No. 101237817), bringing together 11 universities from 8 countries to advance green finance education in Southeast Asia.
+
+- [Project Overview](/project/) - Learn about the consortium and objectives
+- [Partners](/project/partners/) - Meet our 11 partner universities
+- [Curriculum](/project/curriculum/) - Full micro-credential program
+- [News](/project/news/) - Latest updates
+
+{{< hint info >}}
+**Co-funded by the European Union** under the Erasmus+ programme.
+{{< /hint >}}
+
+---
+
 *Developed by Digital AI Finance*

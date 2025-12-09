@@ -23,6 +23,11 @@ canonifyURLs = true
   url = 'https://github.com/Digital-AI-Finance/green-finance'
   weight = 10
 
+[[menu.after]]
+  name = 'Erasmus+ Project'
+  url = '/project/'
+  weight = 1
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
