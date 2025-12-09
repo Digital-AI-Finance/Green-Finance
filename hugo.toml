@@ -1,0 +1,37 @@
+baseURL = 'https://digital-ai-finance.github.io/green-finance/'
+languageCode = 'en-us'
+title = 'Green Finance Professional Certificate'
+theme = 'hugo-book'
+
+# For private repo with GitHub Pages
+publishDir = 'public'
+canonifyURLs = true
+
+[params]
+  description = '8-Week Professional Certificate Program in Sustainable Finance'
+  author = 'Digital AI Finance'
+  BookTheme = 'auto'
+  BookToC = true
+  BookSection = 'docs'
+  BookRepo = 'https://github.com/Digital-AI-Finance/green-finance'
+  BookEditPath = 'edit/main'
+  BookDateFormat = 'January 2, 2006'
+
+[menu]
+[[menu.before]]
+  name = 'GitHub'
+  url = 'https://github.com/Digital-AI-Finance/green-finance'
+  weight = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 4
+
+[outputs]
+  home = ['HTML', 'RSS']
+  section = ['HTML']
+  page = ['HTML']
