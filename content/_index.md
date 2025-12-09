@@ -1,59 +1,90 @@
 ---
-title: "Green Finance Professional Certificate"
+title: "GREEN FINANCE"
 type: docs
 ---
 
-# Green Finance Professional Certificate
+# GREEN FINANCE
 
-An 8-week professional certificate program in sustainable finance, covering green bonds, ESG integration, climate risk assessment, and impact investing.
-
-## Course Overview
-
-| Week | Topic | Focus |
-|------|-------|-------|
-| 1 | Green Finance Fundamentals | Market overview, instruments, regulatory landscape |
-| 2 | Green Bonds | Framework comparison, greenium analysis, SLBs |
-| 3 | ESG Integration | Rating providers, screening strategies, portfolio construction |
-| 4 | Climate Risk Assessment | TCFD, scenario analysis, carbon metrics |
-| 5 | Project Finance | Renewable energy, LCOE, IRR sensitivity |
-| 6 | Global Regulatory Frameworks | EU Taxonomy, SFDR, ISSB standards |
-| 7 | Impact Investing | IRIS+, SROI, SDG alignment |
-| 8 | Integration | Portfolio decarbonization, engagement strategies |
-
-## Course Materials
-
-- **268 total slides** across 8 weeks
-- **84 data visualizations** and charts
-- **21 discovery challenges** for active learning
-- Verified statistics from 2024 sources
-
-## Quick Links
-
-- [Course Syllabus (PDF)](/pdfs/syllabus.pdf)
-- [Week 1: Green Finance Fundamentals](/docs/week1/)
-- [All Lecture Slides](/slides/)
-
-## Learning Approach
-
-This course uses **discovery-based learning** with a 3-goal structure per week:
-
-1. **Foundation (WHY)** - Theoretical foundations and core concepts
-2. **Build (HOW MUCH)** - Quantitative methods and analytical tools
-3. **Apply (HOW TO)** - Practical implementation and case studies
+**Advancing Higher Education for Sustainable Growth in Southeast Asia**
 
 ---
 
-## Erasmus+ GREEN FINANCE Project
+## Project Overview
 
-This course is developed as part of the **GREEN FINANCE** Erasmus+ Capacity Building project (Grant No. 101237817), bringing together 11 universities from 8 countries to advance green finance education in Southeast Asia.
+The GREEN FINANCE project is an Erasmus+ Capacity Building in Higher Education (CBHE) initiative that brings together 11 universities from 8 countries to modernize green finance education in Southeast Asia.
 
-- [Project Overview](/project/) - Learn about the consortium and objectives
-- [Partners](/project/partners/) - Meet our 11 partner universities
-- [Curriculum](/project/curriculum/) - Full micro-credential program
+### Key Facts
+
+| | |
+|---|---|
+| **Grant Number** | 101237817 |
+| **Programme** | Erasmus+ CBHE Strand 2 |
+| **Duration** | 36 months (2025-2028) |
+| **Countries** | 8 (Romania, Poland, Netherlands, Italy, Belgium, Vietnam, Thailand, Philippines) |
+| **Partners** | 11 universities |
+
+---
+
+## The Challenge
+
+Climate change negatively impacts ASEAN countries, particularly the Philippines, Thailand, and Vietnam. These nations need **$210 billion annually** for green transition, but lack the technical capacity and skills to implement it.
+
+**Our Solution:** Modernize higher education through innovative micro-credential curricula aligned with European Green Deal principles.
+
+---
+
+## Strategic Objectives
+
+| Objective | Target |
+|-----------|--------|
+| **Strengthen Capacity** | Train 60+ ASEAN staff in green finance |
+| **Modernize Teaching** | Develop micro-credential programs, engage 400+ students |
+| **Enhance Internationalization** | Establish 50+ international stakeholder contacts |
+| **Bridge Education-Work Gap** | Sign 30+ MoUs with banks and enterprises |
+
+---
+
+## Quick Links
+
+### Project Information
+- [Partners](/project/partners/) - Meet our 11-university consortium
+- [Work Packages](/project/work-packages/) - Project structure and deliverables
+- [Curriculum](/project/curriculum/) - 5-module micro-credential program
+- [Timeline](/project/timeline/) - 36-month milestones
+- [Team & Contacts](/project/team/) - Contact information
 - [News](/project/news/) - Latest updates
 
+### Course Materials
+- [Green Finance Professional Certificate](/course/) - 8-week course documentation
+- [Lecture Slides](/slides/) - All presentation materials
+
+---
+
+## Consortium
+
+**5 European Partners:**
+- Lucian Blaga University of Sibiu (Coordinator) - Romania
+- University of Opole - Poland
+- University of Twente - Netherlands
+- University of Siena - Italy
+- Institut de Haute Formation - Belgium
+
+**6 Asian Partners:**
+- Banking University Ho Chi Minh City - Vietnam
+- Banking Academy of Vietnam - Vietnam
+- Payap University - Thailand
+- Walailak University - Thailand
+- West Visayas State University - Philippines
+- Ateneo de Manila University - Philippines
+
+---
+
+## Acknowledgment
+
 {{< hint info >}}
-**Co-funded by the European Union** under the Erasmus+ programme.
+**Co-funded by the European Union**
+
+This project has received funding from the European Union's Erasmus+ programme under Grant Agreement No. 101237817. Views and opinions expressed are those of the authors and do not necessarily reflect those of the European Union or EACEA.
 {{< /hint >}}
 
 ---

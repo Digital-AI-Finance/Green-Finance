@@ -12,7 +12,7 @@ canonifyURLs = true
   author = 'Digital AI Finance'
   BookTheme = 'auto'
   BookToC = true
-  BookSection = 'docs'
+  BookSection = 'course'
   BookRepo = 'https://github.com/Digital-AI-Finance/green-finance'
   BookEditPath = 'edit/main'
   BookDateFormat = 'January 2, 2006'
@@ -24,9 +24,14 @@ canonifyURLs = true
   weight = 10
 
 [[menu.after]]
-  name = 'Erasmus+ Project'
-  url = '/project/'
+  name = 'Course'
+  url = '/course/'
   weight = 1
+
+[[menu.after]]
+  name = 'Project Details'
+  url = '/project/'
+  weight = 2
 
 [markup]
   [markup.goldmark]
