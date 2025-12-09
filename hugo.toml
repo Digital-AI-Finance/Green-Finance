@@ -1,6 +1,6 @@
 baseURL = 'https://digital-ai-finance.github.io/green-finance/'
 languageCode = 'en-us'
-title = 'Green Finance Professional Certificate'
+title = 'GREEN FINANCE - Erasmus+ Project'
 theme = 'hugo-book'
 
 # For private repo with GitHub Pages
@@ -8,11 +8,11 @@ publishDir = 'public'
 canonifyURLs = true
 
 [params]
-  description = '8-Week Professional Certificate Program in Sustainable Finance'
-  author = 'Digital AI Finance'
+  description = 'Advancing Higher Education for Sustainable Growth in Southeast Asia'
+  author = 'GREEN FINANCE Consortium'
   BookTheme = 'auto'
   BookToC = true
-  BookSection = 'course'
+  BookSection = 'project'
   BookRepo = 'https://github.com/Digital-AI-Finance/green-finance'
   BookEditPath = 'edit/main'
   BookDateFormat = 'January 2, 2006'
@@ -24,14 +24,29 @@ canonifyURLs = true
   weight = 10
 
 [[menu.after]]
-  name = 'Course'
-  url = '/course/'
+  name = 'Partners'
+  url = '/project/partners/'
   weight = 1
 
 [[menu.after]]
-  name = 'Project Details'
-  url = '/project/'
+  name = 'Team'
+  url = '/project/team/'
   weight = 2
+
+[[menu.after]]
+  name = 'Curriculum'
+  url = '/project/curriculum/'
+  weight = 3
+
+[[menu.after]]
+  name = 'News'
+  url = '/project/news/'
+  weight = 4
+
+[[menu.after]]
+  name = 'Course'
+  url = '/course/'
+  weight = 5
 
 [markup]
   [markup.goldmark]

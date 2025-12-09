@@ -1,0 +1,92 @@
+// Custom styles for GREEN FINANCE website
+// Reduces whitespace for more compact layout
+
+// Reduce main content padding
+.book-page {
+  padding: 1rem 1.5rem;
+}
+
+// Compact sidebar
+.book-menu {
+  nav {
+    padding: 0.5rem;
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 1rem;
+
+    li {
+      margin: 0.25rem 0;
+    }
+  }
+}
+
+// Tighter table spacing
+table {
+  margin: 0.5rem 0;
+
+  th, td {
+    padding: 0.4rem 0.6rem;
+  }
+}
+
+// Reduce heading margins
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+// Compact paragraph spacing
+p {
+  margin: 0.5rem 0;
+}
+
+// Reduce list spacing
+ul, ol {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+
+  li {
+    margin: 0.2rem 0;
+  }
+}
+
+// Compact hint boxes
+.book-hint {
+  padding: 0.75rem 1rem;
+  margin: 0.75rem 0;
+}
+
+// Tighter horizontal rules
+hr {
+  margin: 1rem 0;
+}
+
+// Logo styling
+.partner-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+
+  img {
+    max-height: 60px;
+    width: auto;
+  }
+}
+
+.eu-logo {
+  max-width: 300px;
+  margin: 1rem auto;
+  display: block;
+}
+
+// Compact ToC
+.book-toc {
+  nav {
+    padding: 0.5rem;
+  }
+}
