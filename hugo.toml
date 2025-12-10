@@ -40,36 +40,11 @@ canonifyURLs = true
   url = '/slides/'
   weight = 4
 
-# Bottom menu (after sidebar content)
-[[menu.after]]
-  name = 'Partners'
-  url = '/project/partners/'
-  weight = 1
-
-[[menu.after]]
-  name = 'Work Packages'
-  url = '/project/work-packages/'
-  weight = 2
-
-[[menu.after]]
-  name = 'Timeline'
-  url = '/project/timeline/'
-  weight = 3
-
-[[menu.after]]
-  name = 'Team'
-  url = '/project/team/'
-  weight = 4
-
-[[menu.after]]
-  name = 'News'
-  url = '/project/news/'
-  weight = 5
-
+# Bottom menu (GitHub only - other links via auto-generated sidebar)
 [[menu.after]]
   name = 'GitHub'
   url = 'https://github.com/Digital-AI-Finance/green-finance'
-  weight = 10
+  weight = 1
 
 [markup]
   [markup.goldmark]
