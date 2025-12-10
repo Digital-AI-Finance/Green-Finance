@@ -24,12 +24,12 @@ The green finance curriculum is designed to:
 
 ---
 
-## Module 1: Green Finance in Global, EU and ASEAN Contexts
+<details>
+<summary>Module 1: Green Finance in Global, EU and ASEAN Contexts</summary>
 
-### Overview
-Understanding the role of green finance in delivering global goals on climate change and sustainable development.
+**Overview:** Understanding the role of green finance in delivering global goals on climate change and sustainable development.
 
-### Topics
+**Topics:**
 - Green Finance: definitions, taxonomy and key features
 - The global case for green finance
 - International strategic compacts: Paris Agreement, SDGs
@@ -37,114 +37,68 @@ Understanding the role of green finance in delivering global goals on climate ch
 - ASEAN green finance landscape
 - Regional policies and initiatives
 
-### Learning Outcomes
-By the end of this module, students will be able to:
-- Define green finance and distinguish it from conventional finance
-- Explain the relationship between green finance and sustainable development goals
-- Compare EU and ASEAN approaches to green finance regulation
-- Analyze the role of international agreements in shaping green finance
+**Learning Outcomes:** Define green finance, explain SDG relationships, compare EU/ASEAN regulation, analyze international agreements.
+</details>
 
----
+<details>
+<summary>Module 2: Green Finance Fundamentals and Building Blocks</summary>
 
-## Module 2: Green Finance Fundamentals and Building Blocks
+**Overview:** Core features of green finance, its evolution, and how finance is poised for greater public goods.
 
-### Overview
-Core features of green finance, its evolution, and how finance is poised for greater public goods.
-
-### Topics
+**Topics:**
 - Green Finance Case in Point: A Global Case for Action
 - Actors, players and participants in the green finance domain
-  - Financial intermediaries
-  - Banks and NBFIs
-  - Regulators and supervisory bodies
 - The "Green" in ESG: Environmental, Social and Governance
 - ESG Risk Management
 - Green finance reporting and disclosure
 
-### Learning Outcomes
-By the end of this module, students will be able to:
-- Identify key stakeholders in the green finance ecosystem
-- Explain the role of ESG factors in financial decision-making
-- Evaluate environmental risks in financial portfolios
-- Assess green finance reporting requirements and standards
+**Learning Outcomes:** Identify stakeholders, explain ESG factors, evaluate environmental risks, assess reporting requirements.
+</details>
 
----
+<details>
+<summary>Module 3: Green Finance Regulatory Frameworks</summary>
 
-## Module 3: Green Finance Regulatory Frameworks
+**Overview:** Innovative regulatory and self-regulatory landscapes for green finance across jurisdictions.
 
-### Overview
-Innovative regulatory and self-regulatory landscapes for green finance across jurisdictions.
-
-### Topics
+**Topics:**
 - Policy and regulatory underpinnings of green finance
-- EU Sustainable Finance framework
-  - EU Taxonomy
-  - SFDR (Sustainable Finance Disclosure Regulation)
-  - CSRD (Corporate Sustainability Reporting Directive)
-- International standards
-  - TCFD (Task Force on Climate-related Financial Disclosures)
-  - ISSB (International Sustainability Standards Board)
+- EU Sustainable Finance framework (Taxonomy, SFDR, CSRD)
+- International standards (TCFD, ISSB)
 - ASEAN regulatory developments
 - Self-regulatory initiatives (PRI, Equator Principles)
-- Responsible, sustainable, accountable: innovative boundaries for financial services
 
-### Learning Outcomes
-By the end of this module, students will be able to:
-- Navigate EU and international green finance regulatory frameworks
-- Apply taxonomy criteria to classify sustainable economic activities
-- Prepare sustainability disclosures compliant with major standards
-- Compare regulatory approaches across different jurisdictions
+**Learning Outcomes:** Navigate regulatory frameworks, apply taxonomy criteria, prepare sustainability disclosures, compare jurisdictions.
+</details>
 
----
+<details>
+<summary>Module 4: Green Finance Products and Services</summary>
 
-## Module 4: Green Finance Products and Services
+**Overview:** The green revolution in financial services and products - practical tools for financing the transition.
 
-### Overview
-The green revolution in financial services and products - practical tools for financing the transition.
-
-### Topics
-- The Five Pillars of Green Finance
-  - **Green Bonds** - Use of proceeds, frameworks, verification
-  - **Sustainability-Linked Bonds** - KPI-linked structures
-  - **Green Loans** - Lending criteria and monitoring
-  - **Sustainability-Linked Loans** - Margin ratchets
-  - **Green Equity** - ESG integration in investment
+**Topics:**
+- The Five Pillars: Green Bonds, Sustainability-Linked Bonds, Green Loans, SLLs, Green Equity
 - Green mortgages and consumer finance
 - Blended finance structures
 - Carbon markets and trading
 - Climate insurance products
 
-### Learning Outcomes
-By the end of this module, students will be able to:
-- Structure green bond issuances following market standards
-- Design sustainability-linked financing with appropriate KPIs
-- Evaluate green financial products for alignment with sustainability criteria
-- Assess the greenium and market dynamics of sustainable instruments
+**Learning Outcomes:** Structure green bond issuances, design SL financing, evaluate green products, assess greenium dynamics.
+</details>
 
----
+<details>
+<summary>Module 5: Green Finance Risk Management</summary>
 
-## Module 5: Green Finance Risk Management
+**Overview:** Risks in green finance - redefining the stage for financial risk management in a changing climate.
 
-### Overview
-Risks in green finance - redefining the stage for financial risk management in a changing climate.
-
-### Topics
-- Climate-related financial risks
-  - Physical risks (acute and chronic)
-  - Transition risks (policy, technology, market, reputation)
-  - Liability risks
+**Topics:**
+- Climate-related financial risks (physical, transition, liability)
 - Climate scenario analysis
 - Carbon metrics and portfolio alignment
 - Greenwashing risks and mitigation
-- New boundaries of liability in green finance
 - Stress testing for climate risks
 
-### Learning Outcomes
-By the end of this module, students will be able to:
-- Classify and assess climate-related financial risks
-- Conduct climate scenario analysis for financial portfolios
-- Calculate and interpret carbon metrics (financed emissions, WACI)
-- Identify greenwashing risks and implement mitigation strategies
+**Learning Outcomes:** Classify climate risks, conduct scenario analysis, calculate carbon metrics, identify greenwashing risks.
+</details>
 
 ---
 

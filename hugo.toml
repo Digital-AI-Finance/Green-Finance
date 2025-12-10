@@ -10,6 +10,7 @@ canonifyURLs = true
 [params]
   description = 'Advancing Higher Education for Sustainable Growth in Southeast Asia'
   author = 'GREEN FINANCE Consortium'
+  images = ['images/logos/eu_cofunded.png']
   BookTheme = 'auto'
   BookToC = true
   BookSection = 'project'

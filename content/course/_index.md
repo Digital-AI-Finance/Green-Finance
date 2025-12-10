@@ -9,6 +9,17 @@ bookToc: true
 
 An 8-week professional certificate program in sustainable finance, developed as part of the Erasmus+ GREEN FINANCE project.
 
+<div class="progress-tracker">
+<div class="progress-step"><div class="step-number">1</div><div class="step-label">Fundamentals</div></div>
+<div class="progress-step"><div class="step-number">2</div><div class="step-label">Green Bonds</div></div>
+<div class="progress-step"><div class="step-number">3</div><div class="step-label">ESG</div></div>
+<div class="progress-step"><div class="step-number">4</div><div class="step-label">Climate Risk</div></div>
+<div class="progress-step"><div class="step-number">5</div><div class="step-label">Project Finance</div></div>
+<div class="progress-step"><div class="step-number">6</div><div class="step-label">Regulatory</div></div>
+<div class="progress-step"><div class="step-number">7</div><div class="step-label">Impact</div></div>
+<div class="progress-step"><div class="step-number">8</div><div class="step-label">Integration</div></div>
+</div>
+
 ---
 
 ## Course Overview
