@@ -1,0 +1,3896 @@
+{
+  "url": "https://digital-ai-finance.github.io/Green-Finance",
+  "reference_url": "https://digital-ai-finance.github.io/neural-networks/",
+  "timestamp": "2025-12-10T11:44:34.569905",
+  "threshold": 70.0,
+  "overall_score": 72.4,
+  "similarity_score": 72.4,
+  "passed": true,
+  "category_scores": {
+    "structure": 58.8,
+    "visual": 83.3,
+    "technical": 88.4,
+    "links": 0.0
+  },
+  "pages_checked": 17,
+  "worst_page_url": "https://digital-ai-finance.github.io/Green-Finance/course",
+  "checks": [
+    {
+      "name": "Top Navigation",
+      "passed": true,
+      "score": 1.0,
+      "details": "Found nav with 13 links",
+      "category": "structure"
+    },
+    {
+      "name": "Sidebar",
+      "passed": true,
+      "score": 1.0,
+      "details": "Sidebar found with 13 links",
+      "category": "structure"
+    },
+    {
+      "name": "Hero Section",
+      "passed": true,
+      "score": 0.7,
+      "details": "H1 heading found (partial hero)",
+      "category": "structure"
+    },
+    {
+      "name": "Content Grids",
+      "passed": false,
+      "score": 0.0,
+      "details": "No content grids found",
+      "category": "structure"
+    },
+    {
+      "name": "Footer",
+      "passed": true,
+      "score": 1.0,
+      "details": "Footer found with 0 links, 0 chars",
+      "category": "structure"
+    },
+    {
+      "name": "Search Functionality",
+      "passed": true,
+      "score": 1.0,
+      "details": "Search found",
+      "category": "structure"
+    },
+    {
+      "name": "Collapsible Sections",
+      "passed": false,
+      "score": 0.0,
+      "details": "No collapsible sections",
+      "category": "structure"
+    },
+    {
+      "name": "Journey/Progress Tracker",
+      "passed": false,
+      "score": 0.0,
+      "details": "No progress tracker",
+      "category": "structure"
+    },
+    {
+      "name": "Has Stylesheet",
+      "passed": true,
+      "score": 1.0,
+      "details": "1 external, 0 inline stylesheets",
+      "category": "visual"
+    },
+    {
+      "name": "Responsive Meta",
+      "passed": true,
+      "score": 1.0,
+      "details": "Viewport meta found",
+      "category": "visual"
+    },
+    {
+      "name": "Media Queries",
+      "passed": true,
+      "score": 0.3333333333333333,
+      "details": "Found 1 media queries",
+      "category": "visual"
+    },
+    {
+      "name": "Images Present",
+      "passed": true,
+      "score": 1.0,
+      "details": "Found 13 images",
+      "category": "visual"
+    },
+    {
+      "name": "Chart/Image Gallery",
+      "passed": true,
+      "score": 1.0,
+      "details": "Gallery found with 15 images in grids",
+      "category": "visual"
+    },
+    {
+      "name": "Gradients",
+      "passed": false,
+      "score": 0.0,
+      "details": "No gradients",
+      "category": "visual"
+    },
+    {
+      "name": "Box Shadows",
+      "passed": true,
+      "score": 1.0,
+      "details": "Found 1 shadow declarations",
+      "category": "visual"
+    },
+    {
+      "name": "Transitions",
+      "passed": true,
+      "score": 1.0,
+      "details": "Found 5 transitions",
+      "category": "visual"
+    },
+    {
+      "name": "Hover Effects",
+      "passed": true,
+      "score": 1.0,
+      "details": "Found 4 hover rules",
+      "category": "visual"
+    },
+    {
+      "name": "Color Palette",
+      "passed": true,
+      "score": 1.0,
+      "details": "17 hex, 7 rgb, 0 hsl, 33 CSS vars - Good color palette",
+      "category": "visual"
+    },
+    {
+      "name": "HTML Structure",
+      "passed": true,
+      "score": 1.0,
+      "details": "Valid structure",
+      "category": "technical"
+    },
+    {
+      "name": "Semantic HTML",
+      "passed": true,
+      "score": 0.8571428571428571,
+      "details": "Found 6/7 semantic tags: nav, main, article, aside, header, footer",
+      "category": "technical"
+    },
+    {
+      "name": "Alt Texts",
+      "passed": true,
+      "score": 1.0,
+      "details": "13/13 images have alt text (100%)",
+      "category": "technical"
+    },
+    {
+      "name": "ARIA/Accessibility",
+      "passed": true,
+      "score": 0.2,
+      "details": "Found 1 aria-labels, 0 roles",
+      "category": "technical"
+    },
+    {
+      "name": "Heading Hierarchy",
+      "passed": true,
+      "score": 1.0,
+      "details": "Good heading structure",
+      "category": "technical"
+    },
+    {
+      "name": "Page Load Time",
+      "passed": true,
+      "score": 1.0,
+      "details": "0.36s - Excellent",
+      "category": "technical"
+    },
+    {
+      "name": "Render-Blocking Assets",
+      "passed": true,
+      "score": 1.0,
+      "details": "2 scripts, 1 CSS (3 blocking), 13 images - Excellent",
+      "category": "technical"
+    },
+    {
+      "name": "Meta Tags",
+      "passed": true,
+      "score": 1.0,
+      "details": "Found 3/3 essential meta tags",
+      "category": "technical"
+    },
+    {
+      "name": "Favicon",
+      "passed": true,
+      "score": 1.0,
+      "details": "Favicon found",
+      "category": "technical"
+    },
+    {
+      "name": "Lang Attribute",
+      "passed": true,
+      "score": 1.0,
+      "details": "lang=\"en-us\"",
+      "category": "technical"
+    },
+    {
+      "name": "Open Graph Tags",
+      "passed": true,
+      "score": 0.6666666666666666,
+      "details": "Found 2/3 OG tags - missing: og:image",
+      "category": "technical"
+    }
+  ],
+  "page_reports": [
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance",
+      "score": 75.4,
+      "category_scores": {
+        "structure": 58.8,
+        "visual": 83.3,
+        "technical": 88.4,
+        "links": 0.0
+      },
+      "passed": true,
+      "checks": [
+        {
+          "name": "Top Navigation",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found nav with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Sidebar",
+          "passed": true,
+          "score": 1.0,
+          "details": "Sidebar found with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Hero Section",
+          "passed": true,
+          "score": 0.7,
+          "details": "H1 heading found (partial hero)",
+          "category": "structure"
+        },
+        {
+          "name": "Content Grids",
+          "passed": false,
+          "score": 0.0,
+          "details": "No content grids found",
+          "category": "structure"
+        },
+        {
+          "name": "Footer",
+          "passed": true,
+          "score": 1.0,
+          "details": "Footer found with 0 links, 0 chars",
+          "category": "structure"
+        },
+        {
+          "name": "Search Functionality",
+          "passed": true,
+          "score": 1.0,
+          "details": "Search found",
+          "category": "structure"
+        },
+        {
+          "name": "Collapsible Sections",
+          "passed": false,
+          "score": 0.0,
+          "details": "No collapsible sections",
+          "category": "structure"
+        },
+        {
+          "name": "Journey/Progress Tracker",
+          "passed": false,
+          "score": 0.0,
+          "details": "No progress tracker",
+          "category": "structure"
+        },
+        {
+          "name": "Has Stylesheet",
+          "passed": true,
+          "score": 1.0,
+          "details": "1 external, 0 inline stylesheets",
+          "category": "visual"
+        },
+        {
+          "name": "Responsive Meta",
+          "passed": true,
+          "score": 1.0,
+          "details": "Viewport meta found",
+          "category": "visual"
+        },
+        {
+          "name": "Media Queries",
+          "passed": true,
+          "score": 0.3333333333333333,
+          "details": "Found 1 media queries",
+          "category": "visual"
+        },
+        {
+          "name": "Images Present",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 13 images",
+          "category": "visual"
+        },
+        {
+          "name": "Chart/Image Gallery",
+          "passed": true,
+          "score": 1.0,
+          "details": "Gallery found with 15 images in grids",
+          "category": "visual"
+        },
+        {
+          "name": "Gradients",
+          "passed": false,
+          "score": 0.0,
+          "details": "No gradients",
+          "category": "visual"
+        },
+        {
+          "name": "Box Shadows",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 1 shadow declarations",
+          "category": "visual"
+        },
+        {
+          "name": "Transitions",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 5 transitions",
+          "category": "visual"
+        },
+        {
+          "name": "Hover Effects",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 4 hover rules",
+          "category": "visual"
+        },
+        {
+          "name": "Color Palette",
+          "passed": true,
+          "score": 1.0,
+          "details": "17 hex, 7 rgb, 0 hsl, 33 CSS vars - Good color palette",
+          "category": "visual"
+        },
+        {
+          "name": "HTML Structure",
+          "passed": true,
+          "score": 1.0,
+          "details": "Valid structure",
+          "category": "technical"
+        },
+        {
+          "name": "Semantic HTML",
+          "passed": true,
+          "score": 0.8571428571428571,
+          "details": "Found 6/7 semantic tags: nav, main, article, aside, header, footer",
+          "category": "technical"
+        },
+        {
+          "name": "Alt Texts",
+          "passed": true,
+          "score": 1.0,
+          "details": "13/13 images have alt text (100%)",
+          "category": "technical"
+        },
+        {
+          "name": "ARIA/Accessibility",
+          "passed": true,
+          "score": 0.2,
+          "details": "Found 1 aria-labels, 0 roles",
+          "category": "technical"
+        },
+        {
+          "name": "Heading Hierarchy",
+          "passed": true,
+          "score": 1.0,
+          "details": "Good heading structure",
+          "category": "technical"
+        },
+        {
+          "name": "Page Load Time",
+          "passed": true,
+          "score": 1.0,
+          "details": "0.36s - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Render-Blocking Assets",
+          "passed": true,
+          "score": 1.0,
+          "details": "2 scripts, 1 CSS (3 blocking), 13 images - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Meta Tags",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 3/3 essential meta tags",
+          "category": "technical"
+        },
+        {
+          "name": "Favicon",
+          "passed": true,
+          "score": 1.0,
+          "details": "Favicon found",
+          "category": "technical"
+        },
+        {
+          "name": "Lang Attribute",
+          "passed": true,
+          "score": 1.0,
+          "details": "lang=\"en-us\"",
+          "category": "technical"
+        },
+        {
+          "name": "Open Graph Tags",
+          "passed": true,
+          "score": 0.6666666666666666,
+          "details": "Found 2/3 OG tags - missing: og:image",
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/project/partners",
+      "score": 72.8,
+      "category_scores": {
+        "structure": 58.8,
+        "visual": 76.3,
+        "technical": 88.4,
+        "links": 0.0
+      },
+      "passed": true,
+      "checks": [
+        {
+          "name": "Top Navigation",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found nav with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Sidebar",
+          "passed": true,
+          "score": 1.0,
+          "details": "Sidebar found with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Hero Section",
+          "passed": true,
+          "score": 0.7,
+          "details": "H1 heading found (partial hero)",
+          "category": "structure"
+        },
+        {
+          "name": "Content Grids",
+          "passed": false,
+          "score": 0.0,
+          "details": "No content grids found",
+          "category": "structure"
+        },
+        {
+          "name": "Footer",
+          "passed": true,
+          "score": 1.0,
+          "details": "Footer found with 1 links, 13 chars",
+          "category": "structure"
+        },
+        {
+          "name": "Search Functionality",
+          "passed": true,
+          "score": 1.0,
+          "details": "Search found",
+          "category": "structure"
+        },
+        {
+          "name": "Collapsible Sections",
+          "passed": false,
+          "score": 0.0,
+          "details": "No collapsible sections",
+          "category": "structure"
+        },
+        {
+          "name": "Journey/Progress Tracker",
+          "passed": false,
+          "score": 0.0,
+          "details": "No progress tracker",
+          "category": "structure"
+        },
+        {
+          "name": "Has Stylesheet",
+          "passed": true,
+          "score": 1.0,
+          "details": "1 external, 0 inline stylesheets",
+          "category": "visual"
+        },
+        {
+          "name": "Responsive Meta",
+          "passed": true,
+          "score": 1.0,
+          "details": "Viewport meta found",
+          "category": "visual"
+        },
+        {
+          "name": "Media Queries",
+          "passed": true,
+          "score": 0.3333333333333333,
+          "details": "Found 1 media queries",
+          "category": "visual"
+        },
+        {
+          "name": "Images Present",
+          "passed": true,
+          "score": 0.3,
+          "details": "Found 3 images",
+          "category": "visual"
+        },
+        {
+          "name": "Chart/Image Gallery",
+          "passed": true,
+          "score": 1.0,
+          "details": "Gallery found with 7 images in grids",
+          "category": "visual"
+        },
+        {
+          "name": "Gradients",
+          "passed": false,
+          "score": 0.0,
+          "details": "No gradients",
+          "category": "visual"
+        },
+        {
+          "name": "Box Shadows",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 1 shadow declarations",
+          "category": "visual"
+        },
+        {
+          "name": "Transitions",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 5 transitions",
+          "category": "visual"
+        },
+        {
+          "name": "Hover Effects",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 4 hover rules",
+          "category": "visual"
+        },
+        {
+          "name": "Color Palette",
+          "passed": true,
+          "score": 1.0,
+          "details": "17 hex, 7 rgb, 0 hsl, 33 CSS vars - Good color palette",
+          "category": "visual"
+        },
+        {
+          "name": "HTML Structure",
+          "passed": true,
+          "score": 1.0,
+          "details": "Valid structure",
+          "category": "technical"
+        },
+        {
+          "name": "Semantic HTML",
+          "passed": true,
+          "score": 0.8571428571428571,
+          "details": "Found 6/7 semantic tags: nav, main, article, aside, header, footer",
+          "category": "technical"
+        },
+        {
+          "name": "Alt Texts",
+          "passed": true,
+          "score": 1.0,
+          "details": "3/3 images have alt text (100%)",
+          "category": "technical"
+        },
+        {
+          "name": "ARIA/Accessibility",
+          "passed": true,
+          "score": 0.2,
+          "details": "Found 1 aria-labels, 0 roles",
+          "category": "technical"
+        },
+        {
+          "name": "Heading Hierarchy",
+          "passed": true,
+          "score": 1.0,
+          "details": "Good heading structure",
+          "category": "technical"
+        },
+        {
+          "name": "Page Load Time",
+          "passed": true,
+          "score": 1.0,
+          "details": "0.34s - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Render-Blocking Assets",
+          "passed": true,
+          "score": 1.0,
+          "details": "2 scripts, 1 CSS (3 blocking), 3 images - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Meta Tags",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 3/3 essential meta tags",
+          "category": "technical"
+        },
+        {
+          "name": "Favicon",
+          "passed": true,
+          "score": 1.0,
+          "details": "Favicon found",
+          "category": "technical"
+        },
+        {
+          "name": "Lang Attribute",
+          "passed": true,
+          "score": 1.0,
+          "details": "lang=\"en-us\"",
+          "category": "technical"
+        },
+        {
+          "name": "Open Graph Tags",
+          "passed": true,
+          "score": 0.6666666666666666,
+          "details": "Found 2/3 OG tags - missing: og:image",
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/project/work-packages",
+      "score": 73.1,
+      "category_scores": {
+        "structure": 58.8,
+        "visual": 77.3,
+        "technical": 88.4,
+        "links": 0.0
+      },
+      "passed": true,
+      "checks": [
+        {
+          "name": "Top Navigation",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found nav with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Sidebar",
+          "passed": true,
+          "score": 1.0,
+          "details": "Sidebar found with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Hero Section",
+          "passed": true,
+          "score": 0.7,
+          "details": "H1 heading found (partial hero)",
+          "category": "structure"
+        },
+        {
+          "name": "Content Grids",
+          "passed": false,
+          "score": 0.0,
+          "details": "No content grids found",
+          "category": "structure"
+        },
+        {
+          "name": "Footer",
+          "passed": true,
+          "score": 1.0,
+          "details": "Footer found with 2 links, 18 chars",
+          "category": "structure"
+        },
+        {
+          "name": "Search Functionality",
+          "passed": true,
+          "score": 1.0,
+          "details": "Search found",
+          "category": "structure"
+        },
+        {
+          "name": "Collapsible Sections",
+          "passed": false,
+          "score": 0.0,
+          "details": "No collapsible sections",
+          "category": "structure"
+        },
+        {
+          "name": "Journey/Progress Tracker",
+          "passed": false,
+          "score": 0.0,
+          "details": "No progress tracker",
+          "category": "structure"
+        },
+        {
+          "name": "Has Stylesheet",
+          "passed": true,
+          "score": 1.0,
+          "details": "1 external, 0 inline stylesheets",
+          "category": "visual"
+        },
+        {
+          "name": "Responsive Meta",
+          "passed": true,
+          "score": 1.0,
+          "details": "Viewport meta found",
+          "category": "visual"
+        },
+        {
+          "name": "Media Queries",
+          "passed": true,
+          "score": 0.3333333333333333,
+          "details": "Found 1 media queries",
+          "category": "visual"
+        },
+        {
+          "name": "Images Present",
+          "passed": true,
+          "score": 0.4,
+          "details": "Found 4 images",
+          "category": "visual"
+        },
+        {
+          "name": "Chart/Image Gallery",
+          "passed": true,
+          "score": 1.0,
+          "details": "Gallery found with 10 images in grids",
+          "category": "visual"
+        },
+        {
+          "name": "Gradients",
+          "passed": false,
+          "score": 0.0,
+          "details": "No gradients",
+          "category": "visual"
+        },
+        {
+          "name": "Box Shadows",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 1 shadow declarations",
+          "category": "visual"
+        },
+        {
+          "name": "Transitions",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 5 transitions",
+          "category": "visual"
+        },
+        {
+          "name": "Hover Effects",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 4 hover rules",
+          "category": "visual"
+        },
+        {
+          "name": "Color Palette",
+          "passed": true,
+          "score": 1.0,
+          "details": "17 hex, 7 rgb, 0 hsl, 33 CSS vars - Good color palette",
+          "category": "visual"
+        },
+        {
+          "name": "HTML Structure",
+          "passed": true,
+          "score": 1.0,
+          "details": "Valid structure",
+          "category": "technical"
+        },
+        {
+          "name": "Semantic HTML",
+          "passed": true,
+          "score": 0.8571428571428571,
+          "details": "Found 6/7 semantic tags: nav, main, article, aside, header, footer",
+          "category": "technical"
+        },
+        {
+          "name": "Alt Texts",
+          "passed": true,
+          "score": 1.0,
+          "details": "4/4 images have alt text (100%)",
+          "category": "technical"
+        },
+        {
+          "name": "ARIA/Accessibility",
+          "passed": true,
+          "score": 0.2,
+          "details": "Found 1 aria-labels, 0 roles",
+          "category": "technical"
+        },
+        {
+          "name": "Heading Hierarchy",
+          "passed": true,
+          "score": 1.0,
+          "details": "Good heading structure",
+          "category": "technical"
+        },
+        {
+          "name": "Page Load Time",
+          "passed": true,
+          "score": 1.0,
+          "details": "0.24s - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Render-Blocking Assets",
+          "passed": true,
+          "score": 1.0,
+          "details": "2 scripts, 1 CSS (3 blocking), 4 images - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Meta Tags",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 3/3 essential meta tags",
+          "category": "technical"
+        },
+        {
+          "name": "Favicon",
+          "passed": true,
+          "score": 1.0,
+          "details": "Favicon found",
+          "category": "technical"
+        },
+        {
+          "name": "Lang Attribute",
+          "passed": true,
+          "score": 1.0,
+          "details": "lang=\"en-us\"",
+          "category": "technical"
+        },
+        {
+          "name": "Open Graph Tags",
+          "passed": true,
+          "score": 0.6666666666666666,
+          "details": "Found 2/3 OG tags - missing: og:image",
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/project/curriculum",
+      "score": 73.1,
+      "category_scores": {
+        "structure": 58.8,
+        "visual": 77.3,
+        "technical": 88.4,
+        "links": 0.0
+      },
+      "passed": true,
+      "checks": [
+        {
+          "name": "Top Navigation",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found nav with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Sidebar",
+          "passed": true,
+          "score": 1.0,
+          "details": "Sidebar found with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Hero Section",
+          "passed": true,
+          "score": 0.7,
+          "details": "H1 heading found (partial hero)",
+          "category": "structure"
+        },
+        {
+          "name": "Content Grids",
+          "passed": false,
+          "score": 0.0,
+          "details": "No content grids found",
+          "category": "structure"
+        },
+        {
+          "name": "Footer",
+          "passed": true,
+          "score": 1.0,
+          "details": "Footer found with 2 links, 21 chars",
+          "category": "structure"
+        },
+        {
+          "name": "Search Functionality",
+          "passed": true,
+          "score": 1.0,
+          "details": "Search found",
+          "category": "structure"
+        },
+        {
+          "name": "Collapsible Sections",
+          "passed": false,
+          "score": 0.0,
+          "details": "No collapsible sections",
+          "category": "structure"
+        },
+        {
+          "name": "Journey/Progress Tracker",
+          "passed": false,
+          "score": 0.0,
+          "details": "No progress tracker",
+          "category": "structure"
+        },
+        {
+          "name": "Has Stylesheet",
+          "passed": true,
+          "score": 1.0,
+          "details": "1 external, 0 inline stylesheets",
+          "category": "visual"
+        },
+        {
+          "name": "Responsive Meta",
+          "passed": true,
+          "score": 1.0,
+          "details": "Viewport meta found",
+          "category": "visual"
+        },
+        {
+          "name": "Media Queries",
+          "passed": true,
+          "score": 0.3333333333333333,
+          "details": "Found 1 media queries",
+          "category": "visual"
+        },
+        {
+          "name": "Images Present",
+          "passed": true,
+          "score": 0.4,
+          "details": "Found 4 images",
+          "category": "visual"
+        },
+        {
+          "name": "Chart/Image Gallery",
+          "passed": true,
+          "score": 1.0,
+          "details": "Gallery found with 10 images in grids",
+          "category": "visual"
+        },
+        {
+          "name": "Gradients",
+          "passed": false,
+          "score": 0.0,
+          "details": "No gradients",
+          "category": "visual"
+        },
+        {
+          "name": "Box Shadows",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 1 shadow declarations",
+          "category": "visual"
+        },
+        {
+          "name": "Transitions",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 5 transitions",
+          "category": "visual"
+        },
+        {
+          "name": "Hover Effects",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 4 hover rules",
+          "category": "visual"
+        },
+        {
+          "name": "Color Palette",
+          "passed": true,
+          "score": 1.0,
+          "details": "17 hex, 7 rgb, 0 hsl, 33 CSS vars - Good color palette",
+          "category": "visual"
+        },
+        {
+          "name": "HTML Structure",
+          "passed": true,
+          "score": 1.0,
+          "details": "Valid structure",
+          "category": "technical"
+        },
+        {
+          "name": "Semantic HTML",
+          "passed": true,
+          "score": 0.8571428571428571,
+          "details": "Found 6/7 semantic tags: nav, main, article, aside, header, footer",
+          "category": "technical"
+        },
+        {
+          "name": "Alt Texts",
+          "passed": true,
+          "score": 1.0,
+          "details": "4/4 images have alt text (100%)",
+          "category": "technical"
+        },
+        {
+          "name": "ARIA/Accessibility",
+          "passed": true,
+          "score": 0.2,
+          "details": "Found 1 aria-labels, 0 roles",
+          "category": "technical"
+        },
+        {
+          "name": "Heading Hierarchy",
+          "passed": true,
+          "score": 1.0,
+          "details": "Good heading structure",
+          "category": "technical"
+        },
+        {
+          "name": "Page Load Time",
+          "passed": true,
+          "score": 1.0,
+          "details": "0.34s - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Render-Blocking Assets",
+          "passed": true,
+          "score": 1.0,
+          "details": "2 scripts, 1 CSS (3 blocking), 4 images - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Meta Tags",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 3/3 essential meta tags",
+          "category": "technical"
+        },
+        {
+          "name": "Favicon",
+          "passed": true,
+          "score": 1.0,
+          "details": "Favicon found",
+          "category": "technical"
+        },
+        {
+          "name": "Lang Attribute",
+          "passed": true,
+          "score": 1.0,
+          "details": "lang=\"en-us\"",
+          "category": "technical"
+        },
+        {
+          "name": "Open Graph Tags",
+          "passed": true,
+          "score": 0.6666666666666666,
+          "details": "Found 2/3 OG tags - missing: og:image",
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/project/timeline",
+      "score": 73.1,
+      "category_scores": {
+        "structure": 58.8,
+        "visual": 77.3,
+        "technical": 88.4,
+        "links": 0.0
+      },
+      "passed": true,
+      "checks": [
+        {
+          "name": "Top Navigation",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found nav with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Sidebar",
+          "passed": true,
+          "score": 1.0,
+          "details": "Sidebar found with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Hero Section",
+          "passed": true,
+          "score": 0.7,
+          "details": "H1 heading found (partial hero)",
+          "category": "structure"
+        },
+        {
+          "name": "Content Grids",
+          "passed": false,
+          "score": 0.0,
+          "details": "No content grids found",
+          "category": "structure"
+        },
+        {
+          "name": "Footer",
+          "passed": true,
+          "score": 1.0,
+          "details": "Footer found with 2 links, 25 chars",
+          "category": "structure"
+        },
+        {
+          "name": "Search Functionality",
+          "passed": true,
+          "score": 1.0,
+          "details": "Search found",
+          "category": "structure"
+        },
+        {
+          "name": "Collapsible Sections",
+          "passed": false,
+          "score": 0.0,
+          "details": "No collapsible sections",
+          "category": "structure"
+        },
+        {
+          "name": "Journey/Progress Tracker",
+          "passed": false,
+          "score": 0.0,
+          "details": "No progress tracker",
+          "category": "structure"
+        },
+        {
+          "name": "Has Stylesheet",
+          "passed": true,
+          "score": 1.0,
+          "details": "1 external, 0 inline stylesheets",
+          "category": "visual"
+        },
+        {
+          "name": "Responsive Meta",
+          "passed": true,
+          "score": 1.0,
+          "details": "Viewport meta found",
+          "category": "visual"
+        },
+        {
+          "name": "Media Queries",
+          "passed": true,
+          "score": 0.3333333333333333,
+          "details": "Found 1 media queries",
+          "category": "visual"
+        },
+        {
+          "name": "Images Present",
+          "passed": true,
+          "score": 0.4,
+          "details": "Found 4 images",
+          "category": "visual"
+        },
+        {
+          "name": "Chart/Image Gallery",
+          "passed": true,
+          "score": 1.0,
+          "details": "Gallery found with 10 images in grids",
+          "category": "visual"
+        },
+        {
+          "name": "Gradients",
+          "passed": false,
+          "score": 0.0,
+          "details": "No gradients",
+          "category": "visual"
+        },
+        {
+          "name": "Box Shadows",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 1 shadow declarations",
+          "category": "visual"
+        },
+        {
+          "name": "Transitions",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 5 transitions",
+          "category": "visual"
+        },
+        {
+          "name": "Hover Effects",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 4 hover rules",
+          "category": "visual"
+        },
+        {
+          "name": "Color Palette",
+          "passed": true,
+          "score": 1.0,
+          "details": "17 hex, 7 rgb, 0 hsl, 33 CSS vars - Good color palette",
+          "category": "visual"
+        },
+        {
+          "name": "HTML Structure",
+          "passed": true,
+          "score": 1.0,
+          "details": "Valid structure",
+          "category": "technical"
+        },
+        {
+          "name": "Semantic HTML",
+          "passed": true,
+          "score": 0.8571428571428571,
+          "details": "Found 6/7 semantic tags: nav, main, article, aside, header, footer",
+          "category": "technical"
+        },
+        {
+          "name": "Alt Texts",
+          "passed": true,
+          "score": 1.0,
+          "details": "4/4 images have alt text (100%)",
+          "category": "technical"
+        },
+        {
+          "name": "ARIA/Accessibility",
+          "passed": true,
+          "score": 0.2,
+          "details": "Found 1 aria-labels, 0 roles",
+          "category": "technical"
+        },
+        {
+          "name": "Heading Hierarchy",
+          "passed": true,
+          "score": 1.0,
+          "details": "Good heading structure",
+          "category": "technical"
+        },
+        {
+          "name": "Page Load Time",
+          "passed": true,
+          "score": 1.0,
+          "details": "0.50s - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Render-Blocking Assets",
+          "passed": true,
+          "score": 1.0,
+          "details": "2 scripts, 1 CSS (3 blocking), 4 images - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Meta Tags",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 3/3 essential meta tags",
+          "category": "technical"
+        },
+        {
+          "name": "Favicon",
+          "passed": true,
+          "score": 1.0,
+          "details": "Favicon found",
+          "category": "technical"
+        },
+        {
+          "name": "Lang Attribute",
+          "passed": true,
+          "score": 1.0,
+          "details": "lang=\"en-us\"",
+          "category": "technical"
+        },
+        {
+          "name": "Open Graph Tags",
+          "passed": true,
+          "score": 0.6666666666666666,
+          "details": "Found 2/3 OG tags - missing: og:image",
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/project/team",
+      "score": 73.1,
+      "category_scores": {
+        "structure": 58.8,
+        "visual": 77.3,
+        "technical": 88.4,
+        "links": 0.0
+      },
+      "passed": true,
+      "checks": [
+        {
+          "name": "Top Navigation",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found nav with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Sidebar",
+          "passed": true,
+          "score": 1.0,
+          "details": "Sidebar found with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Hero Section",
+          "passed": true,
+          "score": 0.7,
+          "details": "H1 heading found (partial hero)",
+          "category": "structure"
+        },
+        {
+          "name": "Content Grids",
+          "passed": false,
+          "score": 0.0,
+          "details": "No content grids found",
+          "category": "structure"
+        },
+        {
+          "name": "Footer",
+          "passed": true,
+          "score": 1.0,
+          "details": "Footer found with 2 links, 22 chars",
+          "category": "structure"
+        },
+        {
+          "name": "Search Functionality",
+          "passed": true,
+          "score": 1.0,
+          "details": "Search found",
+          "category": "structure"
+        },
+        {
+          "name": "Collapsible Sections",
+          "passed": false,
+          "score": 0.0,
+          "details": "No collapsible sections",
+          "category": "structure"
+        },
+        {
+          "name": "Journey/Progress Tracker",
+          "passed": false,
+          "score": 0.0,
+          "details": "No progress tracker",
+          "category": "structure"
+        },
+        {
+          "name": "Has Stylesheet",
+          "passed": true,
+          "score": 1.0,
+          "details": "1 external, 0 inline stylesheets",
+          "category": "visual"
+        },
+        {
+          "name": "Responsive Meta",
+          "passed": true,
+          "score": 1.0,
+          "details": "Viewport meta found",
+          "category": "visual"
+        },
+        {
+          "name": "Media Queries",
+          "passed": true,
+          "score": 0.3333333333333333,
+          "details": "Found 1 media queries",
+          "category": "visual"
+        },
+        {
+          "name": "Images Present",
+          "passed": true,
+          "score": 0.4,
+          "details": "Found 4 images",
+          "category": "visual"
+        },
+        {
+          "name": "Chart/Image Gallery",
+          "passed": true,
+          "score": 1.0,
+          "details": "Gallery found with 10 images in grids",
+          "category": "visual"
+        },
+        {
+          "name": "Gradients",
+          "passed": false,
+          "score": 0.0,
+          "details": "No gradients",
+          "category": "visual"
+        },
+        {
+          "name": "Box Shadows",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 1 shadow declarations",
+          "category": "visual"
+        },
+        {
+          "name": "Transitions",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 5 transitions",
+          "category": "visual"
+        },
+        {
+          "name": "Hover Effects",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 4 hover rules",
+          "category": "visual"
+        },
+        {
+          "name": "Color Palette",
+          "passed": true,
+          "score": 1.0,
+          "details": "17 hex, 7 rgb, 0 hsl, 33 CSS vars - Good color palette",
+          "category": "visual"
+        },
+        {
+          "name": "HTML Structure",
+          "passed": true,
+          "score": 1.0,
+          "details": "Valid structure",
+          "category": "technical"
+        },
+        {
+          "name": "Semantic HTML",
+          "passed": true,
+          "score": 0.8571428571428571,
+          "details": "Found 6/7 semantic tags: nav, main, article, aside, header, footer",
+          "category": "technical"
+        },
+        {
+          "name": "Alt Texts",
+          "passed": true,
+          "score": 1.0,
+          "details": "4/4 images have alt text (100%)",
+          "category": "technical"
+        },
+        {
+          "name": "ARIA/Accessibility",
+          "passed": true,
+          "score": 0.2,
+          "details": "Found 1 aria-labels, 0 roles",
+          "category": "technical"
+        },
+        {
+          "name": "Heading Hierarchy",
+          "passed": true,
+          "score": 1.0,
+          "details": "Good heading structure",
+          "category": "technical"
+        },
+        {
+          "name": "Page Load Time",
+          "passed": true,
+          "score": 1.0,
+          "details": "0.39s - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Render-Blocking Assets",
+          "passed": true,
+          "score": 1.0,
+          "details": "2 scripts, 1 CSS (3 blocking), 4 images - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Meta Tags",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 3/3 essential meta tags",
+          "category": "technical"
+        },
+        {
+          "name": "Favicon",
+          "passed": true,
+          "score": 1.0,
+          "details": "Favicon found",
+          "category": "technical"
+        },
+        {
+          "name": "Lang Attribute",
+          "passed": true,
+          "score": 1.0,
+          "details": "lang=\"en-us\"",
+          "category": "technical"
+        },
+        {
+          "name": "Open Graph Tags",
+          "passed": true,
+          "score": 0.6666666666666666,
+          "details": "Found 2/3 OG tags - missing: og:image",
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/project/news",
+      "score": 72.8,
+      "category_scores": {
+        "structure": 58.8,
+        "visual": 76.3,
+        "technical": 88.4,
+        "links": 0.0
+      },
+      "passed": true,
+      "checks": [
+        {
+          "name": "Top Navigation",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found nav with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Sidebar",
+          "passed": true,
+          "score": 1.0,
+          "details": "Sidebar found with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Hero Section",
+          "passed": true,
+          "score": 0.7,
+          "details": "H1 heading found (partial hero)",
+          "category": "structure"
+        },
+        {
+          "name": "Content Grids",
+          "passed": false,
+          "score": 0.0,
+          "details": "No content grids found",
+          "category": "structure"
+        },
+        {
+          "name": "Footer",
+          "passed": true,
+          "score": 1.0,
+          "details": "Footer found with 1 links, 15 chars",
+          "category": "structure"
+        },
+        {
+          "name": "Search Functionality",
+          "passed": true,
+          "score": 1.0,
+          "details": "Search found",
+          "category": "structure"
+        },
+        {
+          "name": "Collapsible Sections",
+          "passed": false,
+          "score": 0.0,
+          "details": "No collapsible sections",
+          "category": "structure"
+        },
+        {
+          "name": "Journey/Progress Tracker",
+          "passed": false,
+          "score": 0.0,
+          "details": "No progress tracker",
+          "category": "structure"
+        },
+        {
+          "name": "Has Stylesheet",
+          "passed": true,
+          "score": 1.0,
+          "details": "1 external, 0 inline stylesheets",
+          "category": "visual"
+        },
+        {
+          "name": "Responsive Meta",
+          "passed": true,
+          "score": 1.0,
+          "details": "Viewport meta found",
+          "category": "visual"
+        },
+        {
+          "name": "Media Queries",
+          "passed": true,
+          "score": 0.3333333333333333,
+          "details": "Found 1 media queries",
+          "category": "visual"
+        },
+        {
+          "name": "Images Present",
+          "passed": true,
+          "score": 0.3,
+          "details": "Found 3 images",
+          "category": "visual"
+        },
+        {
+          "name": "Chart/Image Gallery",
+          "passed": true,
+          "score": 1.0,
+          "details": "Gallery found with 7 images in grids",
+          "category": "visual"
+        },
+        {
+          "name": "Gradients",
+          "passed": false,
+          "score": 0.0,
+          "details": "No gradients",
+          "category": "visual"
+        },
+        {
+          "name": "Box Shadows",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 1 shadow declarations",
+          "category": "visual"
+        },
+        {
+          "name": "Transitions",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 5 transitions",
+          "category": "visual"
+        },
+        {
+          "name": "Hover Effects",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 4 hover rules",
+          "category": "visual"
+        },
+        {
+          "name": "Color Palette",
+          "passed": true,
+          "score": 1.0,
+          "details": "17 hex, 7 rgb, 0 hsl, 33 CSS vars - Good color palette",
+          "category": "visual"
+        },
+        {
+          "name": "HTML Structure",
+          "passed": true,
+          "score": 1.0,
+          "details": "Valid structure",
+          "category": "technical"
+        },
+        {
+          "name": "Semantic HTML",
+          "passed": true,
+          "score": 0.8571428571428571,
+          "details": "Found 6/7 semantic tags: nav, main, article, aside, header, footer",
+          "category": "technical"
+        },
+        {
+          "name": "Alt Texts",
+          "passed": true,
+          "score": 1.0,
+          "details": "3/3 images have alt text (100%)",
+          "category": "technical"
+        },
+        {
+          "name": "ARIA/Accessibility",
+          "passed": true,
+          "score": 0.2,
+          "details": "Found 1 aria-labels, 0 roles",
+          "category": "technical"
+        },
+        {
+          "name": "Heading Hierarchy",
+          "passed": true,
+          "score": 1.0,
+          "details": "Good heading structure",
+          "category": "technical"
+        },
+        {
+          "name": "Page Load Time",
+          "passed": true,
+          "score": 1.0,
+          "details": "0.27s - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Render-Blocking Assets",
+          "passed": true,
+          "score": 1.0,
+          "details": "2 scripts, 1 CSS (3 blocking), 3 images - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Meta Tags",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 3/3 essential meta tags",
+          "category": "technical"
+        },
+        {
+          "name": "Favicon",
+          "passed": true,
+          "score": 1.0,
+          "details": "Favicon found",
+          "category": "technical"
+        },
+        {
+          "name": "Lang Attribute",
+          "passed": true,
+          "score": 1.0,
+          "details": "lang=\"en-us\"",
+          "category": "technical"
+        },
+        {
+          "name": "Open Graph Tags",
+          "passed": true,
+          "score": 0.6666666666666666,
+          "details": "Found 2/3 OG tags - missing: og:image",
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/course",
+      "score": 72.4,
+      "category_scores": {
+        "structure": 58.8,
+        "visual": 75.3,
+        "technical": 88.4,
+        "links": 0.0
+      },
+      "passed": true,
+      "checks": [
+        {
+          "name": "Top Navigation",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found nav with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Sidebar",
+          "passed": true,
+          "score": 1.0,
+          "details": "Sidebar found with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Hero Section",
+          "passed": true,
+          "score": 0.7,
+          "details": "H1 heading found (partial hero)",
+          "category": "structure"
+        },
+        {
+          "name": "Content Grids",
+          "passed": false,
+          "score": 0.0,
+          "details": "No content grids found",
+          "category": "structure"
+        },
+        {
+          "name": "Footer",
+          "passed": true,
+          "score": 1.0,
+          "details": "Footer found with 0 links, 0 chars",
+          "category": "structure"
+        },
+        {
+          "name": "Search Functionality",
+          "passed": true,
+          "score": 1.0,
+          "details": "Search found",
+          "category": "structure"
+        },
+        {
+          "name": "Collapsible Sections",
+          "passed": false,
+          "score": 0.0,
+          "details": "No collapsible sections",
+          "category": "structure"
+        },
+        {
+          "name": "Journey/Progress Tracker",
+          "passed": false,
+          "score": 0.0,
+          "details": "No progress tracker",
+          "category": "structure"
+        },
+        {
+          "name": "Has Stylesheet",
+          "passed": true,
+          "score": 1.0,
+          "details": "1 external, 0 inline stylesheets",
+          "category": "visual"
+        },
+        {
+          "name": "Responsive Meta",
+          "passed": true,
+          "score": 1.0,
+          "details": "Viewport meta found",
+          "category": "visual"
+        },
+        {
+          "name": "Media Queries",
+          "passed": true,
+          "score": 0.3333333333333333,
+          "details": "Found 1 media queries",
+          "category": "visual"
+        },
+        {
+          "name": "Images Present",
+          "passed": false,
+          "score": 0.2,
+          "details": "Found 2 images",
+          "category": "visual"
+        },
+        {
+          "name": "Chart/Image Gallery",
+          "passed": true,
+          "score": 1.0,
+          "details": "Gallery found with 4 images in grids",
+          "category": "visual"
+        },
+        {
+          "name": "Gradients",
+          "passed": false,
+          "score": 0.0,
+          "details": "No gradients",
+          "category": "visual"
+        },
+        {
+          "name": "Box Shadows",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 1 shadow declarations",
+          "category": "visual"
+        },
+        {
+          "name": "Transitions",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 5 transitions",
+          "category": "visual"
+        },
+        {
+          "name": "Hover Effects",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 4 hover rules",
+          "category": "visual"
+        },
+        {
+          "name": "Color Palette",
+          "passed": true,
+          "score": 1.0,
+          "details": "17 hex, 7 rgb, 0 hsl, 33 CSS vars - Good color palette",
+          "category": "visual"
+        },
+        {
+          "name": "HTML Structure",
+          "passed": true,
+          "score": 1.0,
+          "details": "Valid structure",
+          "category": "technical"
+        },
+        {
+          "name": "Semantic HTML",
+          "passed": true,
+          "score": 0.8571428571428571,
+          "details": "Found 6/7 semantic tags: nav, main, article, aside, header, footer",
+          "category": "technical"
+        },
+        {
+          "name": "Alt Texts",
+          "passed": true,
+          "score": 1.0,
+          "details": "2/2 images have alt text (100%)",
+          "category": "technical"
+        },
+        {
+          "name": "ARIA/Accessibility",
+          "passed": true,
+          "score": 0.2,
+          "details": "Found 1 aria-labels, 0 roles",
+          "category": "technical"
+        },
+        {
+          "name": "Heading Hierarchy",
+          "passed": true,
+          "score": 1.0,
+          "details": "Good heading structure",
+          "category": "technical"
+        },
+        {
+          "name": "Page Load Time",
+          "passed": true,
+          "score": 1.0,
+          "details": "0.14s - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Render-Blocking Assets",
+          "passed": true,
+          "score": 1.0,
+          "details": "2 scripts, 1 CSS (3 blocking), 2 images - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Meta Tags",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 3/3 essential meta tags",
+          "category": "technical"
+        },
+        {
+          "name": "Favicon",
+          "passed": true,
+          "score": 1.0,
+          "details": "Favicon found",
+          "category": "technical"
+        },
+        {
+          "name": "Lang Attribute",
+          "passed": true,
+          "score": 1.0,
+          "details": "lang=\"en-us\"",
+          "category": "technical"
+        },
+        {
+          "name": "Open Graph Tags",
+          "passed": true,
+          "score": 0.6666666666666666,
+          "details": "Found 2/3 OG tags - missing: og:image",
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/slides",
+      "score": 72.4,
+      "category_scores": {
+        "structure": 58.8,
+        "visual": 75.3,
+        "technical": 88.4,
+        "links": 0.0
+      },
+      "passed": true,
+      "checks": [
+        {
+          "name": "Top Navigation",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found nav with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Sidebar",
+          "passed": true,
+          "score": 1.0,
+          "details": "Sidebar found with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Hero Section",
+          "passed": true,
+          "score": 0.7,
+          "details": "H1 heading found (partial hero)",
+          "category": "structure"
+        },
+        {
+          "name": "Content Grids",
+          "passed": false,
+          "score": 0.0,
+          "details": "No content grids found",
+          "category": "structure"
+        },
+        {
+          "name": "Footer",
+          "passed": true,
+          "score": 1.0,
+          "details": "Footer found with 0 links, 0 chars",
+          "category": "structure"
+        },
+        {
+          "name": "Search Functionality",
+          "passed": true,
+          "score": 1.0,
+          "details": "Search found",
+          "category": "structure"
+        },
+        {
+          "name": "Collapsible Sections",
+          "passed": false,
+          "score": 0.0,
+          "details": "No collapsible sections",
+          "category": "structure"
+        },
+        {
+          "name": "Journey/Progress Tracker",
+          "passed": false,
+          "score": 0.0,
+          "details": "No progress tracker",
+          "category": "structure"
+        },
+        {
+          "name": "Has Stylesheet",
+          "passed": true,
+          "score": 1.0,
+          "details": "1 external, 0 inline stylesheets",
+          "category": "visual"
+        },
+        {
+          "name": "Responsive Meta",
+          "passed": true,
+          "score": 1.0,
+          "details": "Viewport meta found",
+          "category": "visual"
+        },
+        {
+          "name": "Media Queries",
+          "passed": true,
+          "score": 0.3333333333333333,
+          "details": "Found 1 media queries",
+          "category": "visual"
+        },
+        {
+          "name": "Images Present",
+          "passed": false,
+          "score": 0.2,
+          "details": "Found 2 images",
+          "category": "visual"
+        },
+        {
+          "name": "Chart/Image Gallery",
+          "passed": true,
+          "score": 1.0,
+          "details": "Gallery found with 4 images in grids",
+          "category": "visual"
+        },
+        {
+          "name": "Gradients",
+          "passed": false,
+          "score": 0.0,
+          "details": "No gradients",
+          "category": "visual"
+        },
+        {
+          "name": "Box Shadows",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 1 shadow declarations",
+          "category": "visual"
+        },
+        {
+          "name": "Transitions",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 5 transitions",
+          "category": "visual"
+        },
+        {
+          "name": "Hover Effects",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 4 hover rules",
+          "category": "visual"
+        },
+        {
+          "name": "Color Palette",
+          "passed": true,
+          "score": 1.0,
+          "details": "17 hex, 7 rgb, 0 hsl, 33 CSS vars - Good color palette",
+          "category": "visual"
+        },
+        {
+          "name": "HTML Structure",
+          "passed": true,
+          "score": 1.0,
+          "details": "Valid structure",
+          "category": "technical"
+        },
+        {
+          "name": "Semantic HTML",
+          "passed": true,
+          "score": 0.8571428571428571,
+          "details": "Found 6/7 semantic tags: nav, main, article, aside, header, footer",
+          "category": "technical"
+        },
+        {
+          "name": "Alt Texts",
+          "passed": true,
+          "score": 1.0,
+          "details": "2/2 images have alt text (100%)",
+          "category": "technical"
+        },
+        {
+          "name": "ARIA/Accessibility",
+          "passed": true,
+          "score": 0.2,
+          "details": "Found 1 aria-labels, 0 roles",
+          "category": "technical"
+        },
+        {
+          "name": "Heading Hierarchy",
+          "passed": true,
+          "score": 1.0,
+          "details": "Good heading structure",
+          "category": "technical"
+        },
+        {
+          "name": "Page Load Time",
+          "passed": true,
+          "score": 1.0,
+          "details": "0.37s - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Render-Blocking Assets",
+          "passed": true,
+          "score": 1.0,
+          "details": "2 scripts, 1 CSS (3 blocking), 2 images - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Meta Tags",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 3/3 essential meta tags",
+          "category": "technical"
+        },
+        {
+          "name": "Favicon",
+          "passed": true,
+          "score": 1.0,
+          "details": "Favicon found",
+          "category": "technical"
+        },
+        {
+          "name": "Lang Attribute",
+          "passed": true,
+          "score": 1.0,
+          "details": "lang=\"en-us\"",
+          "category": "technical"
+        },
+        {
+          "name": "Open Graph Tags",
+          "passed": true,
+          "score": 0.6666666666666666,
+          "details": "Found 2/3 OG tags - missing: og:image",
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/course/week1",
+      "score": 72.4,
+      "category_scores": {
+        "structure": 58.8,
+        "visual": 75.3,
+        "technical": 88.4,
+        "links": 0.0
+      },
+      "passed": true,
+      "checks": [
+        {
+          "name": "Top Navigation",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found nav with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Sidebar",
+          "passed": true,
+          "score": 1.0,
+          "details": "Sidebar found with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Hero Section",
+          "passed": true,
+          "score": 0.7,
+          "details": "H1 heading found (partial hero)",
+          "category": "structure"
+        },
+        {
+          "name": "Content Grids",
+          "passed": false,
+          "score": 0.0,
+          "details": "No content grids found",
+          "category": "structure"
+        },
+        {
+          "name": "Footer",
+          "passed": true,
+          "score": 1.0,
+          "details": "Footer found with 0 links, 0 chars",
+          "category": "structure"
+        },
+        {
+          "name": "Search Functionality",
+          "passed": true,
+          "score": 1.0,
+          "details": "Search found",
+          "category": "structure"
+        },
+        {
+          "name": "Collapsible Sections",
+          "passed": false,
+          "score": 0.0,
+          "details": "No collapsible sections",
+          "category": "structure"
+        },
+        {
+          "name": "Journey/Progress Tracker",
+          "passed": false,
+          "score": 0.0,
+          "details": "No progress tracker",
+          "category": "structure"
+        },
+        {
+          "name": "Has Stylesheet",
+          "passed": true,
+          "score": 1.0,
+          "details": "1 external, 0 inline stylesheets",
+          "category": "visual"
+        },
+        {
+          "name": "Responsive Meta",
+          "passed": true,
+          "score": 1.0,
+          "details": "Viewport meta found",
+          "category": "visual"
+        },
+        {
+          "name": "Media Queries",
+          "passed": true,
+          "score": 0.3333333333333333,
+          "details": "Found 1 media queries",
+          "category": "visual"
+        },
+        {
+          "name": "Images Present",
+          "passed": false,
+          "score": 0.2,
+          "details": "Found 2 images",
+          "category": "visual"
+        },
+        {
+          "name": "Chart/Image Gallery",
+          "passed": true,
+          "score": 1.0,
+          "details": "Gallery found with 4 images in grids",
+          "category": "visual"
+        },
+        {
+          "name": "Gradients",
+          "passed": false,
+          "score": 0.0,
+          "details": "No gradients",
+          "category": "visual"
+        },
+        {
+          "name": "Box Shadows",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 1 shadow declarations",
+          "category": "visual"
+        },
+        {
+          "name": "Transitions",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 5 transitions",
+          "category": "visual"
+        },
+        {
+          "name": "Hover Effects",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 4 hover rules",
+          "category": "visual"
+        },
+        {
+          "name": "Color Palette",
+          "passed": true,
+          "score": 1.0,
+          "details": "17 hex, 7 rgb, 0 hsl, 33 CSS vars - Good color palette",
+          "category": "visual"
+        },
+        {
+          "name": "HTML Structure",
+          "passed": true,
+          "score": 1.0,
+          "details": "Valid structure",
+          "category": "technical"
+        },
+        {
+          "name": "Semantic HTML",
+          "passed": true,
+          "score": 0.8571428571428571,
+          "details": "Found 6/7 semantic tags: nav, main, article, aside, header, footer",
+          "category": "technical"
+        },
+        {
+          "name": "Alt Texts",
+          "passed": true,
+          "score": 1.0,
+          "details": "2/2 images have alt text (100%)",
+          "category": "technical"
+        },
+        {
+          "name": "ARIA/Accessibility",
+          "passed": true,
+          "score": 0.2,
+          "details": "Found 1 aria-labels, 0 roles",
+          "category": "technical"
+        },
+        {
+          "name": "Heading Hierarchy",
+          "passed": true,
+          "score": 1.0,
+          "details": "Good heading structure",
+          "category": "technical"
+        },
+        {
+          "name": "Page Load Time",
+          "passed": true,
+          "score": 1.0,
+          "details": "0.23s - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Render-Blocking Assets",
+          "passed": true,
+          "score": 1.0,
+          "details": "2 scripts, 1 CSS (3 blocking), 2 images - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Meta Tags",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 3/3 essential meta tags",
+          "category": "technical"
+        },
+        {
+          "name": "Favicon",
+          "passed": true,
+          "score": 1.0,
+          "details": "Favicon found",
+          "category": "technical"
+        },
+        {
+          "name": "Lang Attribute",
+          "passed": true,
+          "score": 1.0,
+          "details": "lang=\"en-us\"",
+          "category": "technical"
+        },
+        {
+          "name": "Open Graph Tags",
+          "passed": true,
+          "score": 0.6666666666666666,
+          "details": "Found 2/3 OG tags - missing: og:image",
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/course/week2",
+      "score": 72.4,
+      "category_scores": {
+        "structure": 58.8,
+        "visual": 75.3,
+        "technical": 88.4,
+        "links": 0.0
+      },
+      "passed": true,
+      "checks": [
+        {
+          "name": "Top Navigation",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found nav with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Sidebar",
+          "passed": true,
+          "score": 1.0,
+          "details": "Sidebar found with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Hero Section",
+          "passed": true,
+          "score": 0.7,
+          "details": "H1 heading found (partial hero)",
+          "category": "structure"
+        },
+        {
+          "name": "Content Grids",
+          "passed": false,
+          "score": 0.0,
+          "details": "No content grids found",
+          "category": "structure"
+        },
+        {
+          "name": "Footer",
+          "passed": true,
+          "score": 1.0,
+          "details": "Footer found with 0 links, 0 chars",
+          "category": "structure"
+        },
+        {
+          "name": "Search Functionality",
+          "passed": true,
+          "score": 1.0,
+          "details": "Search found",
+          "category": "structure"
+        },
+        {
+          "name": "Collapsible Sections",
+          "passed": false,
+          "score": 0.0,
+          "details": "No collapsible sections",
+          "category": "structure"
+        },
+        {
+          "name": "Journey/Progress Tracker",
+          "passed": false,
+          "score": 0.0,
+          "details": "No progress tracker",
+          "category": "structure"
+        },
+        {
+          "name": "Has Stylesheet",
+          "passed": true,
+          "score": 1.0,
+          "details": "1 external, 0 inline stylesheets",
+          "category": "visual"
+        },
+        {
+          "name": "Responsive Meta",
+          "passed": true,
+          "score": 1.0,
+          "details": "Viewport meta found",
+          "category": "visual"
+        },
+        {
+          "name": "Media Queries",
+          "passed": true,
+          "score": 0.3333333333333333,
+          "details": "Found 1 media queries",
+          "category": "visual"
+        },
+        {
+          "name": "Images Present",
+          "passed": false,
+          "score": 0.2,
+          "details": "Found 2 images",
+          "category": "visual"
+        },
+        {
+          "name": "Chart/Image Gallery",
+          "passed": true,
+          "score": 1.0,
+          "details": "Gallery found with 4 images in grids",
+          "category": "visual"
+        },
+        {
+          "name": "Gradients",
+          "passed": false,
+          "score": 0.0,
+          "details": "No gradients",
+          "category": "visual"
+        },
+        {
+          "name": "Box Shadows",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 1 shadow declarations",
+          "category": "visual"
+        },
+        {
+          "name": "Transitions",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 5 transitions",
+          "category": "visual"
+        },
+        {
+          "name": "Hover Effects",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 4 hover rules",
+          "category": "visual"
+        },
+        {
+          "name": "Color Palette",
+          "passed": true,
+          "score": 1.0,
+          "details": "17 hex, 7 rgb, 0 hsl, 33 CSS vars - Good color palette",
+          "category": "visual"
+        },
+        {
+          "name": "HTML Structure",
+          "passed": true,
+          "score": 1.0,
+          "details": "Valid structure",
+          "category": "technical"
+        },
+        {
+          "name": "Semantic HTML",
+          "passed": true,
+          "score": 0.8571428571428571,
+          "details": "Found 6/7 semantic tags: nav, main, article, aside, header, footer",
+          "category": "technical"
+        },
+        {
+          "name": "Alt Texts",
+          "passed": true,
+          "score": 1.0,
+          "details": "2/2 images have alt text (100%)",
+          "category": "technical"
+        },
+        {
+          "name": "ARIA/Accessibility",
+          "passed": true,
+          "score": 0.2,
+          "details": "Found 1 aria-labels, 0 roles",
+          "category": "technical"
+        },
+        {
+          "name": "Heading Hierarchy",
+          "passed": true,
+          "score": 1.0,
+          "details": "Good heading structure",
+          "category": "technical"
+        },
+        {
+          "name": "Page Load Time",
+          "passed": true,
+          "score": 1.0,
+          "details": "0.21s - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Render-Blocking Assets",
+          "passed": true,
+          "score": 1.0,
+          "details": "2 scripts, 1 CSS (3 blocking), 2 images - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Meta Tags",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 3/3 essential meta tags",
+          "category": "technical"
+        },
+        {
+          "name": "Favicon",
+          "passed": true,
+          "score": 1.0,
+          "details": "Favicon found",
+          "category": "technical"
+        },
+        {
+          "name": "Lang Attribute",
+          "passed": true,
+          "score": 1.0,
+          "details": "lang=\"en-us\"",
+          "category": "technical"
+        },
+        {
+          "name": "Open Graph Tags",
+          "passed": true,
+          "score": 0.6666666666666666,
+          "details": "Found 2/3 OG tags - missing: og:image",
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/course/week3",
+      "score": 72.4,
+      "category_scores": {
+        "structure": 58.8,
+        "visual": 75.3,
+        "technical": 88.4,
+        "links": 0.0
+      },
+      "passed": true,
+      "checks": [
+        {
+          "name": "Top Navigation",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found nav with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Sidebar",
+          "passed": true,
+          "score": 1.0,
+          "details": "Sidebar found with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Hero Section",
+          "passed": true,
+          "score": 0.7,
+          "details": "H1 heading found (partial hero)",
+          "category": "structure"
+        },
+        {
+          "name": "Content Grids",
+          "passed": false,
+          "score": 0.0,
+          "details": "No content grids found",
+          "category": "structure"
+        },
+        {
+          "name": "Footer",
+          "passed": true,
+          "score": 1.0,
+          "details": "Footer found with 0 links, 0 chars",
+          "category": "structure"
+        },
+        {
+          "name": "Search Functionality",
+          "passed": true,
+          "score": 1.0,
+          "details": "Search found",
+          "category": "structure"
+        },
+        {
+          "name": "Collapsible Sections",
+          "passed": false,
+          "score": 0.0,
+          "details": "No collapsible sections",
+          "category": "structure"
+        },
+        {
+          "name": "Journey/Progress Tracker",
+          "passed": false,
+          "score": 0.0,
+          "details": "No progress tracker",
+          "category": "structure"
+        },
+        {
+          "name": "Has Stylesheet",
+          "passed": true,
+          "score": 1.0,
+          "details": "1 external, 0 inline stylesheets",
+          "category": "visual"
+        },
+        {
+          "name": "Responsive Meta",
+          "passed": true,
+          "score": 1.0,
+          "details": "Viewport meta found",
+          "category": "visual"
+        },
+        {
+          "name": "Media Queries",
+          "passed": true,
+          "score": 0.3333333333333333,
+          "details": "Found 1 media queries",
+          "category": "visual"
+        },
+        {
+          "name": "Images Present",
+          "passed": false,
+          "score": 0.2,
+          "details": "Found 2 images",
+          "category": "visual"
+        },
+        {
+          "name": "Chart/Image Gallery",
+          "passed": true,
+          "score": 1.0,
+          "details": "Gallery found with 4 images in grids",
+          "category": "visual"
+        },
+        {
+          "name": "Gradients",
+          "passed": false,
+          "score": 0.0,
+          "details": "No gradients",
+          "category": "visual"
+        },
+        {
+          "name": "Box Shadows",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 1 shadow declarations",
+          "category": "visual"
+        },
+        {
+          "name": "Transitions",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 5 transitions",
+          "category": "visual"
+        },
+        {
+          "name": "Hover Effects",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 4 hover rules",
+          "category": "visual"
+        },
+        {
+          "name": "Color Palette",
+          "passed": true,
+          "score": 1.0,
+          "details": "17 hex, 7 rgb, 0 hsl, 33 CSS vars - Good color palette",
+          "category": "visual"
+        },
+        {
+          "name": "HTML Structure",
+          "passed": true,
+          "score": 1.0,
+          "details": "Valid structure",
+          "category": "technical"
+        },
+        {
+          "name": "Semantic HTML",
+          "passed": true,
+          "score": 0.8571428571428571,
+          "details": "Found 6/7 semantic tags: nav, main, article, aside, header, footer",
+          "category": "technical"
+        },
+        {
+          "name": "Alt Texts",
+          "passed": true,
+          "score": 1.0,
+          "details": "2/2 images have alt text (100%)",
+          "category": "technical"
+        },
+        {
+          "name": "ARIA/Accessibility",
+          "passed": true,
+          "score": 0.2,
+          "details": "Found 1 aria-labels, 0 roles",
+          "category": "technical"
+        },
+        {
+          "name": "Heading Hierarchy",
+          "passed": true,
+          "score": 1.0,
+          "details": "Good heading structure",
+          "category": "technical"
+        },
+        {
+          "name": "Page Load Time",
+          "passed": true,
+          "score": 1.0,
+          "details": "0.42s - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Render-Blocking Assets",
+          "passed": true,
+          "score": 1.0,
+          "details": "2 scripts, 1 CSS (3 blocking), 2 images - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Meta Tags",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 3/3 essential meta tags",
+          "category": "technical"
+        },
+        {
+          "name": "Favicon",
+          "passed": true,
+          "score": 1.0,
+          "details": "Favicon found",
+          "category": "technical"
+        },
+        {
+          "name": "Lang Attribute",
+          "passed": true,
+          "score": 1.0,
+          "details": "lang=\"en-us\"",
+          "category": "technical"
+        },
+        {
+          "name": "Open Graph Tags",
+          "passed": true,
+          "score": 0.6666666666666666,
+          "details": "Found 2/3 OG tags - missing: og:image",
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/course/week4",
+      "score": 72.4,
+      "category_scores": {
+        "structure": 58.8,
+        "visual": 75.3,
+        "technical": 88.4,
+        "links": 0.0
+      },
+      "passed": true,
+      "checks": [
+        {
+          "name": "Top Navigation",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found nav with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Sidebar",
+          "passed": true,
+          "score": 1.0,
+          "details": "Sidebar found with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Hero Section",
+          "passed": true,
+          "score": 0.7,
+          "details": "H1 heading found (partial hero)",
+          "category": "structure"
+        },
+        {
+          "name": "Content Grids",
+          "passed": false,
+          "score": 0.0,
+          "details": "No content grids found",
+          "category": "structure"
+        },
+        {
+          "name": "Footer",
+          "passed": true,
+          "score": 1.0,
+          "details": "Footer found with 0 links, 0 chars",
+          "category": "structure"
+        },
+        {
+          "name": "Search Functionality",
+          "passed": true,
+          "score": 1.0,
+          "details": "Search found",
+          "category": "structure"
+        },
+        {
+          "name": "Collapsible Sections",
+          "passed": false,
+          "score": 0.0,
+          "details": "No collapsible sections",
+          "category": "structure"
+        },
+        {
+          "name": "Journey/Progress Tracker",
+          "passed": false,
+          "score": 0.0,
+          "details": "No progress tracker",
+          "category": "structure"
+        },
+        {
+          "name": "Has Stylesheet",
+          "passed": true,
+          "score": 1.0,
+          "details": "1 external, 0 inline stylesheets",
+          "category": "visual"
+        },
+        {
+          "name": "Responsive Meta",
+          "passed": true,
+          "score": 1.0,
+          "details": "Viewport meta found",
+          "category": "visual"
+        },
+        {
+          "name": "Media Queries",
+          "passed": true,
+          "score": 0.3333333333333333,
+          "details": "Found 1 media queries",
+          "category": "visual"
+        },
+        {
+          "name": "Images Present",
+          "passed": false,
+          "score": 0.2,
+          "details": "Found 2 images",
+          "category": "visual"
+        },
+        {
+          "name": "Chart/Image Gallery",
+          "passed": true,
+          "score": 1.0,
+          "details": "Gallery found with 4 images in grids",
+          "category": "visual"
+        },
+        {
+          "name": "Gradients",
+          "passed": false,
+          "score": 0.0,
+          "details": "No gradients",
+          "category": "visual"
+        },
+        {
+          "name": "Box Shadows",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 1 shadow declarations",
+          "category": "visual"
+        },
+        {
+          "name": "Transitions",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 5 transitions",
+          "category": "visual"
+        },
+        {
+          "name": "Hover Effects",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 4 hover rules",
+          "category": "visual"
+        },
+        {
+          "name": "Color Palette",
+          "passed": true,
+          "score": 1.0,
+          "details": "17 hex, 7 rgb, 0 hsl, 33 CSS vars - Good color palette",
+          "category": "visual"
+        },
+        {
+          "name": "HTML Structure",
+          "passed": true,
+          "score": 1.0,
+          "details": "Valid structure",
+          "category": "technical"
+        },
+        {
+          "name": "Semantic HTML",
+          "passed": true,
+          "score": 0.8571428571428571,
+          "details": "Found 6/7 semantic tags: nav, main, article, aside, header, footer",
+          "category": "technical"
+        },
+        {
+          "name": "Alt Texts",
+          "passed": true,
+          "score": 1.0,
+          "details": "2/2 images have alt text (100%)",
+          "category": "technical"
+        },
+        {
+          "name": "ARIA/Accessibility",
+          "passed": true,
+          "score": 0.2,
+          "details": "Found 1 aria-labels, 0 roles",
+          "category": "technical"
+        },
+        {
+          "name": "Heading Hierarchy",
+          "passed": true,
+          "score": 1.0,
+          "details": "Good heading structure",
+          "category": "technical"
+        },
+        {
+          "name": "Page Load Time",
+          "passed": true,
+          "score": 1.0,
+          "details": "0.12s - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Render-Blocking Assets",
+          "passed": true,
+          "score": 1.0,
+          "details": "2 scripts, 1 CSS (3 blocking), 2 images - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Meta Tags",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 3/3 essential meta tags",
+          "category": "technical"
+        },
+        {
+          "name": "Favicon",
+          "passed": true,
+          "score": 1.0,
+          "details": "Favicon found",
+          "category": "technical"
+        },
+        {
+          "name": "Lang Attribute",
+          "passed": true,
+          "score": 1.0,
+          "details": "lang=\"en-us\"",
+          "category": "technical"
+        },
+        {
+          "name": "Open Graph Tags",
+          "passed": true,
+          "score": 0.6666666666666666,
+          "details": "Found 2/3 OG tags - missing: og:image",
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/course/week5",
+      "score": 72.4,
+      "category_scores": {
+        "structure": 58.8,
+        "visual": 75.3,
+        "technical": 88.4,
+        "links": 0.0
+      },
+      "passed": true,
+      "checks": [
+        {
+          "name": "Top Navigation",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found nav with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Sidebar",
+          "passed": true,
+          "score": 1.0,
+          "details": "Sidebar found with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Hero Section",
+          "passed": true,
+          "score": 0.7,
+          "details": "H1 heading found (partial hero)",
+          "category": "structure"
+        },
+        {
+          "name": "Content Grids",
+          "passed": false,
+          "score": 0.0,
+          "details": "No content grids found",
+          "category": "structure"
+        },
+        {
+          "name": "Footer",
+          "passed": true,
+          "score": 1.0,
+          "details": "Footer found with 0 links, 0 chars",
+          "category": "structure"
+        },
+        {
+          "name": "Search Functionality",
+          "passed": true,
+          "score": 1.0,
+          "details": "Search found",
+          "category": "structure"
+        },
+        {
+          "name": "Collapsible Sections",
+          "passed": false,
+          "score": 0.0,
+          "details": "No collapsible sections",
+          "category": "structure"
+        },
+        {
+          "name": "Journey/Progress Tracker",
+          "passed": false,
+          "score": 0.0,
+          "details": "No progress tracker",
+          "category": "structure"
+        },
+        {
+          "name": "Has Stylesheet",
+          "passed": true,
+          "score": 1.0,
+          "details": "1 external, 0 inline stylesheets",
+          "category": "visual"
+        },
+        {
+          "name": "Responsive Meta",
+          "passed": true,
+          "score": 1.0,
+          "details": "Viewport meta found",
+          "category": "visual"
+        },
+        {
+          "name": "Media Queries",
+          "passed": true,
+          "score": 0.3333333333333333,
+          "details": "Found 1 media queries",
+          "category": "visual"
+        },
+        {
+          "name": "Images Present",
+          "passed": false,
+          "score": 0.2,
+          "details": "Found 2 images",
+          "category": "visual"
+        },
+        {
+          "name": "Chart/Image Gallery",
+          "passed": true,
+          "score": 1.0,
+          "details": "Gallery found with 4 images in grids",
+          "category": "visual"
+        },
+        {
+          "name": "Gradients",
+          "passed": false,
+          "score": 0.0,
+          "details": "No gradients",
+          "category": "visual"
+        },
+        {
+          "name": "Box Shadows",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 1 shadow declarations",
+          "category": "visual"
+        },
+        {
+          "name": "Transitions",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 5 transitions",
+          "category": "visual"
+        },
+        {
+          "name": "Hover Effects",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 4 hover rules",
+          "category": "visual"
+        },
+        {
+          "name": "Color Palette",
+          "passed": true,
+          "score": 1.0,
+          "details": "17 hex, 7 rgb, 0 hsl, 33 CSS vars - Good color palette",
+          "category": "visual"
+        },
+        {
+          "name": "HTML Structure",
+          "passed": true,
+          "score": 1.0,
+          "details": "Valid structure",
+          "category": "technical"
+        },
+        {
+          "name": "Semantic HTML",
+          "passed": true,
+          "score": 0.8571428571428571,
+          "details": "Found 6/7 semantic tags: nav, main, article, aside, header, footer",
+          "category": "technical"
+        },
+        {
+          "name": "Alt Texts",
+          "passed": true,
+          "score": 1.0,
+          "details": "2/2 images have alt text (100%)",
+          "category": "technical"
+        },
+        {
+          "name": "ARIA/Accessibility",
+          "passed": true,
+          "score": 0.2,
+          "details": "Found 1 aria-labels, 0 roles",
+          "category": "technical"
+        },
+        {
+          "name": "Heading Hierarchy",
+          "passed": true,
+          "score": 1.0,
+          "details": "Good heading structure",
+          "category": "technical"
+        },
+        {
+          "name": "Page Load Time",
+          "passed": true,
+          "score": 1.0,
+          "details": "0.35s - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Render-Blocking Assets",
+          "passed": true,
+          "score": 1.0,
+          "details": "2 scripts, 1 CSS (3 blocking), 2 images - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Meta Tags",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 3/3 essential meta tags",
+          "category": "technical"
+        },
+        {
+          "name": "Favicon",
+          "passed": true,
+          "score": 1.0,
+          "details": "Favicon found",
+          "category": "technical"
+        },
+        {
+          "name": "Lang Attribute",
+          "passed": true,
+          "score": 1.0,
+          "details": "lang=\"en-us\"",
+          "category": "technical"
+        },
+        {
+          "name": "Open Graph Tags",
+          "passed": true,
+          "score": 0.6666666666666666,
+          "details": "Found 2/3 OG tags - missing: og:image",
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/course/week6",
+      "score": 72.4,
+      "category_scores": {
+        "structure": 58.8,
+        "visual": 75.3,
+        "technical": 88.4,
+        "links": 0.0
+      },
+      "passed": true,
+      "checks": [
+        {
+          "name": "Top Navigation",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found nav with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Sidebar",
+          "passed": true,
+          "score": 1.0,
+          "details": "Sidebar found with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Hero Section",
+          "passed": true,
+          "score": 0.7,
+          "details": "H1 heading found (partial hero)",
+          "category": "structure"
+        },
+        {
+          "name": "Content Grids",
+          "passed": false,
+          "score": 0.0,
+          "details": "No content grids found",
+          "category": "structure"
+        },
+        {
+          "name": "Footer",
+          "passed": true,
+          "score": 1.0,
+          "details": "Footer found with 0 links, 0 chars",
+          "category": "structure"
+        },
+        {
+          "name": "Search Functionality",
+          "passed": true,
+          "score": 1.0,
+          "details": "Search found",
+          "category": "structure"
+        },
+        {
+          "name": "Collapsible Sections",
+          "passed": false,
+          "score": 0.0,
+          "details": "No collapsible sections",
+          "category": "structure"
+        },
+        {
+          "name": "Journey/Progress Tracker",
+          "passed": false,
+          "score": 0.0,
+          "details": "No progress tracker",
+          "category": "structure"
+        },
+        {
+          "name": "Has Stylesheet",
+          "passed": true,
+          "score": 1.0,
+          "details": "1 external, 0 inline stylesheets",
+          "category": "visual"
+        },
+        {
+          "name": "Responsive Meta",
+          "passed": true,
+          "score": 1.0,
+          "details": "Viewport meta found",
+          "category": "visual"
+        },
+        {
+          "name": "Media Queries",
+          "passed": true,
+          "score": 0.3333333333333333,
+          "details": "Found 1 media queries",
+          "category": "visual"
+        },
+        {
+          "name": "Images Present",
+          "passed": false,
+          "score": 0.2,
+          "details": "Found 2 images",
+          "category": "visual"
+        },
+        {
+          "name": "Chart/Image Gallery",
+          "passed": true,
+          "score": 1.0,
+          "details": "Gallery found with 4 images in grids",
+          "category": "visual"
+        },
+        {
+          "name": "Gradients",
+          "passed": false,
+          "score": 0.0,
+          "details": "No gradients",
+          "category": "visual"
+        },
+        {
+          "name": "Box Shadows",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 1 shadow declarations",
+          "category": "visual"
+        },
+        {
+          "name": "Transitions",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 5 transitions",
+          "category": "visual"
+        },
+        {
+          "name": "Hover Effects",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 4 hover rules",
+          "category": "visual"
+        },
+        {
+          "name": "Color Palette",
+          "passed": true,
+          "score": 1.0,
+          "details": "17 hex, 7 rgb, 0 hsl, 33 CSS vars - Good color palette",
+          "category": "visual"
+        },
+        {
+          "name": "HTML Structure",
+          "passed": true,
+          "score": 1.0,
+          "details": "Valid structure",
+          "category": "technical"
+        },
+        {
+          "name": "Semantic HTML",
+          "passed": true,
+          "score": 0.8571428571428571,
+          "details": "Found 6/7 semantic tags: nav, main, article, aside, header, footer",
+          "category": "technical"
+        },
+        {
+          "name": "Alt Texts",
+          "passed": true,
+          "score": 1.0,
+          "details": "2/2 images have alt text (100%)",
+          "category": "technical"
+        },
+        {
+          "name": "ARIA/Accessibility",
+          "passed": true,
+          "score": 0.2,
+          "details": "Found 1 aria-labels, 0 roles",
+          "category": "technical"
+        },
+        {
+          "name": "Heading Hierarchy",
+          "passed": true,
+          "score": 1.0,
+          "details": "Good heading structure",
+          "category": "technical"
+        },
+        {
+          "name": "Page Load Time",
+          "passed": true,
+          "score": 1.0,
+          "details": "0.13s - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Render-Blocking Assets",
+          "passed": true,
+          "score": 1.0,
+          "details": "2 scripts, 1 CSS (3 blocking), 2 images - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Meta Tags",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 3/3 essential meta tags",
+          "category": "technical"
+        },
+        {
+          "name": "Favicon",
+          "passed": true,
+          "score": 1.0,
+          "details": "Favicon found",
+          "category": "technical"
+        },
+        {
+          "name": "Lang Attribute",
+          "passed": true,
+          "score": 1.0,
+          "details": "lang=\"en-us\"",
+          "category": "technical"
+        },
+        {
+          "name": "Open Graph Tags",
+          "passed": true,
+          "score": 0.6666666666666666,
+          "details": "Found 2/3 OG tags - missing: og:image",
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/course/week7",
+      "score": 72.4,
+      "category_scores": {
+        "structure": 58.8,
+        "visual": 75.3,
+        "technical": 88.4,
+        "links": 0.0
+      },
+      "passed": true,
+      "checks": [
+        {
+          "name": "Top Navigation",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found nav with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Sidebar",
+          "passed": true,
+          "score": 1.0,
+          "details": "Sidebar found with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Hero Section",
+          "passed": true,
+          "score": 0.7,
+          "details": "H1 heading found (partial hero)",
+          "category": "structure"
+        },
+        {
+          "name": "Content Grids",
+          "passed": false,
+          "score": 0.0,
+          "details": "No content grids found",
+          "category": "structure"
+        },
+        {
+          "name": "Footer",
+          "passed": true,
+          "score": 1.0,
+          "details": "Footer found with 0 links, 0 chars",
+          "category": "structure"
+        },
+        {
+          "name": "Search Functionality",
+          "passed": true,
+          "score": 1.0,
+          "details": "Search found",
+          "category": "structure"
+        },
+        {
+          "name": "Collapsible Sections",
+          "passed": false,
+          "score": 0.0,
+          "details": "No collapsible sections",
+          "category": "structure"
+        },
+        {
+          "name": "Journey/Progress Tracker",
+          "passed": false,
+          "score": 0.0,
+          "details": "No progress tracker",
+          "category": "structure"
+        },
+        {
+          "name": "Has Stylesheet",
+          "passed": true,
+          "score": 1.0,
+          "details": "1 external, 0 inline stylesheets",
+          "category": "visual"
+        },
+        {
+          "name": "Responsive Meta",
+          "passed": true,
+          "score": 1.0,
+          "details": "Viewport meta found",
+          "category": "visual"
+        },
+        {
+          "name": "Media Queries",
+          "passed": true,
+          "score": 0.3333333333333333,
+          "details": "Found 1 media queries",
+          "category": "visual"
+        },
+        {
+          "name": "Images Present",
+          "passed": false,
+          "score": 0.2,
+          "details": "Found 2 images",
+          "category": "visual"
+        },
+        {
+          "name": "Chart/Image Gallery",
+          "passed": true,
+          "score": 1.0,
+          "details": "Gallery found with 4 images in grids",
+          "category": "visual"
+        },
+        {
+          "name": "Gradients",
+          "passed": false,
+          "score": 0.0,
+          "details": "No gradients",
+          "category": "visual"
+        },
+        {
+          "name": "Box Shadows",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 1 shadow declarations",
+          "category": "visual"
+        },
+        {
+          "name": "Transitions",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 5 transitions",
+          "category": "visual"
+        },
+        {
+          "name": "Hover Effects",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 4 hover rules",
+          "category": "visual"
+        },
+        {
+          "name": "Color Palette",
+          "passed": true,
+          "score": 1.0,
+          "details": "17 hex, 7 rgb, 0 hsl, 33 CSS vars - Good color palette",
+          "category": "visual"
+        },
+        {
+          "name": "HTML Structure",
+          "passed": true,
+          "score": 1.0,
+          "details": "Valid structure",
+          "category": "technical"
+        },
+        {
+          "name": "Semantic HTML",
+          "passed": true,
+          "score": 0.8571428571428571,
+          "details": "Found 6/7 semantic tags: nav, main, article, aside, header, footer",
+          "category": "technical"
+        },
+        {
+          "name": "Alt Texts",
+          "passed": true,
+          "score": 1.0,
+          "details": "2/2 images have alt text (100%)",
+          "category": "technical"
+        },
+        {
+          "name": "ARIA/Accessibility",
+          "passed": true,
+          "score": 0.2,
+          "details": "Found 1 aria-labels, 0 roles",
+          "category": "technical"
+        },
+        {
+          "name": "Heading Hierarchy",
+          "passed": true,
+          "score": 1.0,
+          "details": "Good heading structure",
+          "category": "technical"
+        },
+        {
+          "name": "Page Load Time",
+          "passed": true,
+          "score": 1.0,
+          "details": "0.40s - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Render-Blocking Assets",
+          "passed": true,
+          "score": 1.0,
+          "details": "2 scripts, 1 CSS (3 blocking), 2 images - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Meta Tags",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 3/3 essential meta tags",
+          "category": "technical"
+        },
+        {
+          "name": "Favicon",
+          "passed": true,
+          "score": 1.0,
+          "details": "Favicon found",
+          "category": "technical"
+        },
+        {
+          "name": "Lang Attribute",
+          "passed": true,
+          "score": 1.0,
+          "details": "lang=\"en-us\"",
+          "category": "technical"
+        },
+        {
+          "name": "Open Graph Tags",
+          "passed": true,
+          "score": 0.6666666666666666,
+          "details": "Found 2/3 OG tags - missing: og:image",
+          "category": "technical"
+        }
+      ]
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/course/week8",
+      "score": 72.4,
+      "category_scores": {
+        "structure": 58.8,
+        "visual": 75.3,
+        "technical": 88.4,
+        "links": 0.0
+      },
+      "passed": true,
+      "checks": [
+        {
+          "name": "Top Navigation",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found nav with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Sidebar",
+          "passed": true,
+          "score": 1.0,
+          "details": "Sidebar found with 13 links",
+          "category": "structure"
+        },
+        {
+          "name": "Hero Section",
+          "passed": true,
+          "score": 0.7,
+          "details": "H1 heading found (partial hero)",
+          "category": "structure"
+        },
+        {
+          "name": "Content Grids",
+          "passed": false,
+          "score": 0.0,
+          "details": "No content grids found",
+          "category": "structure"
+        },
+        {
+          "name": "Footer",
+          "passed": true,
+          "score": 1.0,
+          "details": "Footer found with 0 links, 0 chars",
+          "category": "structure"
+        },
+        {
+          "name": "Search Functionality",
+          "passed": true,
+          "score": 1.0,
+          "details": "Search found",
+          "category": "structure"
+        },
+        {
+          "name": "Collapsible Sections",
+          "passed": false,
+          "score": 0.0,
+          "details": "No collapsible sections",
+          "category": "structure"
+        },
+        {
+          "name": "Journey/Progress Tracker",
+          "passed": false,
+          "score": 0.0,
+          "details": "No progress tracker",
+          "category": "structure"
+        },
+        {
+          "name": "Has Stylesheet",
+          "passed": true,
+          "score": 1.0,
+          "details": "1 external, 0 inline stylesheets",
+          "category": "visual"
+        },
+        {
+          "name": "Responsive Meta",
+          "passed": true,
+          "score": 1.0,
+          "details": "Viewport meta found",
+          "category": "visual"
+        },
+        {
+          "name": "Media Queries",
+          "passed": true,
+          "score": 0.3333333333333333,
+          "details": "Found 1 media queries",
+          "category": "visual"
+        },
+        {
+          "name": "Images Present",
+          "passed": false,
+          "score": 0.2,
+          "details": "Found 2 images",
+          "category": "visual"
+        },
+        {
+          "name": "Chart/Image Gallery",
+          "passed": true,
+          "score": 1.0,
+          "details": "Gallery found with 4 images in grids",
+          "category": "visual"
+        },
+        {
+          "name": "Gradients",
+          "passed": false,
+          "score": 0.0,
+          "details": "No gradients",
+          "category": "visual"
+        },
+        {
+          "name": "Box Shadows",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 1 shadow declarations",
+          "category": "visual"
+        },
+        {
+          "name": "Transitions",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 5 transitions",
+          "category": "visual"
+        },
+        {
+          "name": "Hover Effects",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 4 hover rules",
+          "category": "visual"
+        },
+        {
+          "name": "Color Palette",
+          "passed": true,
+          "score": 1.0,
+          "details": "17 hex, 7 rgb, 0 hsl, 33 CSS vars - Good color palette",
+          "category": "visual"
+        },
+        {
+          "name": "HTML Structure",
+          "passed": true,
+          "score": 1.0,
+          "details": "Valid structure",
+          "category": "technical"
+        },
+        {
+          "name": "Semantic HTML",
+          "passed": true,
+          "score": 0.8571428571428571,
+          "details": "Found 6/7 semantic tags: nav, main, article, aside, header, footer",
+          "category": "technical"
+        },
+        {
+          "name": "Alt Texts",
+          "passed": true,
+          "score": 1.0,
+          "details": "2/2 images have alt text (100%)",
+          "category": "technical"
+        },
+        {
+          "name": "ARIA/Accessibility",
+          "passed": true,
+          "score": 0.2,
+          "details": "Found 1 aria-labels, 0 roles",
+          "category": "technical"
+        },
+        {
+          "name": "Heading Hierarchy",
+          "passed": true,
+          "score": 1.0,
+          "details": "Good heading structure",
+          "category": "technical"
+        },
+        {
+          "name": "Page Load Time",
+          "passed": true,
+          "score": 1.0,
+          "details": "0.26s - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Render-Blocking Assets",
+          "passed": true,
+          "score": 1.0,
+          "details": "2 scripts, 1 CSS (3 blocking), 2 images - Excellent",
+          "category": "technical"
+        },
+        {
+          "name": "Meta Tags",
+          "passed": true,
+          "score": 1.0,
+          "details": "Found 3/3 essential meta tags",
+          "category": "technical"
+        },
+        {
+          "name": "Favicon",
+          "passed": true,
+          "score": 1.0,
+          "details": "Favicon found",
+          "category": "technical"
+        },
+        {
+          "name": "Lang Attribute",
+          "passed": true,
+          "score": 1.0,
+          "details": "lang=\"en-us\"",
+          "category": "technical"
+        },
+        {
+          "name": "Open Graph Tags",
+          "passed": true,
+          "score": 0.6666666666666666,
+          "details": "Found 2/3 OG tags - missing: og:image",
+          "category": "technical"
+        }
+      ]
+    }
+  ]
+}

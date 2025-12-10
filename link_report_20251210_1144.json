@@ -1,0 +1,633 @@
+{
+  "metadata": {
+    "base_url": "https://digital-ai-finance.github.io/Green-Finance/",
+    "timestamp": "2025-12-10T11:44:08.271016",
+    "generator": "link_checker.py"
+  },
+  "statistics": {
+    "total_links": 69,
+    "successful": 61,
+    "broken": 8,
+    "success_rate": 88.41
+  },
+  "broken_links": [
+    {
+      "url": "https://www.ateneo.edu",
+      "status_code": 403,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/partners/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/docs/week1/",
+      "status_code": 404,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/curriculum/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/docs/week2/",
+      "status_code": 404,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/curriculum/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/docs/week3/",
+      "status_code": 404,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/curriculum/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/docs/",
+      "status_code": 404,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/curriculum/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://www.ihf.be",
+      "status_code": null,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/news/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": "SSL Error: HTTPSConnectionPool(host='www.ihf.be', port=443): Max retries exceeded with url: / (Caused by SSLErr"
+    },
+    {
+      "url": "https://www.uni.opole.pl",
+      "status_code": null,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/news/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": "SSL Error: HTTPSConnectionPool(host='www.uni.opole.pl', port=443): Max retries exceeded with url: / (Caused by "
+    },
+    {
+      "url": "https://www.buh.edu.vn",
+      "status_code": null,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/news/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": "SSL Error: HTTPSConnectionPool(host='www.buh.edu.vn', port=443): Max retries exceeded with url: / (Caused by SS"
+    }
+  ],
+  "all_links": [
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/project/curriculum/",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/slides/",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/project/partners/",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/project/timeline/",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/project/team/",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/project/news/",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/icons/toc.svg",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "img",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/course/",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/project/work-packages/",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/icons/menu.svg",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "img",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/images/logos/opole.png",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "img",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/images/logos/ulbs.png",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "img",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/images/logos/utwente.png",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "img",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/images/logos/unisi.png",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "img",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/images/logos/ihf.png",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "img",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/images/logos/buh.png",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "img",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/images/logos/walailak.svg",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "img",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/images/logos/bav.png",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "img",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/images/logos/wvsu.png",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "img",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/images/logos/eu_cofunded.png",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "img",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/fuse.min.js",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "script",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/en.search.min.26280597cc6b63fe6aa69cb3e05a6308aa870971752359bc61461b7a71cc68b0.js",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "script",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/images/logos/admu.png",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "img",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/favicon.png",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "link",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/index.xml",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "link",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/manifest.json",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "link",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://github.com/Digital-AI-Finance/green-finance",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/book.min.cf1c82e2d00599dc13db41bf4a600f68443bca3e7f14093ad712999de08b29d2.css",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/",
+      "link_type": "link",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://www.unisi.it",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/partners/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": ""
+    },
+    {
+      "url": "https://www.utwente.nl",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/partners/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": ""
+    },
+    {
+      "url": "https://www.ateneo.edu",
+      "status_code": 403,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/partners/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/icons/forward.svg",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/partners/",
+      "link_type": "img",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://www.ihfeurope.eu",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/partners/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/docs/week1/",
+      "status_code": 404,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/curriculum/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/icons/backward.svg",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/work-packages/",
+      "link_type": "img",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://www.ulbsibiu.ro",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/partners/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": ""
+    },
+    {
+      "url": "https://uni.opole.pl/en/",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/partners/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/docs/week2/",
+      "status_code": 404,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/curriculum/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/docs/week3/",
+      "status_code": 404,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/curriculum/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/docs/",
+      "status_code": 404,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/curriculum/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://www.ihf.be",
+      "status_code": null,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/news/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": "SSL Error: HTTPSConnectionPool(host='www.ihf.be', port=443): Max retries exceeded with url: / (Caused by SSLErr"
+    },
+    {
+      "url": "https://www.uni.opole.pl",
+      "status_code": null,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/news/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": "SSL Error: HTTPSConnectionPool(host='www.uni.opole.pl', port=443): Max retries exceeded with url: / (Caused by "
+    },
+    {
+      "url": "https://hub.edu.vn",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/partners/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/course/week1/",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/course/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/course/week2/",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/course/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/course/week4/",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/course/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/course/week3/",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/course/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/course/week6/",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/course/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://hvnh.edu.vn",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/partners/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/course/week7/",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/course/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/course/week5/",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/course/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://wvsu.edu.ph",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/partners/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/course/week8/",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/course/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/pdfs/syllabus.pdf",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/course/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://www.payap.ac.th",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/partners/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/pdfs/week2.pdf",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/slides/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/pdfs/week1.pdf",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/slides/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/pdfs/week4.pdf",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/slides/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/pdfs/week3.pdf",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/slides/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/pdfs/week5.pdf",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/slides/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/pdfs/week7.pdf",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/slides/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/pdfs/week6.pdf",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/slides/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/pdfs/week8.pdf",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/slides/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://www.hvnh.edu.vn",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/news/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": ""
+    },
+    {
+      "url": "https://digital-ai-finance.github.io/Green-Finance/pdfs/week1_appendix.pdf",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/slides/",
+      "link_type": "a",
+      "is_internal": true,
+      "error_message": ""
+    },
+    {
+      "url": "https://www.wvsu.edu.ph",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/news/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": ""
+    },
+    {
+      "url": "https://www.buh.edu.vn",
+      "status_code": null,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/news/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": "SSL Error: HTTPSConnectionPool(host='www.buh.edu.vn', port=443): Max retries exceeded with url: / (Caused by SS"
+    },
+    {
+      "url": "https://www.wu.ac.th",
+      "status_code": 200,
+      "source_page": "https://digital-ai-finance.github.io/Green-Finance/project/partners/",
+      "link_type": "a",
+      "is_internal": false,
+      "error_message": ""
+    }
+  ]
+}
