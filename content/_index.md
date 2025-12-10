@@ -3,66 +3,62 @@ title: "GREEN FINANCE"
 type: docs
 ---
 
+<div class="hero-section">
+
 # GREEN FINANCE
 
-**Advancing Higher Education for Sustainable Growth in Southeast Asia**
+**Erasmus+ Capacity Building in Higher Education**
+
+*Advancing Sustainable Finance Education in Southeast Asia*
+
+</div>
 
 ---
 
-## Project Overview
+## Executive Summary: Training Programme
 
-The GREEN FINANCE project is an Erasmus+ Capacity Building in Higher Education (CBHE) initiative that brings together 11 universities from 8 countries to modernize green finance education in Southeast Asia.
+<div class="training-highlight">
 
-### Key Facts
+### What We Offer
 
-| | |
-|---|---|
-| **Grant Number** | 101237817 |
-| **Programme** | Erasmus+ CBHE Strand 2 |
-| **Duration** | 36 months (2025-2028) |
-| **Countries** | 8 (Romania, Poland, Netherlands, Italy, Belgium, Vietnam, Thailand, Philippines) |
-| **Partners** | 11 universities |
+A comprehensive **Green Finance Professional Certificate** delivered through an 8-week intensive programme combining European expertise with Southeast Asian market contexts.
 
----
+| Component | Details |
+|-----------|---------|
+| **Programme** | 8 weeks, 3 learning goals per week |
+| **Format** | Blended learning (online + in-person workshops) |
+| **Materials** | 268 slides, 99 data visualizations, verified statistics |
+| **Credential** | Micro-credential aligned with European Qualifications Framework |
 
-## The Challenge
+</div>
 
-Climate change negatively impacts ASEAN countries, particularly the Philippines, Thailand, and Vietnam. These nations need **$210 billion annually** for green transition, but lack the technical capacity and skills to implement it.
+### When: Training Schedule 2025-2028
 
-**Our Solution:** Modernize higher education through innovative micro-credential curricula aligned with European Green Deal principles.
+| Phase | Period | Activity |
+|-------|--------|----------|
+| **Pilot Training** | Q3-Q4 2025 | Staff training for 60+ ASEAN educators |
+| **Curriculum Launch** | Q1 2026 | Student programmes begin at partner universities |
+| **Scaling Phase** | 2026-2027 | Full rollout across Vietnam, Thailand, Philippines |
+| **Sustainability** | 2028+ | Self-sustaining programmes at partner institutions |
 
----
+### Where: Partner Universities
 
-## Strategic Objectives
+Training delivered across **11 universities in 8 countries**:
 
-| Objective | Target |
-|-----------|--------|
-| **Strengthen Capacity** | Train 60+ ASEAN staff in green finance |
-| **Modernize Teaching** | Develop micro-credential programs, engage 400+ students |
-| **Enhance Internationalization** | Establish 50+ international stakeholder contacts |
-| **Bridge Education-Work Gap** | Sign 30+ MoUs with banks and enterprises |
+**European Partners (Expertise Providers)**
+- Lucian Blaga University of Sibiu (Romania) - *Coordinator*
+- University of Opole (Poland)
+- University of Twente (Netherlands)
+- University of Siena (Italy)
+- Institut de Haute Formation (Belgium)
 
----
+**ASEAN Partners (Implementation)**
+- Banking University HCMC & Banking Academy of Vietnam (Vietnam)
+- Walailak University (Thailand)
+- Ateneo de Manila, West Visayas State University (Philippines)
 
-## Quick Links
-
-### Project Information
-- [Partners](/project/partners/) - Meet our 11-university consortium
-- [Work Packages](/project/work-packages/) - Project structure and deliverables
-- [Curriculum](/project/curriculum/) - 5-module micro-credential program
-- [Timeline](/project/timeline/) - 36-month milestones
-- [Team & Contacts](/project/team/) - Contact information
-- [News](/project/news/) - Latest updates
-
-### Course Materials
-- [Green Finance Professional Certificate](/course/) - 8-week course documentation
-- [Lecture Slides](/slides/) - All presentation materials
-
----
-
-## Consortium Partners
-
-<div class="partner-logos">
+<div class="logo-carousel">
+<div class="logo-track">
 <img src="/images/logos/ulbs.png" alt="ULBS" title="Lucian Blaga University of Sibiu">
 <img src="/images/logos/opole.png" alt="OU" title="University of Opole">
 <img src="/images/logos/utwente.png" alt="UTwente" title="University of Twente">
@@ -73,16 +69,52 @@ Climate change negatively impacts ASEAN countries, particularly the Philippines,
 <img src="/images/logos/walailak.svg" alt="WU" title="Walailak University">
 <img src="/images/logos/wvsu.png" alt="WVSU" title="West Visayas State University">
 <img src="/images/logos/admu.png" alt="ADMU" title="Ateneo de Manila University">
+<img src="/images/logos/ulbs.png" alt="ULBS" title="Lucian Blaga University of Sibiu">
+<img src="/images/logos/opole.png" alt="OU" title="University of Opole">
+<img src="/images/logos/utwente.png" alt="UTwente" title="University of Twente">
 </div>
+</div>
+
+### What: Curriculum Modules
+
+The programme covers 5 core modules aligned with European Green Deal principles:
+
+1. **Green Finance Fundamentals** - Market structure, instruments, regulatory landscape
+2. **Sustainable Investment Analysis** - ESG integration, green bonds, impact metrics
+3. **Climate Risk Management** - TCFD frameworks, scenario analysis, carbon accounting
+4. **Project Finance for Sustainability** - Renewable energy, blended finance structures
+5. **Regulatory Compliance** - EU Taxonomy, SFDR, ISSB standards
 
 ---
 
-## Acknowledgment
+## Project Impact Targets
+
+| Metric | Target |
+|--------|--------|
+| Staff trained | 60+ ASEAN educators |
+| Students engaged | 400+ across partner universities |
+| Industry partnerships | 30+ MoUs with banks and enterprises |
+| International contacts | 50+ stakeholder relationships |
+
+---
+
+## Quick Navigation
+
+| Section | Description |
+|---------|-------------|
+| [Project Details](/project/) | Work packages, timeline, and deliverables |
+| [Course Materials](/course/) | 8-week curriculum with lecture content |
+| [Partners](/project/partners/) | Full consortium information |
+| [News & Updates](/project/news/) | Latest project developments |
+
+---
+
+## Funding Acknowledgment
 
 <img src="/images/logos/eu_cofunded.png" alt="Co-funded by the European Union" class="eu-logo">
 
 {{< hint info >}}
-**Co-funded by the European Union**
+**Co-funded by the European Union** | Grant Agreement No. 101237817
 
-This project has received funding from the European Union's Erasmus+ programme under Grant Agreement No. 101237817. Views and opinions expressed are those of the authors and do not necessarily reflect those of the European Union or EACEA.
+This project has received funding from the European Union's Erasmus+ programme. Views and opinions expressed are those of the authors and do not necessarily reflect those of the European Union or EACEA.
 {{< /hint >}}

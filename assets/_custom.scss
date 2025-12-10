@@ -420,3 +420,143 @@ dl {
   padding-left: 0.75rem;
   color: $neutral-dark;
 }
+
+// =============================================================================
+// HERO SECTION - Academic Formal Style
+// =============================================================================
+
+.hero-section {
+  background: linear-gradient(135deg, $primary-dark 0%, $primary 50%, $primary-light 100%);
+  color: white;
+  padding: 2rem;
+  margin: -0.5rem -1rem 1.5rem -1rem;
+  text-align: center;
+  border-radius: 0 0 0.5rem 0.5rem;
+
+  h1 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+
+  p {
+    margin: 0.25rem 0;
+    font-size: 1.1rem;
+
+    strong {
+      color: $tertiary;
+    }
+
+    em {
+      color: $secondary;
+      font-style: normal;
+    }
+  }
+}
+
+// =============================================================================
+// TRAINING HIGHLIGHT BOX
+// =============================================================================
+
+.training-highlight {
+  background: $quaternary;
+  border: 2px solid $primary;
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+
+  h3 {
+    color: $primary-dark;
+    margin-top: 0;
+    font-size: 1.1rem;
+  }
+
+  table {
+    margin: 0.5rem 0;
+
+    th {
+      background: $primary;
+      color: white;
+    }
+
+    td {
+      background: white;
+    }
+  }
+}
+
+// =============================================================================
+// SCROLLING LOGO CAROUSEL
+// =============================================================================
+
+.logo-carousel {
+  overflow: hidden;
+  padding: 1rem 0;
+  background: $quaternary;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.logo-track {
+  display: flex;
+  animation: scroll-logos 30s linear infinite;
+  width: max-content;
+
+  img {
+    height: 50px;
+    width: auto;
+    margin: 0 2rem;
+    filter: grayscale(20%);
+    transition: filter 0.3s, transform 0.3s;
+
+    &:hover {
+      filter: grayscale(0%);
+      transform: scale(1.1);
+    }
+  }
+}
+
+@keyframes scroll-logos {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.logo-carousel:hover .logo-track {
+  animation-play-state: paused;
+}
+
+// =============================================================================
+// IMPACT METRICS STYLING
+// =============================================================================
+
+.impact-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.metric-card {
+  background: white;
+  border: 2px solid $secondary;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+
+  .metric-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $primary;
+  }
+
+  .metric-label {
+    font-size: 0.85rem;
+    color: $neutral;
+  }
+}
