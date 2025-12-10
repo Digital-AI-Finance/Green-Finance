@@ -19,35 +19,57 @@ canonifyURLs = true
   BookDateFormat = 'January 2, 2006'
 
 [menu]
+# Top menu (before sidebar content)
 [[menu.before]]
-  name = 'GitHub'
-  url = 'https://github.com/Digital-AI-Finance/green-finance'
-  weight = 10
+  name = 'Home'
+  url = '/'
+  weight = 1
 
+[[menu.before]]
+  name = 'Project'
+  url = '/project/'
+  weight = 2
+
+[[menu.before]]
+  name = 'Course'
+  url = '/course/'
+  weight = 3
+
+[[menu.before]]
+  name = 'Slides'
+  url = '/slides/'
+  weight = 4
+
+# Bottom menu (after sidebar content)
 [[menu.after]]
   name = 'Partners'
   url = '/project/partners/'
   weight = 1
 
 [[menu.after]]
-  name = 'Team'
-  url = '/project/team/'
+  name = 'Work Packages'
+  url = '/project/work-packages/'
   weight = 2
 
 [[menu.after]]
-  name = 'Curriculum'
-  url = '/project/curriculum/'
+  name = 'Timeline'
+  url = '/project/timeline/'
   weight = 3
+
+[[menu.after]]
+  name = 'Team'
+  url = '/project/team/'
+  weight = 4
 
 [[menu.after]]
   name = 'News'
   url = '/project/news/'
-  weight = 4
+  weight = 5
 
 [[menu.after]]
-  name = 'Course'
-  url = '/course/'
-  weight = 5
+  name = 'GitHub'
+  url = 'https://github.com/Digital-AI-Finance/green-finance'
+  weight = 10
 
 [markup]
   [markup.goldmark]
