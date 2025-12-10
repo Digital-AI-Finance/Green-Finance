@@ -28,7 +28,7 @@ Lucian Blaga University of Sibiu, Romania
 ## Partner Teams
 
 ### ULBS - Lucian Blaga University of Sibiu (Romania)
-*Project Coordinator*
+**Project Coordinator**
 
 | Name | Role | Expertise |
 |------|------|-----------|
@@ -50,7 +50,7 @@ Lucian Blaga University of Sibiu, Romania
 ---
 
 ### UTWENTE - University of Twente (Netherlands)
-*WP3 Lead*
+**WP3 Lead**
 
 | Name | Role | Expertise |
 |------|------|-----------|
@@ -69,7 +69,7 @@ Lucian Blaga University of Sibiu, Romania
 ---
 
 ### IHF - Institut de Haute Formation (Belgium)
-*WP5 Co-Lead*
+**WP5 Co-Lead**
 
 | Name | Role | Expertise |
 |------|------|-----------|
@@ -99,7 +99,7 @@ Lucian Blaga University of Sibiu, Romania
 ---
 
 ### PU - Payap University (Thailand)
-*WP5 Lead*
+**WP5 Lead**
 
 | Name | Role | Expertise |
 |------|------|-----------|
@@ -130,7 +130,7 @@ Lucian Blaga University of Sibiu, Romania
 ---
 
 ### ADMU - Ateneo de Manila University (Philippines)
-*WP4 Lead*
+**WP4 Lead**
 
 | Name | Role | Expertise |
 |------|------|-----------|

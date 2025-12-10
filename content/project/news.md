@@ -70,7 +70,7 @@ Introductory training for Asian partner staff covering:
 
 ## Press Releases
 
-*Press releases will be published at key project milestones:*
+**Press releases will be published at key project milestones:**
 
 - Project approval announcement
 - Kick-Off Meeting
@@ -84,7 +84,7 @@ Introductory training for Asian partner staff covering:
 
 ## Media Coverage
 
-*Media coverage and publications will be added as they become available.*
+**Media coverage and publications will be added as they become available.**
 
 ---
 
@@ -112,7 +112,7 @@ Stay updated on project progress by following our partner institutions' newslett
 
 ## Publications & Outputs
 
-*Project publications and outputs will be listed here as they become available.*
+**Project publications and outputs will be listed here as they become available.**
 
 ### Expected Outputs
 
