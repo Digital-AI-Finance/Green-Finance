@@ -1,26 +1,29 @@
 // Custom styles for GREEN FINANCE website
-// Using mlpurple color scheme for consistency with course materials
+// Green-primary color scheme for Green Finance course
 
 // =============================================================================
-// COLOR VARIABLES (matching scripts/colors.py)
+// COLOR VARIABLES - Green Finance Theme
 // =============================================================================
-$primary: #3333B2;           // mlpurple - main brand
-$primary-dark: #2D2D96;      // darker purple
-$primary-light: #5555C4;     // lighter purple
-$secondary: #ADADE0;         // mllavender
-$tertiary: #C4C4F0;          // light lavender
-$quaternary: #D6D6EF;        // very light lavender
+$primary: #1E7B1E;           // Forest green - main brand
+$primary-dark: #145214;      // Dark green - emphasis
+$primary-light: #2CA02C;     // Bright green - highlights
+$secondary: #A8D5A8;         // Light sage
+$tertiary: #C8E6C8;          // Pale green
+$quaternary: #E8F5E8;        // Very light green
 
-$success: #2CA02C;           // mlgreen
+$accent: #3333B2;            // Purple accent (academic)
+$accent-light: #5555C4;      // Light purple
+
+$success: #28A745;           // Success green
 $warning: #FF7F0E;           // mlorange
 $danger: #D62728;            // mlred
 
-$neutral: #7F7F7F;           // gray
-$neutral-light: #E2E8F0;     // light gray
-$neutral-dark: #4A4A4A;      // dark gray
+$neutral: #4A4A4A;           // Dark gray (bolder)
+$neutral-light: #E2E8F0;     // Light gray
+$neutral-dark: #1A1A1A;      // Very dark (high contrast)
 
-$background: #F8F8FC;        // off-white with purple tint
-$card-bg: #FAFAFF;           // card background
+$background: #FAFFF8;        // Off-white with green tint
+$card-bg: #FFFFFF;           // Pure white cards for contrast
 
 // =============================================================================
 // LAYOUT - Minimal whitespace, compact design
@@ -52,13 +55,15 @@ $card-bg: #FAFAFF;           // card background
 h1 {
   margin-top: 0.5rem;
   margin-bottom: 0.25rem;
-  color: $primary;
+  color: $primary-dark;
+  font-weight: 700;
 }
 
 h2, h3, h4, h5, h6 {
   margin-top: 0.5rem;
   margin-bottom: 0.2rem;
-  color: $primary-dark;
+  color: $neutral-dark;
+  font-weight: 600;
 }
 
 p {
@@ -87,11 +92,16 @@ a {
 }
 
 // =============================================================================
-// HEADER - Purple gradient
+// HEADER - Green gradient with high contrast
 // =============================================================================
 
 .book-header {
   background: linear-gradient(135deg, $primary-dark 0%, $primary 50%, $primary-light 100%);
+
+  a, label {
+    color: white;
+    font-weight: 600;
+  }
 }
 
 // =============================================================================
@@ -129,20 +139,22 @@ table {
 
 .card {
   background: $card-bg;
-  border: 1px solid $secondary;
+  border: 2px solid $secondary;
   border-radius: 0.5rem;
   padding: 1rem;
-  transition: box-shadow 0.2s, transform 0.2s;
+  transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
   &:hover {
-    box-shadow: 0 4px 12px rgba($primary, 0.15);
-    transform: translateY(-2px);
-    border-color: $primary-light;
+    box-shadow: 0 6px 16px rgba($primary, 0.2);
+    transform: translateY(-3px);
+    border-color: $primary;
   }
 
   h3, h4 {
     margin-top: 0;
-    color: $primary;
+    color: $primary-dark;
+    font-weight: 600;
   }
 }
 
@@ -386,12 +398,25 @@ dl {
   background: $primary;
   color: white;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.25rem;
   border-radius: 0.25rem;
   cursor: pointer;
-  transition: background 0.2s;
+  font-weight: 600;
+  transition: background 0.2s, transform 0.1s;
 
   &:hover {
-    background: $primary-light;
+    background: $primary-dark;
+    transform: translateY(-1px);
   }
+}
+
+// =============================================================================
+// ACCENT ELEMENTS (Purple for academic distinction)
+// =============================================================================
+
+.academic-note,
+.citation {
+  border-left: 3px solid $accent;
+  padding-left: 0.75rem;
+  color: $neutral-dark;
 }
