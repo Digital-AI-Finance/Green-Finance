@@ -232,7 +232,7 @@ The curriculum is developed in consultation with:
 
 ### Complementary Courses
 The curriculum builds on and connects to:
-- [Week 1: Green Finance Fundamentals](/docs/week1/)
-- [Week 2: Green Bonds](/docs/week2/)
-- [Week 3: ESG Integration](/docs/week3/)
-- [Full 8-Week Certificate Program](/docs/)
+- [Week 1: Green Finance Fundamentals](/course/week1/)
+- [Week 2: Green Bonds](/course/week2/)
+- [Week 3: ESG Integration](/course/week3/)
+- [Full 8-Week Certificate Program](/course/)
