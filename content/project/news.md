@@ -12,7 +12,7 @@ Stay informed about the latest developments in the GREEN FINANCE project.
 
 ## 2025
 
-### August 2025 - Grant Agreement Signed
+### December 2025 - Grant Agreement Signed (M1)
 
 {{% hint info %}}
 **Project Officially Launches**
@@ -23,7 +23,7 @@ The GREEN FINANCE consortium has officially signed the Grant Agreement with the 
 **Key Highlights:**
 - Grant Agreement No. 101237817 signed
 - 11 partner universities across 8 countries
-- 3-year implementation period begins
+- 36-month implementation period: December 2025 - November 2028
 
 ---
 
@@ -40,31 +40,34 @@ The GREEN FINANCE consortium successfully submitted its proposal to the Erasmus+
 
 ## Upcoming Events
 
-### Kick-Off Meeting (M2)
+### Kick-Off Meeting + 3-Day Training (M2) - January 2026
 
 {{% hint warning %}}
 **Location:** Lucian Blaga University of Sibiu, Romania
-**Expected:** Month 2 of project
+**Date:** January 2026
 {{% /hint %}}
 
-The inaugural consortium meeting will:
+The inaugural consortium meeting will include a 3-day intensive training immediately after:
 - Establish project governance and management rules
 - Present and discuss the Project Management Plan
 - Review Partnership Agreement terms
 - Conduct financial management training
-- Set expectations for Year 1 activities
+- **3-day training on:** "Development of Micro-Credentials," "Green Finance and Sustainability," and "Cooperation between HEIs and the Private Sector"
+- **Participants:** 3+ academic staff per Asian university (18+ total), 1 expert trainer per EU partner
 
 ---
 
-### Training Sessions at ULBS (M5-M6)
+### One-Week Training Sessions in Europe (M11) - October 2026
 
-**Location:** Sibiu, Romania
+{{% hint warning %}}
+**Locations:** University of Twente (Netherlands) + University of Opole (Poland)
+**Date:** October 2026
+{{% /hint %}}
 
-Introductory training for Asian partner staff covering:
-- Green finance fundamentals
-- EU regulatory framework
-- Micro-credential methodology
-- Project management for Erasmus+ projects
+Two parallel one-week training sessions:
+- **Session 1 (UT):** Sustainable Investment and Risk Management - ESG criteria, green financing, climate risk
+- **Session 2 (Opole):** Policy Development and Green Financial Instruments - green policies, innovative instruments
+- **Participants:** 4 academic staff per Asian HEI (24 total)
 
 ---
 
@@ -116,39 +119,40 @@ Stay updated on project progress by following our partner institutions' newslett
 
 ### Expected Outputs
 
-| Type | Description | Timeline |
-|------|-------------|----------|
-| Needs Analysis Report | Survey results from 90 stakeholders | M12 |
-| Micro-credential Framework | Methodology for green finance education | M11 |
-| Curriculum Materials | 5-module green finance program | M24 |
-| Policy Briefs | Recommendations for green finance education | M30-M36 |
-| Research Papers | Joint publications by consortium partners | Ongoing |
+| Type | Description | Month | Date |
+|------|-------------|-------|------|
+| Stakeholder Feedback Report | Survey results from 90 stakeholders | M6 | May 2026 |
+| Training Materials | Green Finance tandem team materials | M10 | Sep 2026 |
+| Final Curriculum | Complete micro-credential program | M22 | Sep 2027 |
+| Sustainability Strategy | Long-term programme viability plan | M30 | May 2028 |
+| Final Validated Curriculum | Tested and refined programme | M36 | Nov 2028 |
 
 ---
 
 ## Events Calendar
 
-### Year 1 (2025-2026)
+### Year 1: Dec 2025 - Nov 2026
 
-| Month | Event | Location |
-|-------|-------|----------|
-| M2 | Kick-Off Meeting | Sibiu, Romania |
-| M5-M6 | Training Sessions | Sibiu, Romania |
-| M11 | Micro-credential Training | TBD |
+| Month | Date | Event | Location |
+|-------|------|-------|----------|
+| M1 | Dec 2025 | Project Start | - |
+| M2 | Jan 2026 | Kick-Off Meeting + 3-day Training | Sibiu, Romania |
+| M11 | Oct 2026 | 2 One-Week Training Sessions | UT Netherlands + Opole Poland |
 
-### Year 2 (2026-2027)
+### Year 2: Dec 2026 - Nov 2027
 
-| Month | Event | Location |
-|-------|-------|----------|
-| M13 | 2nd Transnational Meeting | Enschede, Netherlands |
-| M19-M22 | Operational Missions | Vietnam, Thailand, Philippines |
+| Month | Date | Event | Location |
+|-------|------|-------|----------|
+| M13 | Dec 2026 | 2nd Transnational Meeting | University of Twente, Netherlands |
+| M19-M22 | Jun-Sep 2027 | EU Operational Missions | Vietnam, Thailand, Philippines |
 
-### Year 3 (2027-2028)
+### Year 3: Dec 2027 - Nov 2028
 
-| Month | Event | Location |
-|-------|-------|----------|
-| M25 | 3rd Transnational Meeting | Online |
-| M36 | Closing Meeting & Conference | Thailand |
+| Month | Date | Event | Location |
+|-------|------|-------|----------|
+| M25 | Dec 2027 | 3rd Transnational Meeting | Online |
+| M27 | Feb 2028 | Student Programme Launch | 6 Asian universities |
+| M36 | Nov 2028 | Closing Meeting & Conference | Thailand |
 
 ---
 

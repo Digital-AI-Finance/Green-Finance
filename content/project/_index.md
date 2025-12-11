@@ -20,7 +20,7 @@ The GREEN FINANCE project is an Erasmus+ Capacity Building in Higher Education (
 |---|---|
 | **Grant Number** | 101237817 |
 | **Programme** | Erasmus+ CBHE Strand 2 |
-| **Duration** | 36 months (2025-2028) |
+| **Duration** | 36 months (December 2025 - November 2028) |
 | **Countries** | 8 (Romania, Poland, Netherlands, Italy, Belgium, Vietnam, Thailand, Philippines) |
 | **Partners** | 11 universities |
 

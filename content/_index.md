@@ -36,10 +36,13 @@ A comprehensive **Green Finance Professional Certificate** delivered through an 
 
 | Phase | Period | Activity |
 |-------|--------|----------|
-| **Pilot Training** | Q3-Q4 2025 | Staff training for 60+ ASEAN educators |
-| **Curriculum Launch** | Q1 2026 | Student programmes begin at partner universities |
-| **Scaling Phase** | 2026-2027 | Full rollout across Vietnam, Thailand, Philippines |
-| **Sustainability** | 2028+ | Self-sustaining programmes at partner institutions |
+| **Project Launch** | Dec 2025 | Grant agreement signed, project starts (M1) |
+| **Staff Training I** | Jan 2026 | 3-day training at ULBS Sibiu + Kick-Off Meeting (M2) |
+| **Staff Training II** | Oct 2026 | 2 one-week sessions at UT Netherlands + Opole Poland (M11) |
+| **Curriculum Development** | 2026-2027 | Asian partners develop micro-credentials with EU support |
+| **EU Missions to Asia** | Jun-Sep 2027 | Operational missions to Vietnam, Thailand, Philippines (M19-22) |
+| **Student Programme** | Feb 2028 | 400 students begin Green Finance courses (M27) |
+| **Closing** | Nov 2028 | Final conference in Thailand, sustainability handover (M36) |
 
 ### Where: Partner Universities
 
@@ -54,8 +57,8 @@ Training delivered across **11 universities in 8 countries**:
 
 **ASEAN Partners (Implementation)**
 - Banking University HCMC & Banking Academy of Vietnam (Vietnam)
-- Walailak University (Thailand)
-- Ateneo de Manila, West Visayas State University (Philippines)
+- Payap University & Walailak University (Thailand)
+- Ateneo de Manila University & West Visayas State University (Philippines)
 
 <div class="logo-carousel">
 <div class="logo-track">
