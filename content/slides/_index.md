@@ -31,5 +31,5 @@ Download the lecture slides for each week of the Green Finance Professional Cert
 All slides are in PDF format, created with LaTeX Beamer using the Madrid theme.
 
 - **Aspect ratio**: 16:9
-- **Color scheme**: Purple/Lavender (mlpurple)
+- **Color scheme**: Green/Sage (gfgreen)
 - **Structure**: 3 learning goals per week with discovery-based learning

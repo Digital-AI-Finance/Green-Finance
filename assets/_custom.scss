@@ -26,54 +26,25 @@ $background: #FAFFF8;        // Off-white with green tint
 $card-bg: #FFFFFF;           // Pure white cards for contrast
 
 // =============================================================================
-// LAYOUT - Ultra compact, no whitespace
+// LAYOUT - Maximum density
 // =============================================================================
 
-.book-page {
-  padding: 0.25rem 0.5rem;
-}
+.book-page { padding: 0.15rem 0.4rem; }
 
 .book-menu {
-  nav { padding: 0.15rem; }
-  ul {
-    margin: 0;
-    padding-left: 0.5rem;
-    li { margin: 0; }
-  }
+  nav { padding: 0.1rem; }
+  ul { margin: 0; padding-left: 0.4rem; li { margin: 0; line-height: 1.3; } }
 }
 
 // =============================================================================
-// TYPOGRAPHY - Compact
+// TYPOGRAPHY - Maximum density
 // =============================================================================
 
-h1 {
-  margin: 0.2rem 0 0.1rem 0;
-  color: $primary-dark;
-  font-weight: 700;
-  font-size: 1.4rem;
-}
-
-h2 {
-  margin: 0.3rem 0 0.1rem 0;
-  color: $neutral-dark;
-  font-weight: 600;
-  font-size: 1.1rem;
-}
-
-h3, h4, h5, h6 {
-  margin: 0.2rem 0 0.1rem 0;
-  color: $neutral-dark;
-  font-weight: 600;
-  font-size: 0.95rem;
-}
-
-p { margin: 0.15rem 0; }
-
-ul, ol {
-  margin: 0.1rem 0;
-  padding-left: 1rem;
-  li { margin: 0; }
-}
+h1 { margin: 0.1rem 0; color: $primary-dark; font-weight: 700; font-size: 1.3rem; }
+h2 { margin: 0.15rem 0 0.05rem 0; color: $neutral-dark; font-weight: 600; font-size: 1rem; }
+h3, h4, h5, h6 { margin: 0.1rem 0 0.05rem 0; color: $neutral-dark; font-weight: 600; font-size: 0.9rem; }
+p { margin: 0.1rem 0; line-height: 1.4; }
+ul, ol { margin: 0.05rem 0; padding-left: 0.9rem; li { margin: 0; line-height: 1.3; } }
 
 // =============================================================================
 // LINKS
@@ -378,25 +349,12 @@ dl {
 .hero-section {
   background: linear-gradient(135deg, $primary-dark 0%, $primary 50%, $primary-light 100%);
   color: white;
-  padding: 0.75rem 1rem;
-  margin: -0.5rem -1rem 0.5rem -1rem;
+  padding: 0.4rem 0.75rem;
+  margin: -0.15rem -0.4rem 0.2rem -0.4rem;
   text-align: center;
 
-  h1 {
-    color: white;
-    font-size: 1.5rem;
-    margin: 0 0 0.25rem 0;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-  }
-
-  p {
-    margin: 0.1rem 0;
-    font-size: 0.95rem;
-
-    strong { color: $tertiary; }
-    em { color: $secondary; font-style: normal; }
-  }
+  h1 { color: white; font-size: 1.25rem; margin: 0; font-weight: 700; }
+  p { margin: 0.05rem 0; font-size: 0.85rem; strong { color: $tertiary; } em { color: $secondary; font-style: normal; } }
 }
 
 // =============================================================================
@@ -406,21 +364,12 @@ dl {
 .training-highlight {
   background: $quaternary;
   border: 1px solid $primary;
-  border-radius: 0.25rem;
-  padding: 0.5rem 0.75rem;
-  margin: 0.25rem 0;
+  border-radius: 0.15rem;
+  padding: 0.3rem 0.5rem;
+  margin: 0.15rem 0;
 
-  h3 {
-    color: $primary-dark;
-    margin: 0 0 0.25rem 0;
-    font-size: 0.95rem;
-  }
-
-  table {
-    margin: 0.25rem 0;
-    th { background: $primary; color: white; padding: 0.15rem 0.3rem; }
-    td { background: white; padding: 0.15rem 0.3rem; }
-  }
+  h3 { color: $primary-dark; margin: 0 0 0.15rem 0; font-size: 0.85rem; }
+  table { margin: 0.1rem 0; th { background: $primary; color: white; padding: 0.1rem 0.2rem; } td { background: white; padding: 0.1rem 0.2rem; } }
 }
 
 // =============================================================================
@@ -429,25 +378,17 @@ dl {
 
 .logo-carousel {
   overflow: hidden;
-  padding: 0.4rem 0;
+  padding: 0.2rem 0;
   background: $quaternary;
-  border-radius: 0.25rem;
-  margin: 0.25rem 0;
+  border-radius: 0.15rem;
+  margin: 0.15rem 0;
 }
 
 .logo-track {
   display: flex;
-  animation: scroll-logos 25s linear infinite;
+  animation: scroll-logos 20s linear infinite;
   width: max-content;
-
-  img {
-    height: 35px;
-    width: auto;
-    margin: 0 1rem;
-    filter: grayscale(20%);
-    transition: filter 0.2s;
-    &:hover { filter: grayscale(0%); }
-  }
+  img { height: 28px; width: auto; margin: 0 0.75rem; filter: grayscale(20%); &:hover { filter: grayscale(0%); } }
 }
 
 @keyframes scroll-logos {
