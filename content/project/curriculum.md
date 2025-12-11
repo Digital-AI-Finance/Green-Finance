@@ -18,9 +18,9 @@ The green finance curriculum is designed to:
 - Align with European Green Deal principles and international standards
 - Address the specific needs of ASEAN financial markets
 
-{{< hint info >}}
+{{% hint info %}}
 **Format:** Micro-credentials | **Delivery:** Blended learning | **Assessment:** Competency-based
-{{< /hint >}}
+{{% /hint %}}
 
 ---
 
@@ -169,9 +169,9 @@ The curriculum is developed in consultation with:
 - Industry associations
 - Policy makers
 
-{{< hint warning >}}
+{{% hint warning %}}
 **Industry Partners:** Each Asian university signs minimum 5 MOUs with local financial institutions to ensure curriculum relevance and provide internship opportunities.
-{{< /hint >}}
+{{% /hint %}}
 
 ---
 

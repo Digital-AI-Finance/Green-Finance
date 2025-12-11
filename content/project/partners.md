@@ -15,9 +15,9 @@ The GREEN FINANCE consortium brings together 11 universities from 8 countries, c
 ### Lucian Blaga University of Sibiu (ULBS) - Coordinator
 **Romania**
 
-{{< hint info >}}
+{{% hint info %}}
 **Role:** Project Coordinator
-{{< /hint >}}
+{{% /hint %}}
 
 A globally ranked university and FORTHEM alliance member, ULBS specializes in economic sciences, IT, applied ecology, and mathematics. Its Faculty of Economic Sciences leads research in sustainable finance, ESG investing, and financial innovation.
 
@@ -41,9 +41,9 @@ A leader in economics and finance, OU specializes in financial innovations, educ
 ### University of Twente (UTWENTE)
 **Netherlands**
 
-{{< hint info >}}
+{{% hint info %}}
 **Role:** WP3 Leader (Curriculum Development)
-{{< /hint >}}
+{{% /hint %}}
 
 Combining technology, social sciences, and entrepreneurship, the University of Twente focuses on sustainable development and financial innovation. Its interdisciplinary approach advances green finance education and micro-credential training.
 
@@ -67,9 +67,9 @@ A historic institution with strong programs in economics, finance, and environme
 ### Institut de Haute Formation (IHF)
 **Belgium**
 
-{{< hint info >}}
+{{% hint info %}}
 **Role:** WP5 Co-Leader (Dissemination)
-{{< /hint >}}
+{{% /hint %}}
 
 A Brussels-based institute specializing in EU policies, sustainability, and financial literacy. With 30+ years of experience and 150+ successful EU projects, IHF brings expertise in capacity building, dissemination, and EU project management.
 
@@ -106,9 +106,9 @@ A top finance and banking university with 600+ faculty members and 20,000 studen
 ### Payap University (PU)
 **Thailand**
 
-{{< hint info >}}
+{{% hint info %}}
 **Role:** WP5 Leader (Dissemination & Sustainability)
-{{< /hint >}}
+{{% /hint %}}
 
 Committed to global engagement and sustainable finance, Payap University has participated in multiple Erasmus+ projects on green entrepreneurship and sustainable tourism. The Centre for Social Impact leads sustainability initiatives.
 
@@ -143,9 +143,9 @@ A top Philippine research university with strengths in business management and I
 ### Ateneo de Manila University (ADMU)
 **Philippines**
 
-{{< hint info >}}
+{{% hint info %}}
 **Role:** WP4 Leader (Programme Delivery)
-{{< /hint >}}
+{{% /hint %}}
 
 A prestigious Jesuit university with strong programs in management, finance, and governance. The John Gokongwei School of Management leads the MS in Sustainability Management program, making it a key partner in green finance education.
 

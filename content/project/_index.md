@@ -116,8 +116,8 @@ The project is organized into 5 Work Packages:
 
 ## Acknowledgment
 
-{{< hint info >}}
+{{% hint info %}}
 **Co-funded by the European Union**
 
 This project has received funding from the European Union's Erasmus+ programme under Grant Agreement No. 101237817. Views and opinions expressed are those of the authors and do not necessarily reflect those of the European Union or EACEA. Neither the European Union nor the granting authority can be held responsible for them.
-{{< /hint >}}
+{{% /hint %}}

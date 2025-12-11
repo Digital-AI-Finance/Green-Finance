@@ -113,8 +113,8 @@ The programme covers 5 core modules aligned with European Green Deal principles:
 
 <img src="/images/logos/eu_cofunded.png" alt="Co-funded by the European Union" class="eu-logo">
 
-{{< hint info >}}
+{{% hint info %}}
 **Co-funded by the European Union** | Grant Agreement No. 101237817
 
 This project has received funding from the European Union's Erasmus+ programme. Views and opinions expressed are those of the authors and do not necessarily reflect those of the European Union or EACEA.
-{{< /hint >}}
+{{% /hint %}}

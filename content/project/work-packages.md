@@ -32,9 +32,9 @@ The GREEN FINANCE project is structured around 5 Work Packages: 2 horizontal (WP
 
 ## WP1: Project Management & Quality Assurance
 
-{{< hint info >}}
+{{% hint info %}}
 **Lead:** ULBS (Romania) | **Duration:** M1 - M36
-{{< /hint >}}
+{{% /hint %}}
 
 ### Objective
 Establish the foundation for project management, coordination, and quality assurance. Set consortium rules, draft the project management plan, and ensure alignment with project goals.
@@ -72,9 +72,9 @@ Establish the foundation for project management, coordination, and quality assur
 
 ## WP2: Preparation & Capacity Building
 
-{{< hint info >}}
+{{% hint info %}}
 **Lead:** ULBS (Romania) | **Duration:** M1 - M12
-{{< /hint >}}
+{{% /hint %}}
 
 ### Objective
 Set the stage for curriculum development through introductory training, stakeholder engagement, and infrastructure setup. Ensure all partners are aligned on methodology and local needs.
@@ -107,9 +107,9 @@ Set the stage for curriculum development through introductory training, stakehol
 
 ## WP3: Curriculum Development
 
-{{< hint info >}}
+{{% hint info %}}
 **Lead:** University of Twente (Netherlands) | **Duration:** M6 - M24
-{{< /hint >}}
+{{% /hint %}}
 
 ### Objective
 Develop the green finance micro-credential curriculum through a co-creation process between EU and Asian partners. Ensure materials meet both international standards and local needs.
@@ -154,9 +154,9 @@ Develop the green finance micro-credential curriculum through a co-creation proc
 
 ## WP4: Programme Delivery & Validation
 
-{{< hint info >}}
+{{% hint info %}}
 **Lead:** Ateneo de Manila University (Philippines) | **Duration:** M18 - M36
-{{< /hint >}}
+{{% /hint %}}
 
 ### Objective
 Test the green finance micro-credentials with students and industry partners. Validate curriculum effectiveness and gather feedback for improvements.
@@ -193,9 +193,9 @@ Test the green finance micro-credentials with students and industry partners. Va
 
 ## WP5: Dissemination & Sustainability
 
-{{< hint info >}}
+{{% hint info %}}
 **Lead:** Payap University (Thailand) | **Co-Lead:** IHF (Belgium) | **Duration:** M1 - M36
-{{< /hint >}}
+{{% /hint %}}
 
 ### Objective
 Maximize project visibility, ensure widespread adoption of results, and develop a sustainability strategy for long-term impact beyond the project duration.
@@ -253,6 +253,6 @@ Maximize project visibility, ensure widespread adoption of results, and develop 
 | WP4 | Delivery | ADMU (Philippines) | - |
 | WP5 | Dissemination | PU (Thailand) | IHF (Belgium) |
 
-{{< hint warning >}}
+{{% hint warning %}}
 **Note:** Asian partners lead WP4 and WP5, reflecting the project's commitment to capacity building and ensuring local ownership of results.
-{{< /hint >}}
+{{% /hint %}}

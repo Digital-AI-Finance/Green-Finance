@@ -14,14 +14,14 @@ The GREEN FINANCE project brings together experts in finance, sustainability, ed
 
 ### Coordinator Contact
 
-{{< hint info >}}
+{{% hint info %}}
 **Diana Marieta MIHAIU, PhD**
 Associate Professor, Head of Finance and Accounting Department
 Lucian Blaga University of Sibiu, Romania
 
 **Email:** diana.mihaiu@ulbsibiu.ro
 **Expertise:** ESG investing, sustainable finance, financial accounting
-{{< /hint >}}
+{{% /hint %}}
 
 ---
 

@@ -14,9 +14,9 @@ Stay informed about the latest developments in the GREEN FINANCE project.
 
 ### August 2025 - Grant Agreement Signed
 
-{{< hint info >}}
+{{% hint info %}}
 **Project Officially Launches**
-{{< /hint >}}
+{{% /hint %}}
 
 The GREEN FINANCE consortium has officially signed the Grant Agreement with the European Education and Culture Executive Agency (EACEA). This marks the formal start of our 36-month journey to transform green finance education in Southeast Asia.
 
@@ -42,10 +42,10 @@ The GREEN FINANCE consortium successfully submitted its proposal to the Erasmus+
 
 ### Kick-Off Meeting (M2)
 
-{{< hint warning >}}
+{{% hint warning %}}
 **Location:** Lucian Blaga University of Sibiu, Romania
 **Expected:** Month 2 of project
-{{< /hint >}}
+{{% /hint %}}
 
 The inaugural consortium meeting will:
 - Establish project governance and management rules
@@ -164,8 +164,8 @@ BD VICTORIEI 10, SIBIU 550024, Romania
 
 ## Acknowledgment
 
-{{< hint info >}}
+{{% hint info %}}
 **Co-funded by the European Union**
 
 This project has received funding from the European Union's Erasmus+ programme under Grant Agreement No. 101237817.
-{{< /hint >}}
+{{% /hint %}}

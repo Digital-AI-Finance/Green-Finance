@@ -62,11 +62,11 @@ Year 1 (M1-M12)           Year 2 (M13-M24)          Year 3 (M25-M36)
 | Needs Analysis Report (D2.3) | M12 | ULBS |
 
 ### Year 1 Milestones
-{{< hint info >}}
+{{% hint info %}}
 **MS1 (M3):** Project Management Plan approved
 **MS2 (M6):** Asian staff trained at ULBS
 **MS3 (M12):** Needs analysis completed
-{{< /hint >}}
+{{% /hint %}}
 
 ---
 
@@ -90,11 +90,11 @@ Year 1 (M1-M12)           Year 2 (M13-M24)          Year 3 (M25-M36)
 | Final Curriculum Package (D3.3) | M24 | UTWENTE |
 
 ### Year 2 Milestones
-{{< hint info >}}
+{{% hint info %}}
 **MS4 (M13):** WP2 completed, WP3 curriculum design begins
 **MS5 (M18):** Draft curriculum ready for testing
 **MS6 (M24):** Final curriculum approved
-{{< /hint >}}
+{{% /hint %}}
 
 ---
 
@@ -123,11 +123,11 @@ Year 1 (M1-M12)           Year 2 (M13-M24)          Year 3 (M25-M36)
 | **Closing Meeting (Thailand)** | M36 | PU |
 
 ### Year 3 Milestones
-{{< hint info >}}
+{{% hint info %}}
 **MS7 (M27):** Programme delivery begins
 **MS8 (M30):** 400 students trained
 **MS9 (M36):** Project completed, sustainability measures in place
-{{< /hint >}}
+{{% /hint %}}
 
 ---
 
